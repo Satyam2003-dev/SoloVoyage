@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full Safety Checklist - SoloVoyage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+      .checklist-item {
+        padding-left: 2.5rem;
+        position: relative;
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+      }
+      .checklist-item::before {
+        content: '✓';
+        position: absolute;
+        left: 0;
+        top: -2px;
+        color: #0ea5e9;
+        font-weight: 800;
+        font-size: 1.5rem;
+        line-height: 1;
+      }
+      .checklist-item strong {
+        color: #fde047; /* Bright yellow for checklist item titles */
+      }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-gray-900/80 backdrop-blur-sm">
+      <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <a href="index.html" class="text-2xl font-extrabold text-white">SoloVoyage</a>
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex items-center space-x-6">
+          <div class="dropdown"><button class="nav-link">Preparation</button><div class="dropdown-menu"><div class="dropdown-content"><a href="pre-trip-foundation.html" class="dropdown-link">Pre-Trip Foundation</a><a href="packing-preparation.html" class="dropdown-link">Packing & Prep</a></div></div></div>
+          <div class="dropdown"><button class="nav-link">On The Go</button><div class="dropdown-menu"><div class="dropdown-content"><a href="transportation-safety.html" class="dropdown-link">Transportation</a><a href="accommodation-safety.html" class="dropdown-link">Accommodation</a><a href="daily-exploration.html" class="dropdown-link">Daily Exploration</a></div></div></div>
+          <div class="dropdown"><button class="nav-link">Your Assets</button><div class="dropdown-menu"><div class="dropdown-content"><a href="money-valuables.html" class="dropdown-link">Money & Valuables</a><a href="digital-safety.html" class="dropdown-link">Digital Safety</a></div></div></div>
+          <div class="dropdown"><button class="nav-link">Health & Social</button><div class="dropdown-menu"><div class="dropdown-content"><a href="food-drink-safety.html" class="dropdown-link">Food & Drink</a><a href="social-safety.html" class="dropdown-link">Meeting People</a></div></div></div>
+          <a href="emergency-response.html" class="nav-link">Emergencies</a>
+          <a href="checklist.html" class="nav-link active">Checklist</a>
+        </div>
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-button" class="md:hidden text-white focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg></button>
+      </nav>
+      <!-- Mobile Menu Content -->
+      <div id="mobile-menu" class="hidden md:hidden bg-gray-900/90 backdrop-blur-sm">
+        <strong class="block pt-3 pb-1 px-6 text-amber-400 text-sm font-semibold">Preparation</strong><a href="pre-trip-foundation.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Pre-Trip Foundation</a><a href="packing-preparation.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Packing & Prep</a>
+        <strong class="block pt-3 pb-1 px-6 text-amber-400 text-sm font-semibold">On The Go</strong><a href="transportation-safety.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Transportation</a><a href="accommodation-safety.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Accommodation</a><a href="daily-exploration.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Daily Exploration</a>
+        <strong class="block pt-3 pb-1 px-6 text-amber-400 text-sm font-semibold">Your Assets</strong><a href="money-valuables.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Money & Valuables</a><a href="digital-safety.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Digital Safety</a>
+        <strong class="block pt-3 pb-1 px-6 text-amber-400 text-sm font-semibold">Health & Social</strong><a href="food-drink-safety.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Food & Drink</a><a href="social-safety.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Meeting People</a>
+        <hr class="border-gray-700 my-2"><a href="emergency-response.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Emergencies</a><a href="checklist.html" class="block py-3 px-6 text-white hover:bg-sky-500/50">Full Checklist</a>
+      </div>
+    </header>
+
+    <main class="container mx-auto px-6 pt-24 md:pt-32 pb-16">
+      <div class="text-center mb-12 md:mb-16" data-aos="fade-down">
+        <h1 class="text-4xl md:text-6xl font-extrabold main-title">The Complete Solo Travel Checklist</h1>
+        <p class="text-xl text-gray-400 mt-4 max-w-3xl mx-auto">Use this checklist before and during your trip to ensure you've covered all your safety bases. Stay prepared, stay safe.</p>
+      </div>
+
+      <div class="card" data-aos="fade-up">
+        
+        <!-- Before You Leave -->
+        <div class="mb-12">
+          <h3 class="text-3xl font-bold mb-6 text-blue-300">Before You Leave:</h3>
+          <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
+            <li class="checklist-item"><strong>Research destination thoroughly:</strong> Check government advisories, local news, crime stats, and engage with online forums.</li>
+            <li class="checklist-item"><strong>Master sharing your plans:</strong> Create detailed itinerary, share with trusted contacts, set regular check-in times, and establish clear code words.</li>
+            <li class="checklist-item"><strong>Get comprehensive travel insurance:</strong> Ensure robust medical coverage, including emergency medical evacuation, and confirm activity coverage.</li>
+            <li class="checklist-item"><strong>Document everything smart:</strong> Take photos of passport, visa, cards; email/cloud storage; make multiple physical copies kept separately.</li>
+            <li class="checklist-item"><strong>Learn key local emergency phrases:</strong> Practice "Help," "Police," "Hospital," "Lost," "I don't speak [language]" phonetically.</li>
+            <li class="checklist-item"><strong>Choose safe neighborhoods & accommodation:</strong> Read solo traveler reviews, prefer 24-hr front desks, and proactively avoid ground floor rooms.</li>
+            <li class="checklist-item"><strong>Book your first night's accommodation & airport transfer</strong> well in advance.</li>
+            <li class="checklist-item"><strong>Verify your passport expiration date</strong> (ensure 6+ months validity beyond your trip).</li>
+            <li class="checklist-item"><strong>Register with your home country's embassy</strong> or consulate.</li>
+            <li class="checklist-item"><strong>Strategically use a money belt</strong> or hidden pouch for your main funds and passport.</li>
+            <li class="checklist-item"><strong>Pack a comprehensive personal first aid kit:</strong> Include all prescriptions, pain relievers, anti-diarrheal medicine, and basic wound care.</li>
+            <li class="checklist-item"><strong>Download essential offline maps & translation apps</strong> to your phone.</li>
+            <li class="checklist-item"><strong>Bring multiple portable phone chargers</strong> (power banks) and adapters.</li>
+            <li class="checklist-item"><strong>Pack a whistle</strong> or personal safety alarm for emergencies.</li>
+            <li class="checklist-item"><strong>Leave all expensive jewelry</strong> and flashy valuables securely at home.</li>
+            <li class="checklist-item"><strong>Notify your bank and credit card companies</strong> of your travel dates and destinations.</li>
+            <li class="checklist-item"><strong>Check the weather forecast meticulously</strong> and pack appropriate clothing that helps you blend in.</li>
+            <li class="checklist-item"><strong>Practice packing light and smart</strong> to maintain agility and discretion.</li>
+          </ul>
+        </div>
+
+        <!-- Daily While Traveling -->
+        <div class="mb-12">
+          <h3 class="text-3xl font-bold mb-6 text-blue-300">Daily While Traveling:</h3>
+          <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
+            <li class="checklist-item"><strong>Conduct a morning safety check</strong> and review your daily plan.</li>
+            <li class="checklist-item"><strong>Consistently stay in well-lit, busy areas;</strong> actively avoid isolated or dark spots.</li>
+            <li class="checklist-item"><strong>Always walk with confident body language;</strong> avoid looking overtly lost or distracted.</li>
+            <li class="checklist-item"><strong>Keep your phone accessible but secure;</strong> avoid careless display or leaving it unattended.</li>
+            <li class="checklist-item"><strong>Unwaveringly trust your gut feelings;</strong> immediately leave uncomfortable or suspicious situations.</li>
+            <li class="checklist-item"><strong>Avoid wearing headphones or earbuds</strong> in unfamiliar or crowded places to maintain auditory awareness.</li>
+            <li class="checklist-item"><strong>Research all public transportation routes thoroughly</strong> and choose to sit near drivers or conductors.</li>
+            <li class="checklist-item"><strong>Keep all bags closed and positioned in front</strong> of your body in crowded environments.</li>
+            <li class="checklist-item"><strong>Have transportation tickets or exact change</strong> ready before boarding.</li>
+            <li class="checklist-item"><strong>Pay diligent attention to your stops</strong> to avoid getting lost in unfamiliar areas.</li>
+            <li class="checklist-item"><strong>Use ATMs inside secure banks</strong> or hotel lobbies; never count money in public.</li>
+            <li class="checklist-item"><strong>Carry small bills for daily transactions;</strong> divide your money and cards across multiple secure locations.</li>
+            <li class="checklist-item"><strong>Utilize crossbody bags with robust zippers;</strong> never place valuables in back pockets.</li>
+            <li class="checklist-item"><strong>Employ travel locks on luggage;</strong> take photos of your belongings for documentation.</li>
+            <li class="checklist-item"><strong>Always use a VPN</strong> when connecting to any public Wi-Fi network.</li>
+            <li class="checklist-item"><strong>Strictly limit alcohol consumption;</strong> never accept or leave drinks unattended with strangers.</li>
+            <li class="checklist-item"><strong>Eat at busy, reputable restaurants;</strong> be extremely cautious with street food; always drink bottled water in questionable areas.</li>
+            <li class="checklist-item"><strong>Meet new people only in public,</strong> well-populated places; always inform someone of your plans.</li>
+            <li class="checklist-item"><strong>Refrain from sharing exact locations</strong> or explicitly stating you're traveling alone on social media.</li>
+            <li class="checklist-item"><strong>Turn off location services for social apps;</strong> use private messaging for sensitive communications.</li>
+            <li class="checklist-item"><strong>Maintain regular check-ins</strong> with your trusted contacts back home.</li>
+            <li class="checklist-item"><strong>Perform an evening safety assessment</strong> before going out or settling in for the night.</li>
+          </ul>
+        </div>
+        
+        <!-- Emergency Preparedness -->
+        <div>
+          <h3 class="text-3xl font-bold mb-6 text-blue-300">Emergency Preparedness:</h3>
+          <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
+            <li class="checklist-item"><strong>Have local emergency numbers</strong> (police, ambulance, fire) readily accessible and memorized.</li>
+            <li class="checklist-item"><strong>Know the contact information and address</strong> of your nearest embassy or consulate.</li>
+            <li class="checklist-item"><strong>Keep emergency cash hidden</strong> in multiple, discreet locations.</li>
+            <li class="checklist-item"><strong>Ensure backup communication methods</strong> (e.g., secondary SIM, Wi-Fi calling app) are available.</li>
+            <li class="checklist-item"><strong>Familiarize yourself with the location</strong> of the nearest hospital and police station.</li>
+            <li class="checklist-item"><strong>Practice staying calm in emergencies;</strong> ask for help from local authorities.</li>
+            <li class="checklist-item"><strong>Do not be afraid to make noise</strong> (yell, use alarm) or physically remove yourself from dangerous situations.</li>
+            <li class="checklist-item"><strong>Immediately call someone you trust</strong> to inform them of your situation.</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    
+    <footer class="bg-gray-900 text-white py-8 shadow-inner"><div class="container text-center mx-auto px-6"><p class="text-lg text-gray-400">© 2025 SoloVoyage. Travel Boldly, Travel Wisely.</p></div></footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><script src="assets/js/main.js"></script>
+</body>
+</html>

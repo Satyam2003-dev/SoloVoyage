@@ -1,0 +1,207 @@
+/* --- Global Styles & Typography --- */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #111827; /* Deep navy blue background */
+  color: #e2e8f0; /* Light gray text for readability */
+  line-height: 1.8;
+}
+
+/* --- Header & Navigation Styles --- */
+#header {
+  position: fixed; /* This makes the header "sticky" */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50; /* Ensures it stays on top of all other content */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Style for the header once the user scrolls down */
+#header.scrolled {
+  background-color: rgba(17, 24, 39, 0.85); /* Semi-transparent dark background */
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  position: relative;
+  padding: 0.5rem 0;
+  color: #e0e1cb; /* Muted white for nav links */
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+/* The animated underline for nav links */
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #0ea5e9; /* Bright blue accent */
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: #ffffff; /* Brighten link on hover/active */
+}
+
+.nav-link:hover::after, .nav-link.active::after {
+  width: 100%; /* Animate underline on hover/active */
+}
+
+/* Dropdown Menu Styles */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none; /* Hidden by default */
+  position: absolute;
+  left: 0;
+  top: 100%;
+  padding-top: 1rem; /* Space between nav link and dropdown box */
+}
+
+/* Show dropdown on hover of the parent .dropdown element */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-content {
+    background-color: #1f2937; /* Darker card color */
+    border: 1px solid #374151; /* Subtle border */
+    border-radius: 0.75rem;
+    padding: 0.5rem;
+    min-width: 220px;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.dropdown-link {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: #d1d5db;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.dropdown-link:hover {
+  background-color: #0ea5e9; /* Highlight on hover */
+  color: #ffffff;
+}
+
+
+/* --- Hero Section & Page Titles --- */
+.hero-section {
+  position: relative;
+  height: 60vh;
+  min-height: 400px;
+  background-image: url('../image/night_camping.jpg'); /* Default hero image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Gradient overlay for hero to make text pop */
+.hero-section::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(to top, #111827 10%, rgba(17, 24, 39, 0.3));
+}
+
+.main-title {
+  background: linear-gradient(90deg, #0ea5e9, #a78bfa); /* Gradient text color */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* --- Card & Content Styles --- */
+.card {
+  background-color: #1f2937;
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #374151;
+}
+
+/* --- Detailed Tip Card Styles --- */
+.tip-card {
+  background-color: #1f2937;
+  border: 1px solid #374151;
+  border-left: 5px solid #0ea5e9; /* Blue accent on the left */
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+}
+
+.tip-title {
+  color: #fbbf24; /* Yellow for tip titles */
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.tip-intro {
+  color: #d1d5db;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  border-left: 3px solid #a78bfa; /* Purple accent for the intro quote */
+  padding-left: 1rem;
+}
+
+.tip-bullets {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.tip-bullets li {
+  position: relative;
+  padding-left: 1.75rem;
+  margin-bottom: 1rem;
+  color: #d1d5db;
+}
+
+/* Custom bullet point style */
+.tip-bullets li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #0ea5e9;
+  font-weight: 800;
+}
+
+.tip-bullets strong {
+  color: #93c5fd; /* Light blue for strong/emphasized text within bullets */
+}
+
+
+/* --- Checklist Page Styles --- */
+.checklist-item {
+  padding-left: 2.5rem;
+  position: relative;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.checklist-item::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: -2px;
+  color: #0ea5e9;
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.checklist-item strong {
+  color: #fde047; /* Bright yellow for checklist item titles */
+}

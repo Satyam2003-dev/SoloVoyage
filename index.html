@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoloVoyage: Your Ultimate Solo Travel Safety Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        .category-card {
+          display: block;
+          background-color: #1f2937;
+          border-radius: 1.5rem;
+          border: 1px solid #374151;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+          overflow: hidden;
+          position: relative;
+        }
+        .category-card:hover {
+          transform: translateY(-8px);
+          box-shadow: 0 20px 25px -5px rgba(14, 165, 233, 0.2), 0 10px 10px -5px rgba(14, 165, 233, 0.1);
+        }
+        .final-card {
+            background: linear-gradient(135deg, #a78bfa, #0ea5e9);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+      <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <a href="index.html" class="text-2xl font-extrabold text-white">SoloVoyage</a>
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex items-center space-x-6">
+          <div class="dropdown"><button class="nav-link">Preparation</button><div class="dropdown-menu"><div class="dropdown-content"><a href="pre-trip-foundation.html" class="dropdown-link">Pre-Trip Foundation</a><a href="packing-preparation.html" class="dropdown-link">Packing & Prep</a></div></div></div>
+          <div class="dropdown"><button class="nav-link">On The Go</button><div class="dropdown-menu"><div class="dropdown-content"><a href="transportation-safety.html" class="dropdown-link">Transportation</a><a href="accommodation-safety.html" class="dropdown-link">Accommodation</a><a href="daily-exploration.html" class="dropdown-link">Daily Exploration</a></div></div></div>
+          <div class="dropdown"><button class="nav-link">Your Assets</button><div class="dropdown-menu"><div class="dropdown-content"><a href="money-valuables.html" class="dropdown-link">Money & Valuables</a><a href="digital-safety.html" class="dropdown-link">Digital Safety</a></div></div></div>
+          <div class="dropdown"><button class="nav-link">Health & Social</button><div class="dropdown-menu"><div class="dropdown-content"><a href="food-drink-safety.html" class="dropdown-link">Food & Drink</a><a href="social-safety.html" class="dropdown-link">Meeting People</a></div></div></div>
+          <a href="emergency-response.html" class="nav-link">Emergencies</a>
+          <a href="checklist.html" class="nav-link">Checklist</a>
+        </div>
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-button" class="md:hidden text-white focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg></button>
+      </nav>
+      <!-- Mobile Menu Content -->
+      <div id="mobile-menu" class="hidden md:hidden bg-gray-900/90 backdrop-blur-sm">
+        <strong class="block pt-3 pb-1 px-6 text-amber-400 text-sm font-semibold">Preparation</strong><a href="pre-trip-foundation.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Pre-Trip Foundation</a><a href="packing-preparation.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Packing & Prep</a>
+        <strong class="block pt-3 pb-1 px-6 text-amber-400 text-sm font-semibold">On The Go</strong><a href="transportation-safety.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Transportation</a><a href="accommodation-safety.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Accommodation</a><a href="daily-exploration.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Daily Exploration</a>
+        <strong class="block pt-3 pb-1 px-6 text-amber-400 text-sm font-semibold">Your Assets</strong><a href="money-valuables.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Money & Valuables</a><a href="digital-safety.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Digital Safety</a>
+        <strong class="block pt-3 pb-1 px-6 text-amber-400 text-sm font-semibold">Health & Social</strong><a href="food-drink-safety.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Food & Drink</a><a href="social-safety.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Meeting People</a>
+        <hr class="border-gray-700 my-2"><a href="emergency-response.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Emergencies</a><a href="checklist.html" class="block py-3 px-6 text-white hover:bg-sky-500/50">Full Checklist</a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-white text-center">
+      <div class="container mx-auto px-6 z-10">
+        <h1 class="text-4xl md:text-7xl font-extrabold leading-tight mb-4" data-aos="fade-down">
+          Travel Solo, Travel Smart
+        </h1>
+        <p class="text-xl md:text-2xl max-w-3xl mx-auto opacity-90" data-aos="fade-up" data-aos-delay="200">
+          Your adventure of a lifetime is waiting
+        </p>
+      </div>
+    </section>
+
+    <main class="container mx-auto px-6 py-16 md:py-24">
+        <section class="card text-center mb-16" data-aos="fade-up">
+            <h2 class="text-3xl font-extrabold mb-4" style="color: #a78bfa;">Welcome, Fearless Explorer!</h2>
+            <p class="text-lg leading-relaxed text-gray-300 max-w-4xl mx-auto">
+                Traveling solo is an extraordinary journey of self-discovery, boundless freedom, and unforgettable experiences. Yet, the independence it offers also necessitates a heightened awareness of personal safety. This comprehensive guide serves as your trusted companion, meticulously detailing 101 actionable tips designed to empower you with the knowledge and vigilance needed to navigate your solo travels with unwavering confidence. Each tip transforms potential vulnerabilities into opportunities for empowered and secure exploration.
+            </p>
+        </section>
+
+      <!-- Category Links -->
+      <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+        
+        <a href="pre-trip-foundation.html" class="category-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="p-8">
+            <h3 class="text-2xl font-bold mb-3 text-amber-400">Pre-Trip Foundation</h3>
+            <p class="text-gray-300">Success loves preparation. Learn the essential research and documentation steps to take before you even pack your bags.</p>
+          </div>
+        </a>
+
+        <a href="packing-preparation.html" class="category-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="p-8">
+            <h3 class="text-2xl font-bold mb-3 text-amber-400">Packing & Preparation</h3>
+            <p class="text-gray-300">What you bring—and what you leave behind—is critical. Pack smart to stay safe, agile, and prepared for anything.</p>
+          </div>
+        </a>
+
+        <a href="transportation-safety.html" class="category-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="p-8">
+            <h3 class="text-2xl font-bold mb-3 text-amber-400">Transportation Safety</h3>
+            <p class="text-gray-300">Navigate airports, taxis, and public transit with confidence by following these essential rules for moving around safely.</p>
+          </div>
+        </a>
+
+        <a href="accommodation-safety.html" class="category-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="p-8">
+            <h3 class="text-2xl font-bold mb-3 text-amber-400">Accommodation Safety</h3>
+            <p class="text-gray-300">Your hotel or hostel is your safe haven. Learn how to choose a secure spot and protect it like a fortress.</p>
+          </div>
+        </a>
+
+        <a href="daily-exploration.html" class="category-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="p-8">
+            <h3 class="text-2xl font-bold mb-3 text-amber-400">Daily Exploration</h3>
+            <p class="text-gray-300">The art of situational awareness. Master these tips for staying safe while exploring new streets and attractions.</p>
+          </div>
+        </a>
+
+        <a href="money-valuables.html" class="category-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="p-8">
+            <h3 class="text-2xl font-bold mb-3 text-amber-400">Money & Valuables</h3>
+            <p class="text-gray-300">Protect your cash, cards, and important belongings with these smart strategies for asset protection.</p>
+          </div>
+        </a>
+        
+        <a href="digital-safety.html" class="category-card" data-aos-="fade-up" data-aos-delay="100">
+          <div class="p-8">
+            <h3 class="text-2xl font-bold mb-3 text-amber-400">Digital Safety</h3>
+            <p class="text-gray-300">In the modern world, your digital security is paramount. Learn how to protect your data and online presence while abroad.</p>
+          </div>
+        </a>
+
+        <a href="food-drink-safety.html" class="category-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="p-8">
+            <h3 class="text-2xl font-bold mb-3 text-amber-400">Food & Drink Safety</h3>
+            <p class="text-gray-300">Enjoy the local cuisine without the worry. These tips cover everything from street food to drink safety in bars.</p>
+          </div>
+        </a>
+        
+        <a href="social-safety.html" class="category-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="p-8">
+            <h3 class="text-2xl font-bold mb-3 text-amber-400">Social Safety</h3>
+            <p class="text-gray-300">Meeting new people is a highlight of travel. Learn how to make connections and date safely and smartly.</p>
+          </div>
+        </a>
+
+        <a href="emergency-response.html" class="category-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="p-8">
+            <h3 class="text-2xl font-bold mb-3 text-amber-400">Emergency Response</h3>
+            <p class="text-gray-300">No one expects an emergency, but every smart traveler prepares for one. Know how to react when things go wrong.</p>
+          </div>
+        </a>
+
+        <a href="checklist.html" class="category-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="p-8">
+            <h3 class="text-2xl font-bold mb-3 text-amber-400">The Full Checklist</h3>
+            <p class="text-gray-300">A scannable, comprehensive checklist of all the most critical safety actions for before and during your trip.</p>
+          </div>
+        </a>
+
+        <div class="category-card final-card flex items-center justify-center text-center p-8" data-aos="fade-up" data-aos-delay="300">
+            <h3 class="text-2xl font-bold">Your intuition is your ultimate safety tool. Trust it, always.</h3>
+        </div>
+
+      </section>
+    </main>
+    
+    <footer class="bg-gray-900 text-white py-8 shadow-inner">
+      <div class="container text-center mx-auto px-6">
+        <p class="text-lg text-gray-400">© 2025 SoloVoyage. Travel Boldly, Travel Wisely.</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
