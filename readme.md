@@ -29,7 +29,7 @@ SoloVoyage aims to be the definitive online resource for solo travel safety. Rec
 
 ### 3. Features
 
--   **Fully Responsive Design:** Looks great on desktops, tablets, and mobile devices.
+-   **Fully Responsive Design:** Adapts seamlessly to desktops, tablets, and mobile devices.
 -   **Multi-Page Architecture:** Content is split into 11 distinct, easy-to-navigate pages, preventing user overload.
 -   **Sticky Navigation Bar:** The header with dropdown menus remains visible at all times for easy access to all sections.
 -   **Smooth Scroll Animations:** Subtle fade-in animations on content cards using the Animate On Scroll (AOS) library enhance the user experience.
@@ -54,7 +54,7 @@ SoloVoyage aims to be the definitive online resource for solo travel safety. Rec
 The project is organized logically to separate content, styles, and scripts.
 
 ```
-/SoloVoyage-Website/
+/SoloVoyage/
 |
 |-- index.html                 # Home Page
 |-- pre-trip-foundation.html   # Tips 1-10
@@ -74,10 +74,9 @@ The project is organized logically to separate content, styles, and scripts.
 |   |-- /css/
 |   |   |-- main.css           # All custom styles
 |   |-- /js/
-|   |   |-- main.js
-|   |
-|   |-- /image/
-|   |   |-- night_camping.jpg    # Image file
+|   |   |-- main.js            # All JavaScript functionality
+|   |-- /images/
+|   |   |-- night_camping.jpg  # Example image file
 ```
 
 ---
@@ -88,11 +87,11 @@ This is a static website and requires no complex setup.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/SoloVoyage.git
+    git clone https://github.com/Satyam2003-dev/SoloVoyage.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
-    cd SoloVoyage-Website
+    cd SoloVoyage
     ```
 3.  **Open `index.html` in your browser:**
     Simply open the `index.html` file in a web browser (like Chrome, Firefox, or Safari) to view the website locally. All assets are linked relatively, so no web server is required for local viewing.
