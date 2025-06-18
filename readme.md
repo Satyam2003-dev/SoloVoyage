@@ -5,7 +5,7 @@ Welcome to the SoloVoyage project repository. This project is a modern, responsi
 ## Table of Contents
 
 1.  [Project Overview](#project-overview)
-2.  [Live Demo](#live-demo) (Placeholder)
+2.  [Live Demo](#live-demo)
 3.  [Features](#features)
 4.  [Tech Stack](#tech-stack)
 5.  [File Structure](#file-structure)
@@ -22,8 +22,7 @@ SoloVoyage aims to be the definitive online resource for solo travel safety. Rec
 
 ### 2. Live Demo
 
-**(Placeholder)**
-*A live version of this website can be viewed here: [https://your-deployment-link.com](https://your-deployment-link.com)*
+*A live version of this website can be viewed here: [Live Demo](https://satyam2003-dev.github.io/SoloVoyage/)*
 
 ---
 
