@@ -22,7 +22,7 @@ SoloVoyage aims to be the definitive online resource for solo travel safety. Rec
 
 ### 2. Live Demo
 
-*A live version of this website can be viewed here: [Live Demo](https://satyam2003-dev.github.io/SoloVoyage/)*
+*A live version of this website can be viewed here: [Live Demo](https://solo-voyage.vercel.app/)*
 
 ---
 
