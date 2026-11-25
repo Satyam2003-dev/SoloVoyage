@@ -1,0 +1,436 @@
+{
+ "version": 1,
+ "categories": [
+  {
+   "id": "research",
+   "name": "Pre-trip research",
+   "icon": "compass"
+  },
+  {
+   "id": "documents",
+   "name": "Travel documents",
+   "icon": "file-text"
+  },
+  {
+   "id": "accommodation",
+   "name": "Accommodation",
+   "icon": "bed-double"
+  },
+  {
+   "id": "transport",
+   "name": "Transportation",
+   "icon": "train-front"
+  },
+  {
+   "id": "money",
+   "name": "Money and finances",
+   "icon": "wallet"
+  },
+  {
+   "id": "packing",
+   "name": "Packing",
+   "icon": "backpack"
+  },
+  {
+   "id": "digital",
+   "name": "Digital security",
+   "icon": "lock"
+  },
+  {
+   "id": "safety",
+   "name": "Personal safety",
+   "icon": "shield-check"
+  },
+  {
+   "id": "emergency",
+   "name": "Emergency preparation",
+   "icon": "life-buoy"
+  }
+ ],
+ "items": [
+  {
+   "id": "research-destination",
+   "category": "research",
+   "phase": "before",
+   "title": "Research your destination thoroughly",
+   "detail": "Check government advisories, local news and crime statistics, and ask in online forums.",
+   "guide": "research-your-destination"
+  },
+  {
+   "id": "share-plans",
+   "category": "research",
+   "phase": "before",
+   "title": "Share your plans",
+   "detail": "Create a detailed itinerary, share it with trusted contacts, set check-in times and agree code words.",
+   "guide": "share-your-plans"
+  },
+  {
+   "id": "travel-insurance",
+   "category": "documents",
+   "phase": "before",
+   "title": "Get comprehensive travel insurance",
+   "detail": "Make sure it has robust medical cover, emergency evacuation and cover for your activities.",
+   "guide": "get-the-right-travel-insurance"
+  },
+  {
+   "id": "document-copies",
+   "category": "documents",
+   "phase": "before",
+   "title": "Copy your documents the smart way",
+   "detail": "Photograph passport, visa and cards, store them securely in the cloud, and keep paper copies separately.",
+   "guide": "document-everything"
+  },
+  {
+   "id": "emergency-phrases",
+   "category": "emergency",
+   "phase": "before",
+   "title": "Learn key local emergency phrases",
+   "detail": "Practice \"Help,\" \"Police,\" \"Hospital,\" \"Lost\" and \"I don't speak [language]\" phonetically.",
+   "guide": "learn-key-local-phrases"
+  },
+  {
+   "id": "safe-neighborhood",
+   "category": "accommodation",
+   "phase": "before",
+   "title": "Choose a safe neighborhood and accommodation",
+   "detail": "Read solo traveler reviews, prefer a 24-hour front desk and avoid ground floor rooms.",
+   "guide": "choose-safe-neighborhoods"
+  },
+  {
+   "id": "first-night",
+   "category": "accommodation",
+   "phase": "before",
+   "title": "Book your first night and airport transfer",
+   "detail": "Arrange both well in advance.",
+   "guide": "book-first-night"
+  },
+  {
+   "id": "passport-validity",
+   "category": "documents",
+   "phase": "before",
+   "title": "Verify your passport expiration date",
+   "detail": "Many destinations ask for six or more months' validity beyond your trip.",
+   "guide": "check-passport-expiry"
+  },
+  {
+   "id": "register-embassy",
+   "category": "documents",
+   "phase": "before",
+   "title": "Register with your embassy or consulate",
+   "detail": "Use your government's free traveler registration service, if it has one.",
+   "guide": "register-with-embassy"
+  },
+  {
+   "id": "money-belt",
+   "category": "money",
+   "phase": "before",
+   "title": "Set up a money belt or hidden pouch",
+   "detail": "Use it for your main funds and passport.",
+   "guide": "money-belt-or-hidden-pouch"
+  },
+  {
+   "id": "first-aid-kit",
+   "category": "packing",
+   "phase": "before",
+   "title": "Pack a personal first aid kit",
+   "detail": "Include prescriptions, pain relief, anti-diarrheal medicine and basic wound care.",
+   "guide": "pack-first-aid-kit"
+  },
+  {
+   "id": "offline-maps",
+   "category": "digital",
+   "phase": "before",
+   "title": "Download offline maps and translation apps",
+   "detail": "Save them to your phone and test them in airplane mode.",
+   "guide": "download-offline-maps"
+  },
+  {
+   "id": "phone-chargers",
+   "category": "packing",
+   "phase": "before",
+   "title": "Bring portable phone chargers",
+   "detail": "Pack power banks and adapters.",
+   "guide": "phone-charging-options"
+  },
+  {
+   "id": "whistle-alarm",
+   "category": "packing",
+   "phase": "before",
+   "title": "Pack a whistle or personal safety alarm",
+   "detail": "Keep it where you can reach it.",
+   "guide": "whistle-or-personal-alarm"
+  },
+  {
+   "id": "leave-jewelry",
+   "category": "packing",
+   "phase": "before",
+   "title": "Leave expensive jewelry at home",
+   "detail": "Keep flashy valuables securely at home.",
+   "guide": "leave-jewelry-at-home"
+  },
+  {
+   "id": "notify-bank",
+   "category": "money",
+   "phase": "before",
+   "title": "Notify your bank and card companies",
+   "detail": "Give them your travel dates and destinations.",
+   "guide": "tell-your-bank"
+  },
+  {
+   "id": "check-weather",
+   "category": "packing",
+   "phase": "before",
+   "title": "Check the weather forecast",
+   "detail": "Pack suitable clothing that helps you blend in.",
+   "guide": "check-weather-and-climate"
+  },
+  {
+   "id": "pack-light",
+   "category": "packing",
+   "phase": "before",
+   "title": "Pack light and smart",
+   "detail": "Stay agile and discreet.",
+   "guide": "pack-light-and-smart"
+  },
+  {
+   "id": "morning-check",
+   "category": "safety",
+   "phase": "daily",
+   "title": "Do a morning safety check",
+   "detail": "Review your plan for the day.",
+   "guide": "trust-yourself-stay-alert"
+  },
+  {
+   "id": "well-lit-areas",
+   "category": "safety",
+   "phase": "daily",
+   "title": "Stay in well-lit, busy areas",
+   "detail": "Avoid isolated or dark places.",
+   "guide": "stay-in-busy-areas"
+  },
+  {
+   "id": "confident-walk",
+   "category": "safety",
+   "phase": "daily",
+   "title": "Walk with confident body language",
+   "detail": "Avoid looking lost or distracted.",
+   "guide": "walk-with-confidence"
+  },
+  {
+   "id": "phone-secure",
+   "category": "safety",
+   "phase": "daily",
+   "title": "Keep your phone accessible but secure",
+   "detail": "Avoid careless display and never leave it unattended.",
+   "guide": "phone-visible-but-secure"
+  },
+  {
+   "id": "trust-gut",
+   "category": "safety",
+   "phase": "daily",
+   "title": "Trust your gut feelings",
+   "detail": "Leave uncomfortable or suspicious situations immediately.",
+   "guide": "trust-your-gut"
+  },
+  {
+   "id": "no-headphones",
+   "category": "safety",
+   "phase": "daily",
+   "title": "Avoid headphones in unfamiliar or crowded places",
+   "detail": "Keep your hearing available.",
+   "guide": "skip-headphones"
+  },
+  {
+   "id": "transit-routes",
+   "category": "transport",
+   "phase": "daily",
+   "title": "Research public transport routes",
+   "detail": "Sit near drivers or conductors.",
+   "guide": "research-public-transport"
+  },
+  {
+   "id": "bags-front",
+   "category": "transport",
+   "phase": "daily",
+   "title": "Keep bags closed and in front of you in crowds",
+   "detail": "Especially on crowded transport.",
+   "guide": "bag-in-front-on-transport"
+  },
+  {
+   "id": "tickets-ready",
+   "category": "transport",
+   "phase": "daily",
+   "title": "Have tickets or exact change ready",
+   "detail": "Prepare before boarding.",
+   "guide": "have-tickets-ready"
+  },
+  {
+   "id": "watch-stops",
+   "category": "transport",
+   "phase": "daily",
+   "title": "Pay attention to your stops",
+   "detail": "Avoid getting lost in unfamiliar areas.",
+   "guide": "pay-attention-to-your-stop"
+  },
+  {
+   "id": "secure-atms",
+   "category": "money",
+   "phase": "daily",
+   "title": "Use ATMs inside banks or hotel lobbies",
+   "detail": "Never count money in public.",
+   "guide": "use-indoor-atms"
+  },
+  {
+   "id": "divide-money",
+   "category": "money",
+   "phase": "daily",
+   "title": "Carry small bills and divide your money",
+   "detail": "Keep money and cards in several secure places.",
+   "guide": "divide-your-money"
+  },
+  {
+   "id": "crossbody-bag",
+   "category": "money",
+   "phase": "daily",
+   "title": "Use a crossbody bag with sturdy zippers",
+   "detail": "Never put valuables in back pockets.",
+   "guide": "use-crossbody-bags"
+  },
+  {
+   "id": "luggage-locks",
+   "category": "packing",
+   "phase": "daily",
+   "title": "Use travel locks and photograph your belongings",
+   "detail": "Keep the photos for documentation.",
+   "guide": "use-travel-locks"
+  },
+  {
+   "id": "vpn",
+   "category": "digital",
+   "phase": "daily",
+   "title": "Use a VPN on public Wi-Fi",
+   "detail": "Where it is legal at your destination.",
+   "guide": "use-a-vpn"
+  },
+  {
+   "id": "limit-alcohol",
+   "category": "safety",
+   "phase": "daily",
+   "title": "Limit alcohol and guard your drink",
+   "detail": "Never accept drinks from strangers or leave yours unattended.",
+   "guide": "limit-alcohol"
+  },
+  {
+   "id": "food-water",
+   "category": "safety",
+   "phase": "daily",
+   "title": "Choose busy, reputable places to eat",
+   "detail": "Be careful with street food, and drink bottled water where quality is uncertain.",
+   "guide": "eat-at-busy-restaurants"
+  },
+  {
+   "id": "meet-public",
+   "category": "safety",
+   "phase": "daily",
+   "title": "Meet new people only in public places",
+   "detail": "Always tell someone your plans.",
+   "guide": "meet-in-public-places"
+  },
+  {
+   "id": "no-exact-location",
+   "category": "digital",
+   "phase": "daily",
+   "title": "Don't share exact locations online",
+   "detail": "Avoid saying that you are traveling alone.",
+   "guide": "dont-share-exact-location"
+  },
+  {
+   "id": "location-services",
+   "category": "digital",
+   "phase": "daily",
+   "title": "Turn off location for social apps",
+   "detail": "Use private messaging for sensitive communication.",
+   "guide": "turn-off-location-services"
+  },
+  {
+   "id": "check-ins",
+   "category": "emergency",
+   "phase": "daily",
+   "title": "Check in with trusted contacts",
+   "detail": "Keep to the times you agreed.",
+   "guide": "share-your-plans"
+  },
+  {
+   "id": "evening-assessment",
+   "category": "safety",
+   "phase": "daily",
+   "title": "Do an evening safety assessment",
+   "detail": "Before going out or settling in for the night.",
+   "guide": "trust-yourself-stay-alert"
+  },
+  {
+   "id": "local-numbers",
+   "category": "emergency",
+   "phase": "emergency",
+   "title": "Save local emergency numbers",
+   "detail": "Police, ambulance and fire: accessible and memorized.",
+   "guide": "know-local-emergency-numbers"
+  },
+  {
+   "id": "embassy-details",
+   "category": "emergency",
+   "phase": "emergency",
+   "title": "Know your nearest embassy or consulate",
+   "detail": "Save its contact details and address.",
+   "guide": "find-your-embassy"
+  },
+  {
+   "id": "emergency-cash",
+   "category": "money",
+   "phase": "emergency",
+   "title": "Hide emergency cash in several places",
+   "detail": "Keep it discreet and separate.",
+   "guide": "keep-emergency-cash-hidden"
+  },
+  {
+   "id": "backup-communication",
+   "category": "emergency",
+   "phase": "emergency",
+   "title": "Set up backup communication",
+   "detail": "For example a second SIM or a Wi-Fi calling app.",
+   "guide": "save-important-numbers"
+  },
+  {
+   "id": "hospital-police",
+   "category": "emergency",
+   "phase": "emergency",
+   "title": "Locate the nearest hospital and police station",
+   "detail": "Learn where they are when you arrive.",
+   "guide": "ask-authorities-for-help"
+  },
+  {
+   "id": "stay-calm",
+   "category": "emergency",
+   "phase": "emergency",
+   "title": "Practice staying calm",
+   "detail": "Know how to ask local authorities for help.",
+   "guide": "stay-calm"
+  },
+  {
+   "id": "make-noise",
+   "category": "emergency",
+   "phase": "emergency",
+   "title": "Be ready to make noise and leave",
+   "detail": "Yell, use your alarm or physically remove yourself from danger.",
+   "guide": "make-noise"
+  },
+  {
+   "id": "call-trusted",
+   "category": "emergency",
+   "phase": "emergency",
+   "title": "Know who you will call",
+   "detail": "Call someone you trust straight away to tell them your situation.",
+   "guide": "call-someone-you-trust"
+  }
+ ]
+}

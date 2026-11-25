@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Page not found | SoloVoyage</title>
+  <meta name="description" content="The page you asked for does not exist.">
+  <style>
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 1.5rem; background: #08131f; color: #f4eee1; font: 1.0625rem/1.6 system-ui, sans-serif; text-align: center; }
+    h1 { font: 500 2.4rem/1.15 Georgia, serif; }
+    a { color: #f6a76e; display: inline-block; padding: .6rem .8rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>This trail does not go anywhere</h1>
+    <p>The page you asked for does not exist or has moved.</p>
+    <p><a id="home" href="https://satyam2003-dev.github.io/SoloVoyage/">SoloVoyage home</a> <a id="guides" href="https://satyam2003-dev.github.io/SoloVoyage/guides.html">All guides</a> <a id="sos" href="https://satyam2003-dev.github.io/SoloVoyage/emergency.html">Emergency Center</a></p>
+  </main>
+  <script>
+    /* Keep visitors on the same host, whether that is GitHub Pages or a local server. */
+    var base = location.pathname.indexOf("/SoloVoyage/") === 0 ? "/SoloVoyage/" : "/";
+    [["home", ""], ["guides", "guides.html"], ["sos", "emergency.html"]].forEach(function (x) { document.getElementById(x[0]).href = base + x[1]; });
+  </script>
+</body>
+</html>

@@ -1,185 +1,197 @@
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<!doctype html>
+<html lang="en">
 <head>
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5K55P3LW');</script>
-<!-- End Google Tag Manager -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SoloVoyage: Your Ultimate Solo Travel Safety Guide</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <style>
-        .category-card {
-          display: block;
-          background-color: #1f2937;
-          border-radius: 1.5rem;
-          border: 1px solid #374151;
-          transition: transform 0.3s ease, box-shadow 0.3s ease;
-          overflow: hidden;
-          position: relative;
-        }
-        .category-card:hover {
-          transform: translateY(-8px);
-          box-shadow: 0 20px 25px -5px rgba(14, 165, 233, 0.2), 0 10px 10px -5px rgba(14, 165, 233, 0.1);
-        }
-        .final-card {
-            background: linear-gradient(135deg, #a78bfa, #0ea5e9);
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>SoloVoyage: Solo Travel Safety and Trip Preparation</title>
+  <meta name="description" content="101 practical solo travel safety guides, a trip planner, checklist, packing organizer and Emergency Center. Free, with no account.">
+  <link rel="canonical" href="https://satyam2003-dev.github.io/SoloVoyage/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SoloVoyage">
+  <meta property="og:title" content="SoloVoyage: Solo Travel Safety and Trip Preparation">
+  <meta property="og:description" content="101 practical solo travel safety guides, a trip planner, checklist, packing organizer and Emergency Center. Free, with no account.">
+  <meta property="og:url" content="https://satyam2003-dev.github.io/SoloVoyage/">
+  <meta property="og:image" content="https://satyam2003-dev.github.io/SoloVoyage/assets/images/social-card.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="A solo traveller with a headlamp beside a lit tent under a night sky">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#faf6ed">
+  <script src="js/theme-init.js"></script>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="preload" href="assets/fonts/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/themes.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="preload" as="image" type="image/avif" media="(max-width: 47.99rem)" imagesrcset="assets/images/hero-tall-480.avif 480w, assets/images/hero-tall-828.avif 828w" imagesizes="100vw" fetchpriority="high">
+  <link rel="preload" as="image" type="image/avif" media="(min-width: 48rem)" imagesrcset="assets/images/hero-wide-1280.avif 1280w, assets/images/hero-wide-1920.avif 1920w, assets/images/hero-wide-2560.avif 2560w" imagesizes="100vw" fetchpriority="high">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "SoloVoyage", "url": "https://satyam2003-dev.github.io/SoloVoyage/", "description": "Solo travel safety guides and trip preparation tools.", "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://satyam2003-dev.github.io/SoloVoyage/search.html?q={search_term_string}"}, "query-input": "required name=search_term_string"}}</script>
+  <script type="module" src="js/app.js"></script>
+  <link rel="modulepreload" href="js/app.js">
+  <link rel="modulepreload" href="js/config.js">
+  <link rel="modulepreload" href="js/utils.js">
+  <link rel="modulepreload" href="js/storage.js">
+  <link rel="modulepreload" href="js/components.js">
+  <link rel="modulepreload" href="js/layout.js">
+  <link rel="modulepreload" href="js/search.js">
+  <link rel="modulepreload" href="js/data.js">
+  <link rel="modulepreload" href="js/theme.js">
+  <link rel="modulepreload" href="js/pages/home.js">
 </head>
-<body class="antialiased">
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5K55P3LW"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-    <!-- Header -->
-    <header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
-      <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="index.html" class="text-2xl font-extrabold text-white">SoloVoyage</a>
-        <!-- Desktop Menu -->
-        <div class="hidden md:flex items-center space-x-6">
-          <div class="dropdown"><button class="nav-link">Preparation</button><div class="dropdown-menu"><div class="dropdown-content"><a href="pre-trip-foundation.html" class="dropdown-link">Pre-Trip Foundation</a><a href="packing-preparation.html" class="dropdown-link">Packing & Prep</a></div></div></div>
-          <div class="dropdown"><button class="nav-link">On The Go</button><div class="dropdown-menu"><div class="dropdown-content"><a href="transportation-safety.html" class="dropdown-link">Transportation</a><a href="accommodation-safety.html" class="dropdown-link">Accommodation</a><a href="daily-exploration.html" class="dropdown-link">Daily Exploration</a></div></div></div>
-          <div class="dropdown"><button class="nav-link">Your Assets</button><div class="dropdown-menu"><div class="dropdown-content"><a href="money-valuables.html" class="dropdown-link">Money & Valuables</a><a href="digital-safety.html" class="dropdown-link">Digital Safety</a></div></div></div>
-          <div class="dropdown"><button class="nav-link">Health & Social</button><div class="dropdown-menu"><div class="dropdown-content"><a href="food-drink-safety.html" class="dropdown-link">Food & Drink</a><a href="social-safety.html" class="dropdown-link">Meeting People</a></div></div></div>
-          <a href="emergency-response.html" class="nav-link">Emergencies</a>
-          <a href="checklist.html" class="nav-link">Checklist</a>
+<body class="page-home" data-nav="home" data-page="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <site-header></site-header>
+  <main id="main" tabindex="-1">
+    <section class="hero" aria-labelledby="hero-title">
+      <picture class="hero__media">
+        <source media="(max-width: 47.99rem)" type="image/avif" srcset="assets/images/hero-tall-480.avif 480w, assets/images/hero-tall-828.avif 828w" sizes="100vw">
+        <source media="(max-width: 47.99rem)" type="image/webp" srcset="assets/images/hero-tall-480.webp 480w, assets/images/hero-tall-828.webp 828w" sizes="100vw">
+        <source media="(max-width: 47.99rem)" srcset="assets/images/hero-tall-828.jpg">
+        <source type="image/avif" srcset="assets/images/hero-wide-1280.avif 1280w, assets/images/hero-wide-1920.avif 1920w, assets/images/hero-wide-2560.avif 2560w" sizes="100vw">
+        <source type="image/webp" srcset="assets/images/hero-wide-1280.webp 1280w, assets/images/hero-wide-1920.webp 1920w, assets/images/hero-wide-2560.webp 2560w" sizes="100vw">
+        <img src="assets/images/hero-wide-1280.jpg" width="1280" height="640" alt="A solo traveller wearing a headlamp stands beside a lit orange tent under a star-filled sky" fetchpriority="high" decoding="async">
+      </picture>
+      <div class="container hero__content">
+        <h1 id="hero-title">Travel Solo. <span>Travel Smart.</span> Travel Fearlessly.</h1>
+        <p class="hero__lead">Your trusted companion for safer, smarter and more confident solo adventures.</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary btn--lg" href="guides.html">Explore Safety Guides <svg class="icon icon--nudge" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-right"/></svg></a>
+          <a class="btn btn--on-dark btn--lg" href="planner.html">Prepare for Your Trip</a>
         </div>
-        <!-- Mobile Menu Button -->
-        <button id="mobile-menu-button" class="md:hidden text-white focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /></svg></button>
-      </nav>
-      <!-- Mobile Menu Content -->
-      <div id="mobile-menu" class="hidden md:hidden bg-gray-900/90 backdrop-blur-sm">
-        <strong class="block pt-3 pb-1 px-6 text-amber-400 text-sm font-semibold">Preparation</strong><a href="pre-trip-foundation.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Pre-Trip Foundation</a><a href="packing-preparation.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Packing & Prep</a>
-        <strong class="block pt-3 pb-1 px-6 text-amber-400 text-sm font-semibold">On The Go</strong><a href="transportation-safety.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Transportation</a><a href="accommodation-safety.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Accommodation</a><a href="daily-exploration.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Daily Exploration</a>
-        <strong class="block pt-3 pb-1 px-6 text-amber-400 text-sm font-semibold">Your Assets</strong><a href="money-valuables.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Money & Valuables</a><a href="digital-safety.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Digital Safety</a>
-        <strong class="block pt-3 pb-1 px-6 text-amber-400 text-sm font-semibold">Health & Social</strong><a href="food-drink-safety.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Food & Drink</a><a href="social-safety.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Meeting People</a>
-        <hr class="border-gray-700 my-2"><a href="emergency-response.html" class="block py-2 px-6 text-white hover:bg-sky-500/50">Emergencies</a><a href="checklist.html" class="block py-3 px-6 text-white hover:bg-sky-500/50">Full Checklist</a>
-      </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero-section text-white text-center">
-      <div class="container mx-auto px-6 z-10">
-        <h1 class="text-4xl md:text-7xl font-extrabold leading-tight mb-4" data-aos="fade-down">
-          Travel Solo, Travel Smart
-        </h1>
-        <p class="text-xl md:text-2xl max-w-3xl mx-auto opacity-90" data-aos="fade-up" data-aos-delay="200">
-          Your adventure of a lifetime is waiting
-        </p>
       </div>
     </section>
 
-    <main class="container mx-auto px-6 py-16 md:py-24">
-        <section class="card text-center mb-16" data-aos="fade-up">
-            <h2 class="text-3xl font-extrabold mb-4" style="color: #a78bfa;">Welcome, Fearless Explorer!</h2>
-            <p class="text-lg leading-relaxed text-gray-300 max-w-4xl mx-auto">
-                Traveling solo is an extraordinary journey of self-discovery, boundless freedom, and unforgettable experiences. Yet, the independence it offers also necessitates a heightened awareness of personal safety. This comprehensive guide serves as your trusted companion, meticulously detailing 101 actionable tips designed to empower you with the knowledge and vigilance needed to navigate your solo travels with unwavering confidence. Each tip transforms potential vulnerabilities into opportunities for empowered and secure exploration.
-            </p>
-        </section>
-
-      <!-- Category Links -->
-      <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
-        
-        <a href="pre-trip-foundation.html" class="category-card" data-aos="fade-up" data-aos-delay="100">
-          <div class="p-8">
-            <h3 class="text-2xl font-bold mb-3 text-amber-400">Pre-Trip Foundation</h3>
-            <p class="text-gray-300">Success loves preparation. Learn the essential research and documentation steps to take before you even pack your bags.</p>
-          </div>
-        </a>
-
-        <a href="packing-preparation.html" class="category-card" data-aos="fade-up" data-aos-delay="200">
-          <div class="p-8">
-            <h3 class="text-2xl font-bold mb-3 text-amber-400">Packing & Preparation</h3>
-            <p class="text-gray-300">What you bring—and what you leave behind—is critical. Pack smart to stay safe, agile, and prepared for anything.</p>
-          </div>
-        </a>
-
-        <a href="transportation-safety.html" class="category-card" data-aos="fade-up" data-aos-delay="300">
-          <div class="p-8">
-            <h3 class="text-2xl font-bold mb-3 text-amber-400">Transportation Safety</h3>
-            <p class="text-gray-300">Navigate airports, taxis, and public transit with confidence by following these essential rules for moving around safely.</p>
-          </div>
-        </a>
-
-        <a href="accommodation-safety.html" class="category-card" data-aos="fade-up" data-aos-delay="100">
-          <div class="p-8">
-            <h3 class="text-2xl font-bold mb-3 text-amber-400">Accommodation Safety</h3>
-            <p class="text-gray-300">Your hotel or hostel is your safe haven. Learn how to choose a secure spot and protect it like a fortress.</p>
-          </div>
-        </a>
-
-        <a href="daily-exploration.html" class="category-card" data-aos="fade-up" data-aos-delay="200">
-          <div class="p-8">
-            <h3 class="text-2xl font-bold mb-3 text-amber-400">Daily Exploration</h3>
-            <p class="text-gray-300">The art of situational awareness. Master these tips for staying safe while exploring new streets and attractions.</p>
-          </div>
-        </a>
-
-        <a href="money-valuables.html" class="category-card" data-aos="fade-up" data-aos-delay="300">
-          <div class="p-8">
-            <h3 class="text-2xl font-bold mb-3 text-amber-400">Money & Valuables</h3>
-            <p class="text-gray-300">Protect your cash, cards, and important belongings with these smart strategies for asset protection.</p>
-          </div>
-        </a>
-        
-        <a href="digital-safety.html" class="category-card" data-aos-="fade-up" data-aos-delay="100">
-          <div class="p-8">
-            <h3 class="text-2xl font-bold mb-3 text-amber-400">Digital Safety</h3>
-            <p class="text-gray-300">In the modern world, your digital security is paramount. Learn how to protect your data and online presence while abroad.</p>
-          </div>
-        </a>
-
-        <a href="food-drink-safety.html" class="category-card" data-aos="fade-up" data-aos-delay="200">
-          <div class="p-8">
-            <h3 class="text-2xl font-bold mb-3 text-amber-400">Food & Drink Safety</h3>
-            <p class="text-gray-300">Enjoy the local cuisine without the worry. These tips cover everything from street food to drink safety in bars.</p>
-          </div>
-        </a>
-        
-        <a href="social-safety.html" class="category-card" data-aos="fade-up" data-aos-delay="300">
-          <div class="p-8">
-            <h3 class="text-2xl font-bold mb-3 text-amber-400">Social Safety</h3>
-            <p class="text-gray-300">Meeting new people is a highlight of travel. Learn how to make connections and date safely and smartly.</p>
-          </div>
-        </a>
-
-        <a href="emergency-response.html" class="category-card" data-aos="fade-up" data-aos-delay="100">
-          <div class="p-8">
-            <h3 class="text-2xl font-bold mb-3 text-amber-400">Emergency Response</h3>
-            <p class="text-gray-300">No one expects an emergency, but every smart traveler prepares for one. Know how to react when things go wrong.</p>
-          </div>
-        </a>
-
-        <a href="checklist.html" class="category-card" data-aos="fade-up" data-aos-delay="200">
-          <div class="p-8">
-            <h3 class="text-2xl font-bold mb-3 text-amber-400">The Full Checklist</h3>
-            <p class="text-gray-300">A scannable, comprehensive checklist of all the most critical safety actions for before and during your trip.</p>
-          </div>
-        </a>
-
-        <div class="category-card final-card flex items-center justify-center text-center p-8" data-aos="fade-up" data-aos-delay="300">
-            <h3 class="text-2xl font-bold">Your intuition is your ultimate safety tool. Trust it, always.</h3>
-        </div>
-
-      </section>
-    </main>
-    
-    <footer class="bg-gray-900 text-white py-8 shadow-inner">
-      <div class="container text-center mx-auto px-6">
-        <p class="text-lg text-gray-400">© 2025 SoloVoyage. Travel Boldly, Travel Wisely.</p>
+    <nav class="now-strip" aria-label="Start where you are">
+      <div class="container">
+        <ul>
+          <li><a href="planner.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#route"/></svg><span><strong>Planning a trip</strong><span>Work through six stages</span></span></a></li>
+          <li><a href="checklist.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#plane-takeoff"/></svg><span><strong>Leaving soon</strong><span>Check what is still open</span></span></a></li>
+          <li><a class="now-strip__sos" href="emergency.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#life-buoy"/></svg><span><strong>Travelling now</strong><span>Emergency help and contacts</span></span></a></li>
+          <li><a href="guides.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#book-open"/></svg><span><strong>Learning</strong><span>Search 101 guides</span></span></a></li>
+        </ul>
       </div>
-    </footer>
+    </nav>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="assets/js/main.js"></script>
+    <section class="section" aria-labelledby="intro-title">
+      <div class="container intro">
+        <div class="stack">
+          <h2 id="intro-title">Preparation is what makes independence feel easy</h2>
+        </div>
+        <div class="stack">
+          <p class="lead">When you travel alone there is nobody beside you to double-check the plan. SoloVoyage helps you do it yourself: read practical safety advice, turn it into tasks, and keep what you need close.</p>
+          <p class="muted">No guide can remove risk or guarantee safety. Good preparation means fewer surprises, and knowing your next step when one happens.</p>
+          <ol class="how">
+            <li><strong>Read</strong><span>101 short guides in 10 categories.</span></li>
+            <li><strong>Prepare</strong><span>A trip plan, checklist, packing list and document status.</span></li>
+            <li><strong>Carry</strong><span>Saved guides and your own emergency contacts.</span></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tint" aria-labelledby="cat-title">
+      <div class="container">
+        <div class="section-head" data-reveal><h2 id="cat-title">Eleven categories, from first research to first aid</h2><p class="lead">Follow them in order as you plan, or go straight to the one you need.</p></div>
+        <ul class="cat-grid">
+          <li class="cat-tile cat-tile--1"><a href="pre-trip-foundation.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#compass"/></svg><span class="cat-tile__text"><span class="cat-tile__name">Pre-Trip Foundation</span><span class="cat-tile__desc">Research, insurance, documents and the plans to make before you pack.</span></span><span class="cat-tile__meta">10 guides</span></a></li>
+          <li class="cat-tile cat-tile--2"><a href="packing-preparation.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#backpack"/></svg><span class="cat-tile__text"><span class="cat-tile__name">Packing &amp; Preparation</span><span class="cat-tile__desc">What to bring, what to leave behind, and how to carry it.</span></span><span class="cat-tile__meta">10 guides</span></a></li>
+          <li class="cat-tile cat-tile--3"><a href="transportation-safety.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#train-front"/></svg><span class="cat-tile__text"><span class="cat-tile__name">Transportation Safety</span><span class="cat-tile__desc">Airports, taxis, layovers and long rides, handled with confidence.</span></span><span class="cat-tile__meta">10 guides</span></a></li>
+          <li class="cat-tile cat-tile--4"><a href="accommodation-safety.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#bed-double"/></svg><span class="cat-tile__text"><span class="cat-tile__name">Accommodation Safety</span><span class="cat-tile__desc">Choose a secure place to stay and make the room your own.</span></span><span class="cat-tile__meta">10 guides</span></a></li>
+          <li class="cat-tile cat-tile--5"><a href="daily-exploration.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#map"/></svg><span class="cat-tile__text"><span class="cat-tile__name">Daily Exploration</span><span class="cat-tile__desc">Street sense for new neighborhoods, crowds and transit.</span></span><span class="cat-tile__meta">10 guides</span></a></li>
+          <li class="cat-tile cat-tile--6"><a href="money-valuables.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#wallet"/></svg><span class="cat-tile__text"><span class="cat-tile__name">Money &amp; Valuables</span><span class="cat-tile__desc">Protect cash, cards and belongings with simple habits.</span></span><span class="cat-tile__meta">10 guides</span></a></li>
+          <li class="cat-tile cat-tile--7"><a href="digital-safety.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#smartphone"/></svg><span class="cat-tile__text"><span class="cat-tile__name">Digital Safety</span><span class="cat-tile__desc">Phones, Wi-Fi, social media and the trail you leave online.</span></span><span class="cat-tile__meta">10 guides</span></a></li>
+          <li class="cat-tile cat-tile--8"><a href="food-drink-safety.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#utensils"/></svg><span class="cat-tile__text"><span class="cat-tile__name">Food &amp; Drink Safety</span><span class="cat-tile__desc">Enjoy local food and nights out with less risk.</span></span><span class="cat-tile__meta">10 guides</span></a></li>
+          <li class="cat-tile cat-tile--9"><a href="social-safety.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#users"/></svg><span class="cat-tile__text"><span class="cat-tile__name">Social Safety</span><span class="cat-tile__desc">Meet people, make friends and date on your own terms.</span></span><span class="cat-tile__meta">10 guides</span></a></li>
+          <li class="cat-tile cat-tile--10"><a href="emergency-response.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#siren"/></svg><span class="cat-tile__text"><span class="cat-tile__name">Emergency Response</span><span class="cat-tile__desc">What to do, in order, when something goes wrong.</span></span><span class="cat-tile__meta">11 guides</span></a></li>
+          <li class="cat-tile cat-tile--11"><a href="checklist.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#list-checks"/></svg><span class="cat-tile__text"><span class="cat-tile__name">The Full Checklist</span><span class="cat-tile__desc">Forty-eight actions for before, during and just in case, with saved progress.</span></span><span class="cat-tile__meta">48 actions</span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="feat-title">
+      <div class="container">
+        <div class="section-head" data-reveal><h2 id="feat-title">Guides worth reading first</h2></div>
+        <ol class="features">
+          <li class="feature feature--lead"><span class="feature__num" aria-hidden="true">001</span><div><h3><a href="guide.html?id=research-your-destination">Research Your Destination Like a Detective</a></h3><p>Look past the brochures and build an honest picture of the place before you book.</p><p class="feature__meta">Pre-Trip Foundation · 1 min read</p></div></li><li class="feature"><span class="feature__num" aria-hidden="true">002</span><div><h3><a href="guide.html?id=share-your-plans">Master the Art of Sharing Your Plans</a></h3><p>Give at least two reliable people your itinerary and agree what happens if you go quiet.</p><p class="feature__meta">Pre-Trip Foundation · 1 min read</p></div></li><li class="feature"><span class="feature__num" aria-hidden="true">023</span><div><h3><a href="guide.html?id=use-official-taxis">Use Official Taxi Services Only</a></h3><p>Find the official stand, check the car, and share the plate before you get in.</p><p class="feature__meta">Transportation Safety · 1 min read</p></div></li><li class="feature"><span class="feature__num" aria-hidden="true">039</span><div><h3><a href="guide.html?id=know-emergency-exits">Know Where Emergency Exits Are</a></h3><p>Walk the route to two exits and count the doors on the way.</p><p class="feature__meta">Accommodation Safety · 1 min read</p></div></li><li class="feature"><span class="feature__num" aria-hidden="true">055</span><div><h3><a href="guide.html?id=divide-your-money">Divide Your Money Between Multiple Places</a></h3><p>The three-stash rule: wallet, money belt, emergency reserve.</p><p class="feature__meta">Money &amp; Valuables · 1 min read</p></div></li>
+        </ol>
+        <p style="margin-top:2rem"><a class="btn btn--secondary" href="guides.html">See all 101 guides <svg class="icon icon--nudge" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-right"/></svg></a></p>
+      </div>
+    </section>
+
+    <section class="section band" aria-labelledby="prep-title">
+      <div class="container prep">
+        <figure class="prep__photo" data-reveal>
+          <picture>
+            <source type="image/avif" srcset="assets/images/tent-640.avif 640w, assets/images/tent-1200.avif 1200w" sizes="(min-width: 64rem) 34rem, 100vw">
+            <img src="assets/images/tent-640.webp" srcset="assets/images/tent-640.webp 640w, assets/images/tent-1200.webp 1200w" sizes="(min-width: 64rem) 34rem, 100vw" width="640" height="400" alt="An orange and white tent lit from inside on a dark beach" loading="lazy" decoding="async">
+          </picture>
+        </figure>
+        <div>
+          <h2 id="prep-title">Get ready before you go</h2>
+          <p class="lead">Six areas cause most of the avoidable stress. Sort each one while you are still at home.</p>
+          <ul class="prep__list">
+            <li><a href="packing.html#documents"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#file-text"/></svg><span><strong>Documents</strong><span>Check validity, make copies and track what is ready.</span></span><span class="prep__go">Track documents<svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-right"/></svg></span></a></li><li><a href="accommodation-safety.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#bed-double"/></svg><span><strong>Accommodation</strong><span>Choose the area first, then check locks and exits.</span></span><span class="prep__go">Stay securely<svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-right"/></svg></span></a></li><li><a href="transportation-safety.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#train-front"/></svg><span><strong>Transportation</strong><span>Plan the airport run and learn the late-night options.</span></span><span class="prep__go">Move safely<svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-right"/></svg></span></a></li><li><a href="money-valuables.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#wallet"/></svg><span><strong>Money</strong><span>Split cash and cards, and keep a reserve apart.</span></span><span class="prep__go">Protect money<svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-right"/></svg></span></a></li><li><a href="digital-safety.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#lock"/></svg><span><strong>Digital security</strong><span>Secure your phone, accounts and location.</span></span><span class="prep__go">Lock it down<svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-right"/></svg></span></a></li><li><a href="emergency.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#life-buoy"/></svg><span><strong>Emergency readiness</strong><span>Save numbers and contacts while you are calm.</span></span><span class="prep__go">Get ready<svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-right"/></svg></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="check-title">
+      <div class="container preview">
+        <div class="stack" data-reveal>
+          <h2 id="check-title">Your checklist, as it stands</h2>
+          <p class="lead">48 actions for before you leave, while you travel and in an emergency. Add your own, print it, pick up where you stopped.</p>
+          <p><a class="btn btn--primary" href="checklist.html">Open My Checklist <svg class="icon icon--nudge" aria-hidden="true"><use href="assets/icons/sprite.svg#arrow-right"/></svg></a></p>
+        </div>
+        <div class="panel preview__panel stack" data-app><div class="skeleton" style="min-height:20rem"></div></div>
+      </div>
+    </section>
+
+    <section class="section section--tint" aria-labelledby="em-title">
+      <div class="container emergency-promo">
+        <div class="stack">
+          <p class="eyebrow"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#life-buoy"/></svg>Calm, clear steps</p>
+          <h2 id="em-title">Prepare for the day something goes wrong</h2>
+          <p class="lead">Most trips never need this page. Spend ten minutes on it anyway, so that your numbers and next steps are ready.</p>
+          <div class="row"><a class="btn btn--primary" href="emergency.html">Open the Emergency Center</a><a class="btn btn--secondary" href="emergency.html#contacts">Save my contacts</a></div>
+        </div>
+        <ul class="emergency-promo__links">
+          <li><a href="emergency.html#contacts"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#phone"/></svg><span><strong>Important contacts</strong><span>Build your own contact card</span></span></a></li>
+          <li><a href="emergency.html#lost-passport"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#stamp"/></svg><span><strong>Lost passport</strong><span>What to do, in order</span></span></a></li>
+          <li><a href="emergency.html#medical"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#heart-pulse"/></svg><span><strong>Medical emergency</strong><span>First priorities</span></span></a></li>
+          <li><a href="emergency.html#numbers"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#siren"/></svg><span><strong>Emergency numbers</strong><span>With the source for each</span></span></a></li>
+          <li><a href="emergency-response.html"><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#shield-check"/></svg><span><strong>Quick safety guides</strong><span>Eleven response guides</span></span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="faq-title">
+      <div class="container faq">
+        <h2 id="faq-title">Questions travellers ask</h2>
+        <div class="accordion"><details><summary><span>Is SoloVoyage free? Do I need an account?</span><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#chevron-down"/></svg></summary><div class="accordion__body"><p>It is free and open source, and there is no account. Your trips, lists and saved guides are kept in your own browser.</p></div></details><details><summary><span>Where is my information stored?</span><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#chevron-down"/></svg></summary><div class="accordion__body"><p>In this browser's local storage on your device. It is not encrypted, so anyone who can use this browser profile could read it. You can export or delete it from the <a href="privacy.html">privacy page</a>.</p></div></details><details><summary><span>Does it work offline?</span><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#chevron-down"/></svg></summary><div class="accordion__body"><p>After your first visit over a secure (https) connection, the guides, tools and Emergency Center are saved for offline use. External links, official advisories and anything live still need a connection. See <a href="about.html#offline">what works offline</a>.</p></div></details><details><summary><span>Can SoloVoyage tell me whether a destination is safe?</span><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#chevron-down"/></svg></summary><div class="accordion__body"><p>No. It does not rate countries or show live risk data. It helps you prepare and points you to <a href="destinations.html">official government sources</a>.</p></div></details><details><summary><span>Can it contact emergency services for me?</span><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#chevron-down"/></svg></summary><div class="accordion__body"><p>No. SoloVoyage cannot call for help, track you or send alerts. In an emergency, use your phone to call the local emergency number. The <a href="emergency.html">Emergency Center</a> explains how to prepare.</p></div></details><details><summary><span>How reliable is the advice?</span><svg class="icon" aria-hidden="true"><use href="assets/icons/sprite.svg#chevron-down"/></svg></summary><div class="accordion__body"><p>The guides are general good practice, not legal or medical advice. Rules differ by country and change, so check official sources for anything that matters to your trip.</p></div></details></div>
+      </div>
+    </section>
+
+    <section class="cta-final" aria-labelledby="cta-title">
+      <picture>
+        <source type="image/avif" srcset="assets/images/campfire-640.avif 640w, assets/images/campfire-1400.avif 1400w" sizes="100vw">
+        <img src="assets/images/campfire-640.webp" srcset="assets/images/campfire-640.webp 640w, assets/images/campfire-1400.webp 1400w" sizes="100vw" width="640" height="400" alt="" loading="lazy" decoding="async">
+      </picture>
+      <div class="container stack">
+        <h2 id="cta-title">Before you travel, give it one good hour</h2>
+        <p>Start a plan, tick what you have done, and see what is left.</p>
+        <div class="row"><a class="btn btn--primary btn--lg" href="planner.html">Start my trip plan</a><a class="btn btn--on-dark btn--lg" href="checklist.html">Open the checklist</a></div>
+      </div>
+    </section>
+  </main>
+  <site-footer></site-footer>
+  <noscript><nav class="noscript-nav" aria-label="Main"><p>JavaScript is off. Interactive tools are unavailable.</p><a href="index.html">Home</a> <a href="guides.html">Guides</a> <a href="emergency.html">Emergency Center</a> <a href="about.html">About</a></nav></noscript>
 </body>
 </html>

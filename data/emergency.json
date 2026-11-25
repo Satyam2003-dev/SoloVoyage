@@ -1,0 +1,309 @@
+{
+  "version": 1,
+  "reviewed": "2026-11-26",
+  "situations": [
+    {
+      "id": "medical",
+      "title": "Medical emergency",
+      "icon": "heart-pulse",
+      "summary": "Serious injury, sudden illness or a reaction you cannot manage.",
+      "situation": "You or someone near you is seriously ill or injured, or symptoms are getting worse quickly.",
+      "priorities": [
+        "Call the local emergency number, or ask someone nearby to call and stay with you.",
+        "Give your exact location first, in case the call drops.",
+        "Follow the call-taker's instructions and keep the line open until they tell you to hang up."
+      ],
+      "actions": [
+        "Tell responders about allergies, medical conditions and medicines you take.",
+        "Call your insurer's 24/7 assistance line as soon as it is practical. They can direct you to a suitable hospital.",
+        "Ask for a written report and itemized receipts for your claim.",
+        "Tell your trusted contact where you are being treated."
+      ],
+      "avoid": [
+        "Do not move a seriously injured person unless they are in danger where they are.",
+        "Do not travel to hospital alone if you may lose consciousness.",
+        "Do not assume treatment is free or that your home insurance applies."
+      ],
+      "limits": "Emergency numbers, ambulance coverage and payment rules differ by country. This page is not medical advice.",
+      "guides": ["pack-first-aid-kit", "get-the-right-travel-insurance", "set-up-ice-contacts"],
+      "resources": [
+        { "label": "CDC: health care during travel", "url": "https://wwwnc.cdc.gov/travel/page/health-care-during-travel" },
+        { "label": "WHO travel advice", "url": "https://www.who.int/travel-advice" }
+      ]
+    },
+    {
+      "id": "theft",
+      "title": "Theft or robbery",
+      "icon": "wallet",
+      "summary": "Something was taken from you, with or without a threat.",
+      "situation": "Your belongings were stolen, or someone is demanding them now.",
+      "priorities": [
+        "If you are being threatened, hand over what they ask for. Your safety comes first.",
+        "Get to a busy, staffed place.",
+        "If you are hurt or still in danger, call the local emergency number."
+      ],
+      "actions": [
+        "Block cards through your bank's app or its international lost-card line.",
+        "Report the theft to the police and ask for a written report or reference number. Insurers usually need one.",
+        "If your passport was taken, follow the lost passport steps.",
+        "Change passwords for accounts that were open on a stolen device.",
+        "Note the time, place and a description while you remember it."
+      ],
+      "avoid": [
+        "Do not chase or confront the person.",
+        "Do not arrange to buy your belongings back yourself.",
+        "Do not delay the police report. Some insurers set a short deadline."
+      ],
+      "limits": "Police reporting differs by country. You may need an interpreter or your embassy's help to find the right station.",
+      "guides": ["divide-your-money", "photograph-your-belongings", "hide-a-backup-card"],
+      "resources": [
+        { "label": "UK: victim of crime abroad", "url": "https://www.gov.uk/guidance/victim-of-crime-abroad" },
+        { "label": "Canada: emergency assistance abroad", "url": "https://travel.gc.ca/assistance/emergency-assistance" }
+      ]
+    },
+    {
+      "id": "lost-passport",
+      "title": "Lost or stolen passport",
+      "icon": "stamp",
+      "summary": "Your passport is missing and you are outside your home country.",
+      "situation": "You cannot find your passport, or it was stolen.",
+      "priorities": [
+        "Retrace your steps and check with your hotel, transport operator and any lost property office.",
+        "Contact your nearest embassy or consulate and ask about an emergency travel document.",
+        "If it was stolen, report it to the local police and get a copy of the report."
+      ],
+      "actions": [
+        "Report the passport lost or stolen to your own passport authority, so it cannot be misused.",
+        "Gather what they usually ask for: a photocopy, proof of identity, passport photos, the police report and your travel plans.",
+        "Ask whether the destination requires a replacement visa or entry stamp.",
+        "Tell your airline that you will travel on a different document."
+      ],
+      "avoid": [
+        "Do not use a passport you have reported lost, even if you find it later. Ask the issuing authority first.",
+        "Do not pay unofficial agents who offer fast replacements.",
+        "Do not assume every country accepts an emergency travel document. Check your route."
+      ],
+      "limits": "The process, cost and time depend on your nationality and where you are. Only your own government can issue your document.",
+      "guides": ["document-everything", "copy-important-documents", "find-your-embassy"],
+      "resources": [
+        { "label": "India: lost passport FAQ", "url": "https://www.passportindia.gov.in/psp/FaqLostDamagedPassports" },
+        { "label": "UK: travel urgently without a UK passport", "url": "https://www.gov.uk/travel-urgently-from-abroad-without-uk-passport" },
+        { "label": "US: lost or stolen passport abroad", "url": "https://travel.state.gov/content/travel/en/international-travel/emergencies/lost-stolen-passport-abroad.html" }
+      ]
+    },
+    {
+      "id": "lost-phone",
+      "title": "Lost or stolen phone",
+      "icon": "smartphone",
+      "summary": "You have lost your map, tickets and contacts in one go.",
+      "situation": "Your phone is missing and you may have no other way to navigate or pay.",
+      "priorities": [
+        "Get somewhere safe with staff and ask to borrow a phone or computer.",
+        "Call your number, then use your device finder to locate, lock or erase the phone.",
+        "Use your paper backup for your hotel address and key numbers."
+      ],
+      "actions": [
+        "Contact your mobile provider to suspend the SIM.",
+        "Change the password of your main email account first, then banking and social accounts.",
+        "Tell your bank and remove cards from mobile wallets.",
+        "Report a theft to the police if your insurer needs it. Have the device's serial or IMEI number if you saved it.",
+        "Tell your trusted contact how to reach you."
+      ],
+      "avoid": [
+        "Do not go alone to a location shown by a tracker. Give it to the police.",
+        "Do not follow messages claiming that your phone has been found if they ask you to sign in.",
+        "Do not stay signed in on a borrowed or public device."
+      ],
+      "limits": "Find and lock features work only if you enabled them beforehand and the phone can be reached.",
+      "guides": ["save-important-numbers", "phone-charging-options", "download-safety-apps"],
+      "resources": [
+        { "label": "Apple: Find My", "url": "https://support.apple.com/find-my" },
+        { "label": "Google: Find Hub", "url": "https://www.google.com/android/find/about" }
+      ]
+    },
+    {
+      "id": "accommodation",
+      "title": "Accommodation emergency",
+      "icon": "building-2",
+      "summary": "Fire, an intruder, an unsafe room or a booking that does not exist.",
+      "situation": "Your accommodation is unsafe, or you have nowhere to stay tonight.",
+      "priorities": [
+        "In a fire, leave by the stairs and call the emergency services once you are outside.",
+        "If someone is trying to get in, lock the door, call the front desk and then the emergency number.",
+        "If you feel unsafe, move to the lobby or another staffed public place."
+      ],
+      "actions": [
+        "Ask the property for a different room, or leave if it cannot be made safe.",
+        "Contact the booking platform while you are still there and keep photos and messages.",
+        "If the booking does not exist, go to a well-reviewed hotel with a 24-hour desk for one night.",
+        "Update your trusted contact with your new address."
+      ],
+      "avoid": [
+        "Do not use an elevator in a fire or go back for belongings.",
+        "Do not open the door to someone you have not verified.",
+        "Do not accept a stranger's offer of a place to stay."
+      ],
+      "limits": "Building safety rules vary. Check exits and locks yourself when you arrive.",
+      "guides": ["know-emergency-exits", "test-locks", "dont-open-door-to-strangers"],
+      "resources": [
+        { "label": "UK: dealing with a crisis overseas", "url": "https://www.gov.uk/guidance/how-to-deal-with-a-crisis-overseas" }
+      ]
+    },
+    {
+      "id": "transport",
+      "title": "Transport emergency",
+      "icon": "train-front",
+      "summary": "An accident, a breakdown, an unsafe ride or being stranded.",
+      "situation": "You have been in an accident, feel unsafe in a vehicle, or cannot get to where you need to be.",
+      "priorities": [
+        "If anyone is hurt, call the local emergency number.",
+        "Move away from traffic if you can do so safely.",
+        "If a ride feels wrong, ask to stop in a busy place, get out and call someone."
+      ],
+      "actions": [
+        "Use the emergency feature in your ride-hailing app if it has one, and share your trip live.",
+        "Photograph the scene, plates and documents when it is safe.",
+        "Ask for a police report after an accident. Insurers often require it.",
+        "If you are stranded, wait in a staffed, lit place and book a new ride through an official service.",
+        "Contact the airline or operator about rebooking before you buy a new ticket."
+      ],
+      "avoid": [
+        "Do not accept a lift from a stranger because you are stranded.",
+        "Do not sign a statement you cannot read.",
+        "Do not argue with a driver inside the vehicle."
+      ],
+      "limits": "Traffic law and passenger rights differ by country and operator.",
+      "guides": ["use-official-taxis", "have-your-own-transportation", "research-public-transport"],
+      "resources": [
+        { "label": "CDC: road safety for travelers", "url": "https://wwwnc.cdc.gov/travel/page/road-safety" }
+      ]
+    },
+    {
+      "id": "natural-disaster",
+      "title": "Natural disaster",
+      "icon": "cloud-lightning",
+      "summary": "Earthquake, storm, flood, wildfire or another major event.",
+      "situation": "A disaster is happening or an official warning has been issued where you are.",
+      "priorities": [
+        "Follow instructions from local authorities and leave early if told to evacuate.",
+        "Protect yourself from the immediate hazard before anything else.",
+        "Take your passport, medicine, phone, charger, water and cash if you can do so without delay."
+      ],
+      "actions": [
+        "Monitor official local alerts, and ask hotel staff to translate.",
+        "Send a short message to your trusted contact. Texts may get through when calls do not.",
+        "Register or update your details with your embassy if it offers this.",
+        "Contact your airline and insurer once you are safe."
+      ],
+      "avoid": [
+        "Do not walk or drive through floodwater.",
+        "Do not return to a damaged building until authorities say it is safe.",
+        "Do not rely on unverified social media reports."
+      ],
+      "limits": "Protective actions depend on the hazard and local guidance. Learn the plan for your destination when you arrive.",
+      "guides": ["register-with-embassy", "stay-calm", "research-your-destination"],
+      "resources": [
+        { "label": "CDC: natural disasters and travel", "url": "https://wwwnc.cdc.gov/travel/page/natural-disasters" },
+        { "label": "GDACS: global disaster alerts", "url": "https://www.gdacs.org/" },
+        { "label": "Ready.gov: hazard guidance (US)", "url": "https://www.ready.gov/be-informed" }
+      ]
+    },
+    {
+      "id": "personal-security",
+      "title": "Personal security",
+      "icon": "shield-check",
+      "summary": "Being followed, harassed, threatened or assaulted.",
+      "situation": "Someone is following, harassing or threatening you, or has hurt you.",
+      "priorities": [
+        "Move toward people, light and staff: a hotel lobby, busy shop or station office.",
+        "Call the local emergency number if you are in danger.",
+        "Make noise and draw attention if you need help now."
+      ],
+      "actions": [
+        "Tell staff plainly: \"I am being followed. Please call the police.\"",
+        "Share your live location with your trusted contact and stay on the line.",
+        "If you have been assaulted, get to safety and seek medical care. You can ask your embassy about local support.",
+        "Write down or record what you remember when you are ready."
+      ],
+      "avoid": [
+        "Do not go straight back to your room if you are being followed.",
+        "Do not confront the person.",
+        "Do not blame yourself. What happened is not your fault."
+      ],
+      "limits": "Laws and support services for victims vary widely. Your embassy can explain local procedures.",
+      "guides": ["go-to-busy-places", "make-noise", "remove-yourself-from-danger"],
+      "resources": [
+        { "label": "UK: victim of crime abroad", "url": "https://www.gov.uk/guidance/victim-of-crime-abroad" },
+        { "label": "Find A Helpline: emotional support worldwide", "url": "https://findahelpline.com/" }
+      ]
+    },
+    {
+      "id": "communication",
+      "title": "Communication problems",
+      "icon": "wifi-off",
+      "summary": "No signal, no battery or no shared language.",
+      "situation": "You cannot reach anyone, or cannot make yourself understood.",
+      "priorities": [
+        "Go to a place with staff and Wi-Fi: a hotel, station, cafe or airport desk.",
+        "In an emergency, ask someone nearby to call for you.",
+        "Use your paper backup for addresses and phone numbers."
+      ],
+      "actions": [
+        "Switch on power saving and charge from a power bank.",
+        "Try an emergency call even without your own network's signal. Phones can often use any available network.",
+        "Use an offline translation app, written phrases, gestures or a map.",
+        "Send your trusted contact a short update when you reconnect, so they do not raise an alarm."
+      ],
+      "avoid": [
+        "Do not hand your unlocked phone to a stranger.",
+        "Do not sign in to sensitive accounts on unknown networks.",
+        "Do not wander looking for signal in an unfamiliar area at night."
+      ],
+      "limits": "Emergency calling without a SIM or roaming plan is not available in every country.",
+      "guides": ["learn-key-local-phrases", "download-offline-maps", "save-important-numbers"],
+      "resources": [
+        { "label": "European Commission: 112", "url": "https://digital-strategy.ec.europa.eu/en/policies/112" }
+      ]
+    },
+    {
+      "id": "financial",
+      "title": "Financial emergency",
+      "icon": "credit-card",
+      "summary": "Cards blocked, cash gone or a scam in progress.",
+      "situation": "You have no working way to pay, or you think you have been scammed.",
+      "priorities": [
+        "Freeze your cards in your bank's app, or call its international number.",
+        "Use your backup card or emergency cash.",
+        "If you are being pressured to pay, stop and move to a public place."
+      ],
+      "actions": [
+        "Ask your bank about emergency cash or a replacement card.",
+        "Ask family to send money through a reputable transfer service.",
+        "Contact your embassy if you are destitute. They may help you contact family.",
+        "Report scams to the police and your bank, and keep receipts and messages."
+      ],
+      "avoid": [
+        "Do not share card numbers, PINs or one-time codes with anyone who contacts you.",
+        "Do not withdraw cash under pressure or at an unfamiliar machine.",
+        "Do not borrow from strangers."
+      ],
+      "limits": "Embassies generally do not lend money or pay bills. Bank services abroad depend on your provider.",
+      "guides": ["hide-a-backup-card", "keep-emergency-cash-hidden", "tell-your-bank"],
+      "resources": [
+        { "label": "UK: foreign travel checklist", "url": "https://www.gov.uk/guidance/foreign-travel-checklist" },
+        { "label": "Canada: emergency assistance abroad", "url": "https://travel.gc.ca/assistance/emergency-assistance" }
+      ]
+    }
+  ],
+  "numbers": [
+    { "area": "European Union (all member states)", "primary": [{ "label": "All emergencies", "number": "112" }], "note": "Free in every EU country. Some countries also keep national numbers.", "source": "European Commission", "url": "https://digital-strategy.ec.europa.eu/en/policies/112", "checked": "2026-11-26" },
+    { "area": "India", "primary": [{ "label": "All emergencies", "number": "112" }], "note": "Part of the national Emergency Response Support System. Rollout of the newer version was still in progress in some states when checked.", "source": "Ministry of Home Affairs", "url": "https://www.mha.gov.in/emergency-response-support-system-erss", "checked": "2026-11-26" },
+    { "area": "United Kingdom", "primary": [{ "label": "All emergencies", "number": "999" }, { "label": "Also works", "number": "112" }], "note": "", "source": "GOV.UK", "url": "https://www.gov.uk/guidance/999-and-112-the-uks-national-emergency-numbers", "checked": "2026-11-26" },
+    { "area": "United States", "primary": [{ "label": "All emergencies", "number": "911" }], "note": "Make a voice call whenever possible. Text-to-911 is available only in some locations.", "source": "National 911 Program", "url": "https://www.911.gov/calling-911/", "checked": "2026-11-26" },
+    { "area": "Canada", "primary": [{ "label": "All emergencies", "number": "911" }], "note": "Not available everywhere. For example, Nunavut uses ordinary phone numbers.", "source": "CRTC", "url": "https://crtc.gc.ca/eng/phone/911/can.htm", "checked": "2026-11-26" },
+    { "area": "Australia", "primary": [{ "label": "All emergencies", "number": "000" }, { "label": "Mobiles only", "number": "112" }], "note": "", "source": "Australian Government", "url": "https://www.infrastructure.gov.au/media-communications/phone/triple-zero", "checked": "2026-11-26" },
+    { "area": "New Zealand", "primary": [{ "label": "All emergencies", "number": "111" }], "note": "", "source": "New Zealand Police", "url": "https://www.police.govt.nz/contact-us/111-police-emergency", "checked": "2026-11-26" },
+    { "area": "Japan", "primary": [{ "label": "Police", "number": "110" }, { "label": "Fire and ambulance", "number": "119" }], "note": "", "source": "Tokyo Metropolitan Police", "url": "https://www.keishicho.metro.tokyo.lg.jp/multilingual/english/finding_services/living_guide/living_guide_e_7.html", "checked": "2026-11-26" },
+    { "area": "Singapore", "primary": [{ "label": "Police", "number": "999" }, { "label": "Fire and ambulance", "number": "995" }], "note": "", "source": "Singapore Police Force and SCDF", "url": "https://www.police.gov.sg/Contact-Us", "checked": "2026-11-26" }
+  ]
+}

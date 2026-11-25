@@ -1,0 +1,148 @@
+/* Cross-page small-screen and print adjustments. Component breakpoints live beside their components. */
+@media (max-width: 47.99rem) {
+  .announce .announce__inner {
+    justify-content: space-between;
+    font-size: var(--text-xs);
+    line-height: 1.4;
+  }
+  .announce__text {
+    display: none;
+  }
+  .announce a::before {
+    content: "New in 2.0: ";
+    color: var(--on-band);
+  }
+  .hero {
+    /* Leave room for the tab bar so both buttons are visible on first view. */
+    min-height: calc(100svh - var(--tabbar-h) - 2.5rem);
+  }
+  .hero__media img {
+    object-position: 50% 40%;
+  }
+  .hero__cta .btn {
+    flex: 1 1 100%;
+  }
+  .task__tools .icon-btn {
+    width: 2.6rem;
+  }
+  .dialog__actions .btn {
+    flex: 1;
+  }
+  .search-dialog {
+    margin-top: 0.5rem;
+  }
+  .search-dialog__results {
+    max-height: calc(100dvh - 9rem);
+  }
+  .guide-tools .btn {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 23rem) {
+  :root {
+    --gutter: 1rem;
+  }
+  .brand {
+    font-size: 1.2rem;
+  }
+  .now-strip ul,
+  .sit-tiles {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .sit-tile {
+    flex-direction: row;
+    align-items: center;
+  }
+  .toc__item {
+    grid-template-columns: 2.5rem minmax(0, 1fr) auto;
+    gap: var(--space-2);
+  }
+  .how li {
+    grid-template-columns: 2.25rem minmax(0, 1fr);
+  }
+  .how li span {
+    grid-column: 2;
+  }
+  .guide-tools {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .tabbar a {
+    font-size: 0.66rem;
+  }
+  .ring {
+    --size: 6rem;
+  }
+}
+
+@media (forced-colors: active) {
+  .progress > span {
+    background: Highlight;
+  }
+  .task__check {
+    appearance: auto;
+  }
+  .chip[aria-pressed="true"] {
+    border: 3px solid Highlight;
+  }
+}
+
+@media print {
+  .page-head,
+  .trip-card,
+  .em-head {
+    background: none !important;
+    color: #000 !important;
+    padding-block: 0 1rem;
+    border: 0;
+  }
+  .page-head::before,
+  .guide-head__num {
+    display: none;
+  }
+  .page-head .lead,
+  .page-head h1,
+  .guide-head__meta,
+  .trip-card .facts {
+    color: #000 !important;
+  }
+  .tool-layout,
+  .planner-layout,
+  .guide-layout,
+  .split {
+    display: block;
+  }
+  .tool-side .ring,
+  .progress,
+  .em-jump,
+  .sit-tiles {
+    display: none !important;
+  }
+  .panel {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+  .check-section .task__label,
+  .stage .task__label,
+  .masonry .task__label {
+    padding-block: 0.25rem;
+  }
+  .task__check {
+    appearance: auto;
+    width: 1rem;
+    height: 1rem;
+  }
+  .task__title {
+    text-decoration: none !important;
+    color: #000 !important;
+  }
+  .masonry {
+    columns: 2;
+  }
+  li,
+  .task {
+    break-inside: avoid;
+  }
+}

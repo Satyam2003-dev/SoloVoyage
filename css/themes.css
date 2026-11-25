@@ -1,0 +1,67 @@
+/* Colour roles. theme-init.js sets data-theme before first paint. */
+:root,
+[data-theme="light"] {
+  color-scheme: light;
+  --bg: #faf6ed;
+  --bg-2: #f1ebdd;
+  --surface: #fffdf8;
+  --elevated: #ffffff;
+  --text: #13212f;
+  --text-2: #465463;
+  --border: #ddd4c1;
+  --border-strong: #8d8370;
+  --accent: #b84e14;
+  --accent-strong: #973d0c;
+  --accent-text: #a1430e;
+  --accent-soft: #fbe6d5;
+  --on-accent: #ffffff;
+  --success: #2c6a4a;
+  --success-soft: #dfeee3;
+  --warning: #8a5a00;
+  --warning-soft: #fbeecb;
+  --error: #a82a22;
+  --error-soft: #fbe3df;
+  --info: #1f5a85;
+  --info-soft: #e0edf6;
+  --focus: #1c63a0;
+  --band: #0a1826;
+  --band-2: #12283c;
+  --on-band: #f8f3e8;
+  --on-band-2: #b9c6d2;
+  --shadow: 0 1px 2px rgb(19 33 47 / 6%), 0 8px 24px -12px rgb(19 33 47 / 18%);
+  --shadow-lg: 0 24px 60px -20px rgb(19 33 47 / 40%);
+  --contour: rgb(19 33 47 / 9%);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #08131f;
+  --bg-2: #0c1a29;
+  --surface: #0f2031;
+  --elevated: #15293d;
+  --text: #f4eee1;
+  --text-2: #aebccb;
+  --border: #22384d;
+  --border-strong: #6b8299;
+  --accent: #f2995a;
+  --accent-strong: #ffb27c;
+  --accent-text: #f6a76e;
+  --accent-soft: #37230f;
+  --on-accent: #1b0d02;
+  --success: #7fceA0;
+  --success-soft: #10301f;
+  --warning: #efc36a;
+  --warning-soft: #33270c;
+  --error: #ff9b90;
+  --error-soft: #3a1613;
+  --info: #8cc4ee;
+  --info-soft: #0f2c42;
+  --focus: #8cc4ee;
+  --band: #050d16;
+  --band-2: #0c1c2c;
+  --on-band: #f8f3e8;
+  --on-band-2: #aebccb;
+  --shadow: 0 1px 2px rgb(0 0 0 / 40%), 0 10px 30px -14px rgb(0 0 0 / 70%);
+  --shadow-lg: 0 24px 60px -20px rgb(0 0 0 / 80%);
+  --contour: rgb(244 238 225 / 7%);
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://satyam2003-dev.github.io/SoloVoyage/sitemap.xml

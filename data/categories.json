@@ -1,0 +1,104 @@
+{
+ "version": 1,
+ "categories": [
+  {
+   "id": "pre-trip-foundation",
+   "name": "Pre-Trip Foundation",
+   "icon": "compass",
+   "page": "pre-trip-foundation.html",
+   "description": "Research, insurance, documents and the plans to make before you pack.",
+   "intro": "A safe journey begins long before you pack your bags. These foundations are worth doing for every solo trip.",
+   "type": "guides"
+  },
+  {
+   "id": "packing-preparation",
+   "name": "Packing & Preparation",
+   "icon": "backpack",
+   "page": "packing-preparation.html",
+   "description": "What to bring, what to leave behind, and how to carry it.",
+   "intro": "What you pack, and how you pack it, has a real effect on your safety and convenience. Pack smart, not heavy.",
+   "type": "guides"
+  },
+  {
+   "id": "transportation-safety",
+   "name": "Transportation Safety",
+   "icon": "train-front",
+   "page": "transportation-safety.html",
+   "description": "Airports, taxis, layovers and long rides, handled with confidence.",
+   "intro": "How you get around is a large part of the journey. Move through planes, trains and taxis like someone who has done it before.",
+   "type": "guides"
+  },
+  {
+   "id": "accommodation-safety",
+   "name": "Accommodation Safety",
+   "icon": "bed-double",
+   "page": "accommodation-safety.html",
+   "description": "Choose a secure place to stay and make the room your own.",
+   "intro": "Where you sleep is your sanctuary. Follow these steps to keep your home base secure throughout the trip.",
+   "type": "guides"
+  },
+  {
+   "id": "daily-exploration",
+   "name": "Daily Exploration",
+   "icon": "map",
+   "page": "daily-exploration.html",
+   "description": "Street sense for new neighborhoods, crowds and transit.",
+   "intro": "This is where the adventure happens. Staying aware and making good choices on the street is the key to a great day.",
+   "type": "guides"
+  },
+  {
+   "id": "money-valuables",
+   "name": "Money & Valuables",
+   "icon": "wallet",
+   "page": "money-valuables.html",
+   "description": "Protect cash, cards and belongings with simple habits.",
+   "intro": "Good financial habits and a little caution keep your valuables safe, so you can focus on the fun.",
+   "type": "guides"
+  },
+  {
+   "id": "digital-safety",
+   "name": "Digital Safety",
+   "icon": "smartphone",
+   "page": "digital-safety.html",
+   "description": "Phones, Wi-Fi, social media and the trail you leave online.",
+   "intro": "Your digital footprint matters as much as your physical one. Protect your data and your presence online.",
+   "type": "guides"
+  },
+  {
+   "id": "food-drink-safety",
+   "name": "Food & Drink Safety",
+   "icon": "utensils",
+   "page": "food-drink-safety.html",
+   "description": "Enjoy local food and nights out with less risk.",
+   "intro": "Local food is a highlight of travel. These guidelines help make sure you remember it for the right reasons.",
+   "type": "guides"
+  },
+  {
+   "id": "social-safety",
+   "name": "Social Safety",
+   "icon": "users",
+   "page": "social-safety.html",
+   "description": "Meet people, make friends and date on your own terms.",
+   "intro": "Making friends is one of the best parts of solo travel. Build connections while keeping yourself safe.",
+   "type": "guides"
+  },
+  {
+   "id": "emergency-response",
+   "name": "Emergency Response",
+   "icon": "siren",
+   "page": "emergency-response.html",
+   "description": "What to do, in order, when something goes wrong.",
+   "intro": "Nobody plans for an emergency, but every smart traveler prepares for one. Knowing how to react makes it manageable.",
+   "type": "guides"
+  },
+  {
+   "id": "full-checklist",
+   "name": "The Full Checklist",
+   "icon": "list-checks",
+   "page": "checklist.html",
+   "description": "Forty-eight actions for before, during and just in case, with saved progress.",
+   "intro": "Every critical safety action in one place.",
+   "type": "checklist"
+  }
+ ]
+}

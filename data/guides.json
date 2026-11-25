@@ -1,0 +1,3547 @@
+{
+ "version": 1,
+ "updated": "2026-11-26",
+ "guides": [
+  {
+   "id": "research-your-destination",
+   "number": 1,
+   "title": "Research Your Destination Like a Detective",
+   "category": "pre-trip-foundation",
+   "featured": true,
+   "summary": "Look past the brochures and build an honest picture of the place before you book.",
+   "intro": "Brochures and tourist sites show a destination at its best. Real preparation comes from understanding what daily life, risk and rules look like on the ground.",
+   "actions": [
+    {
+     "title": "Government advisories",
+     "text": "Compare several official travel advisory sites, such as the US State Department and the UK Foreign Office, for current security alerts, health warnings and political developments."
+    },
+    {
+     "title": "Local sources",
+     "text": "Read local news sites, using a translation tool if needed, and search for recent crime reports covering the specific areas you plan to visit."
+    },
+    {
+     "title": "Real traveler experiences",
+     "text": "Join destination-specific Facebook groups and Reddit communities. Read the negative reviews on TripAdvisor too, because they show what actually goes wrong."
+    },
+    {
+     "title": "Customs and laws",
+     "text": "Check local rules on dress, photography and public behavior that could lead to serious trouble. Explore neighborhoods in advance with Google Street View."
+    }
+   ],
+   "tags": [
+    "research",
+    "advisories",
+    "laws",
+    "culture",
+    "planning"
+   ],
+   "related": [
+    "choose-safe-neighborhoods",
+    "register-with-embassy",
+    "check-weather-and-climate",
+    "read-solo-traveler-reviews"
+   ],
+   "resources": [
+    {
+     "label": "UK foreign travel advice",
+     "url": "https://www.gov.uk/foreign-travel-advice"
+    },
+    {
+     "label": "US State Department travel information",
+     "url": "https://travel.state.gov/"
+    },
+    {
+     "label": "WHO travel advice",
+     "url": "https://www.who.int/travel-advice"
+    }
+   ],
+   "note": "Advisories are written for that government's own citizens and differ between countries. Reading two or three gives a more balanced view than relying on one."
+  },
+  {
+   "id": "share-your-plans",
+   "number": 2,
+   "title": "Master the Art of Sharing Your Plans",
+   "category": "pre-trip-foundation",
+   "featured": true,
+   "summary": "Give at least two reliable people your itinerary and agree what happens if you go quiet.",
+   "intro": "Create one clear itinerary document and share it with at least two reliable people at home. If something goes wrong, it tells them where to start.",
+   "actions": [
+    {
+     "title": "Detailed itinerary",
+     "text": "Include flight numbers, accommodation names, addresses and phone numbers, planned activities and a copy of your passport photo page."
+    },
+    {
+     "title": "Regular check-ins",
+     "text": "Agree specific check-in times, at least once a day. A missed check-in is the signal for your contacts to act."
+    },
+    {
+     "title": "Code word system",
+     "text": "Choose simple code words, such as one that means \"I'm safe but can't talk freely\" and another that means \"I need help, call the embassy.\""
+    },
+    {
+     "title": "Location sharing",
+     "text": "Consider live location sharing through Find My or Google Maps with your most trusted contact."
+    }
+   ],
+   "tags": [
+    "itinerary",
+    "check-in",
+    "contacts",
+    "location sharing"
+   ],
+   "related": [
+    "call-someone-you-trust",
+    "tell-someone-when-meeting",
+    "register-with-embassy",
+    "stay-alert-during-layovers"
+   ],
+   "note": "Agree in advance how long your contact should wait and who they should call first. A plan that is written down avoids both panic and delay."
+  },
+  {
+   "id": "get-the-right-travel-insurance",
+   "number": 3,
+   "title": "Get the Right Travel Insurance",
+   "category": "pre-trip-foundation",
+   "summary": "Choose cover with high medical limits and evacuation, and read the exclusions before you buy.",
+   "intro": "Basic travel insurance often has low limits. Look for a policy that suits a person traveling alone and offers high coverage.",
+   "actions": [
+    {
+     "title": "Medical evacuation",
+     "text": "This is the most critical part. Medical flights can be extremely expensive, so aim for a high limit. US$1 million or more is a sensible target."
+    },
+    {
+     "title": "Comprehensive medical",
+     "text": "Look for emergency dental care, mental health services and 24/7 multilingual assistance."
+    },
+    {
+     "title": "Trip protection",
+     "text": "Consider cancellation, interruption and \"cancel for any reason\" options, along with cover for lost or delayed baggage."
+    },
+    {
+     "title": "Read the fine print",
+     "text": "Check exclusions carefully. Many policies exclude injuries involving alcohol, extreme sports, or pre-existing conditions unless you have a waiver."
+    }
+   ],
+   "tags": [
+    "insurance",
+    "medical",
+    "evacuation",
+    "documents"
+   ],
+   "related": [
+    "pack-first-aid-kit",
+    "photograph-your-belongings",
+    "find-your-embassy",
+    "document-everything"
+   ],
+   "resources": [
+    {
+     "label": "CDC: travel insurance",
+     "url": "https://wwwnc.cdc.gov/travel/page/insurance"
+    }
+   ],
+   "note": "Travel insurance, travel health insurance and medical evacuation cover can be three separate products. Confirm which of them you are buying. The right limit depends on your destination and health, so ask the insurer."
+  },
+  {
+   "id": "document-everything",
+   "number": 4,
+   "title": "Document Everything the Smart Way",
+   "category": "pre-trip-foundation",
+   "summary": "Photograph every important document and keep copies in several secure places.",
+   "intro": "Take high-quality photos of all important documents and store them in more than one secure location, so that a lost bag never means a lost identity.",
+   "actions": [
+    {
+     "title": "What to photograph",
+     "text": "Passport photo and visa pages, driver's license, credit cards (front only), insurance policy, flight tickets and vaccination records."
+    },
+    {
+     "title": "Digital redundancy",
+     "text": "Upload the photos to a secure cloud folder such as Google Drive, iCloud or Dropbox, and share access with yourself and one trusted contact."
+    },
+    {
+     "title": "Physical redundancy",
+     "text": "Make two sets of paper copies. Keep one in your carry-on and one in your checked luggage, both apart from the originals. Laminate them for durability."
+    }
+   ],
+   "tags": [
+    "documents",
+    "passport",
+    "cloud",
+    "backup",
+    "copies"
+   ],
+   "related": [
+    "copy-important-documents",
+    "photograph-your-belongings",
+    "check-passport-expiry",
+    "dont-share-travel-plans-online"
+   ],
+   "warning": "These images are sensitive. Protect the cloud account with a strong, unique password and two-step sign-in, and share the folder only with named people, never through a public link."
+  },
+  {
+   "id": "learn-key-local-phrases",
+   "number": 5,
+   "title": "Learn Key Local Phrases That Could Save Your Life",
+   "category": "pre-trip-foundation",
+   "summary": "Practice a handful of emergency and direction phrases out loud before you land.",
+   "intro": "Go beyond polite greetings. The phrases that matter most in a crisis are the short ones that get you help and directions.",
+   "actions": [
+    {
+     "title": "Critical phrases",
+     "text": "Practice saying, and shouting, \"I need help,\" \"Call the police,\" \"Call an ambulance,\" \"Fire!\" and \"Leave me alone.\""
+    },
+    {
+     "title": "Navigational phrases",
+     "text": "Learn to ask \"Where is the hospital?\", \"Where is the police station?\" and \"Where is the embassy?\", and to understand basic directions in reply."
+    },
+    {
+     "title": "Offline access",
+     "text": "Download an offline language pack in a translation app, and write key phrases phonetically in a small notebook as a backup that needs no battery."
+    }
+   ],
+   "tags": [
+    "language",
+    "communication",
+    "offline",
+    "emergency phrases"
+   ],
+   "related": [
+    "download-offline-maps",
+    "ask-authorities-for-help",
+    "download-safety-apps",
+    "know-local-emergency-numbers"
+   ]
+  },
+  {
+   "id": "choose-safe-neighborhoods",
+   "number": 6,
+   "title": "Choose Safe Neighborhoods to Stay In",
+   "category": "pre-trip-foundation",
+   "summary": "Where you stay shapes every walk home, so choose the area before you choose the room.",
+   "intro": "The neighborhood you pick is one of the most important safety decisions of the trip. It affects every arrival, departure and walk home.",
+   "actions": [
+    {
+     "title": "Cross-reference sources",
+     "text": "Combine government advisories, local police crime maps where available, and recent solo traveler reviews to identify well-regarded areas."
+    },
+    {
+     "title": "Look for amenities",
+     "text": "Prefer neighborhoods with good public transport, well-lit streets and a mix of restaurants and shops that stay open later."
+    },
+    {
+     "title": "Prioritize safety over price",
+     "text": "On a first visit, it is often worth paying a little more for a well-regarded central or business district."
+    }
+   ],
+   "tags": [
+    "neighborhood",
+    "accommodation",
+    "research",
+    "location"
+   ],
+   "related": [
+    "read-solo-traveler-reviews",
+    "research-your-destination",
+    "stay-in-busy-areas",
+    "book-first-night"
+   ]
+  },
+  {
+   "id": "book-first-night",
+   "number": 7,
+   "title": "Book Your First Night's Accommodation in Advance",
+   "category": "pre-trip-foundation",
+   "summary": "Arrive with a confirmed place to sleep, saved offline and on paper.",
+   "intro": "Avoid arriving in a new destination without a confirmed place to stay, especially after a long flight.",
+   "actions": [
+    {
+     "title": "Reduce vulnerability",
+     "text": "Arriving tired, disoriented and carrying everything you own makes you an easier target for scams and theft."
+    },
+    {
+     "title": "Confirm all details",
+     "text": "Book a reputable hotel or hostel with a 24-hour front desk. Save the confirmation number, address and phone number offline and on paper."
+    },
+    {
+     "title": "Book for two or three nights",
+     "text": "A secure base lets you recover from jet lag and explore other options in person if you want to move."
+    }
+   ],
+   "tags": [
+    "accommodation",
+    "booking",
+    "arrival",
+    "planning"
+   ],
+   "related": [
+    "plan-airport-to-hotel",
+    "choose-24-hour-front-desk",
+    "book-airport-transfers",
+    "choose-safe-neighborhoods"
+   ]
+  },
+  {
+   "id": "plan-airport-to-hotel",
+   "number": 8,
+   "title": "Plan Your Route from Airport to Hotel",
+   "category": "pre-trip-foundation",
+   "summary": "Decide exactly how you will get from arrivals to your bed before you land.",
+   "intro": "The trip from the airport to your accommodation is a vulnerable moment. Have a transport plan in place before you land.",
+   "actions": [
+    {
+     "title": "Research all options",
+     "text": "Know the typical fare for an official airport taxi, the public transport route and schedule, and the names of reputable pre-booked shuttles."
+    },
+    {
+     "title": "Avoid unofficial taxis",
+     "text": "Do not accept a ride from anyone who approaches you inside the terminal. Use marked taxis from the official stand."
+    },
+    {
+     "title": "Have the address ready",
+     "text": "Keep the hotel address written in the local language, plus a screenshot on your phone, to show the driver."
+    }
+   ],
+   "tags": [
+    "airport",
+    "taxi",
+    "arrival",
+    "transport"
+   ],
+   "related": [
+    "use-official-taxis",
+    "book-airport-transfers",
+    "book-first-night",
+    "download-offline-maps"
+   ]
+  },
+  {
+   "id": "check-passport-expiry",
+   "number": 9,
+   "title": "Check Your Passport Expiration Date",
+   "category": "pre-trip-foundation",
+   "featured": true,
+   "summary": "Many countries want six months' validity beyond your stay, so check early and renew early.",
+   "intro": "Many countries require your passport to be valid for at least six months beyond your planned departure date.",
+   "actions": [
+    {
+     "title": "The six-month rule",
+     "text": "Check the entry requirements for every country on your itinerary, including transit stops. Airlines can refuse boarding if your passport does not meet them."
+    },
+    {
+     "title": "Check blank pages",
+     "text": "Make sure there is enough space for entry and exit stamps. Some countries require a full blank page for a visa."
+    },
+    {
+     "title": "Renew early",
+     "text": "Renewals can take several months. If your passport is approaching the six-month window, start now."
+    }
+   ],
+   "tags": [
+    "passport",
+    "documents",
+    "visa",
+    "entry requirements"
+   ],
+   "related": [
+    "document-everything",
+    "copy-important-documents",
+    "register-with-embassy",
+    "find-your-embassy"
+   ],
+   "resources": [
+    {
+     "label": "UK guide to entry requirements by country",
+     "url": "https://www.gov.uk/foreign-travel-advice"
+    }
+   ],
+   "note": "Validity rules vary. Some destinations ask for three months, some for six and some only for the length of your stay. The destination's embassy or official entry page is the final word."
+  },
+  {
+   "id": "register-with-embassy",
+   "number": 10,
+   "title": "Register with Your Embassy or Consulate",
+   "category": "pre-trip-foundation",
+   "summary": "A free registration lets your government reach you if something serious happens.",
+   "intro": "Many countries offer a free registration service for citizens traveling abroad. It takes minutes and can matter a great deal.",
+   "actions": [
+    {
+     "title": "How to register",
+     "text": "US citizens can use STEP (the Smart Traveler Enrollment Program). For other nationalities, look for an equivalent service on your foreign ministry's website."
+    },
+    {
+     "title": "Emergency assistance",
+     "text": "Registration helps your embassy contact you during a natural disaster, political unrest or a family emergency, and can make it easier to get help if you lose your passport."
+    },
+    {
+     "title": "Know their location",
+     "text": "Save the address and 24/7 emergency number of the nearest embassy or consulate in your phone and on paper."
+    }
+   ],
+   "tags": [
+    "embassy",
+    "registration",
+    "emergency",
+    "government"
+   ],
+   "related": [
+    "find-your-embassy",
+    "know-local-emergency-numbers",
+    "share-your-plans",
+    "research-your-destination"
+   ],
+   "resources": [
+    {
+     "label": "US Smart Traveler Enrollment Program (STEP)",
+     "url": "https://mytravel.state.gov/s/step"
+    },
+    {
+     "label": "Canada: Registration and travel advisories",
+     "url": "https://travel.gc.ca/traveling/advisories"
+    },
+    {
+     "label": "India: missions and posts abroad",
+     "url": "https://www.mea.gov.in/indian-mission-abroad"
+    }
+   ],
+   "note": "Not every country runs a registration service. If yours does not, saving the embassy's contact details and subscribing to its travel advice updates is a good substitute."
+  },
+  {
+   "id": "money-belt-or-hidden-pouch",
+   "number": 11,
+   "title": "Use a Money Belt or Hidden Pouch",
+   "category": "packing-preparation",
+   "summary": "Keep your most critical items under your clothes and your day money somewhere else.",
+   "intro": "Choose a comfortable, well-made money belt or hidden pouch that you can wear under your clothing all day. This is where your most critical items live.",
+   "actions": [
+    {
+     "title": "What to store",
+     "text": "Your passport, a backup card, emergency cash in a mix of local currency and US dollars, and a paper with emergency numbers."
+    },
+    {
+     "title": "Key features",
+     "text": "Look for moisture-wicking fabric and durable zippers. RFID-blocking material is a popular extra that protects against electronic skimming."
+    },
+    {
+     "title": "Access in private",
+     "text": "Open it only in a private place such as a bathroom stall. Your everyday wallet should hold just what you need for the day."
+    }
+   ],
+   "tags": [
+    "money",
+    "theft",
+    "passport",
+    "packing"
+   ],
+   "related": [
+    "divide-your-money",
+    "hide-a-backup-card",
+    "download-safety-apps",
+    "no-valuables-in-back-pockets"
+   ],
+   "note": "Treat RFID blocking as a bonus rather than a priority. Physical theft is the more common problem, so comfort and secure zippers matter more."
+  },
+  {
+   "id": "pack-first-aid-kit",
+   "number": 12,
+   "title": "Pack a Comprehensive First Aid Kit",
+   "category": "packing-preparation",
+   "featured": true,
+   "summary": "Build a kit around your destination, your activities and your own medical needs.",
+   "intro": "Put together a personal first aid kit based on where you are going, what you plan to do and your medical needs. Do not assume you can find everything abroad.",
+   "actions": [
+    {
+     "title": "Medications",
+     "text": "Bring personal prescriptions in their original containers with a doctor's note, plus pain relief, anti-diarrheal medicine, antihistamines and motion sickness tablets."
+    },
+    {
+     "title": "Wound care",
+     "text": "Pack bandages in several sizes, sterile gauze, medical tape, antiseptic wipes and antibiotic ointment. Tweezers and small scissors are useful too."
+    },
+    {
+     "title": "Destination specifics",
+     "text": "Ask whether you need malaria prevention, altitude medication or water purification tablets."
+    }
+   ],
+   "tags": [
+    "health",
+    "first aid",
+    "medicine",
+    "packing"
+   ],
+   "related": [
+    "get-the-right-travel-insurance",
+    "valuables-in-carry-on",
+    "stay-hydrated",
+    "set-up-ice-contacts"
+   ],
+   "resources": [
+    {
+     "label": "CDC: traveling abroad with medicine",
+     "url": "https://wwwnc.cdc.gov/travel/page/travel-abroad-with-medicine"
+    },
+    {
+     "label": "INCB: country rules on controlled medicines",
+     "url": "https://www.incb.org/incb/en/travellers/index.html"
+    }
+   ],
+   "warning": "Some common medicines are restricted or illegal in certain countries. Check the rules for every country you will enter, including transit stops. Scissors and tweezers may have to go in checked luggage.",
+   "note": "Talk to a doctor or travel clinic, ideally four to six weeks before departure, about medicines and vaccines that suit you."
+  },
+  {
+   "id": "download-offline-maps",
+   "number": 13,
+   "title": "Download Offline Maps to Your Phone",
+   "category": "packing-preparation",
+   "summary": "Save the whole area at home on Wi-Fi, then test it in airplane mode.",
+   "intro": "Do not rely on a connection to navigate. A dead zone or missing Wi-Fi can leave you stranded.",
+   "actions": [
+    {
+     "title": "How to download",
+     "text": "Use an app such as Google Maps or Maps.me to download the whole city or region while you are on reliable Wi-Fi at home."
+    },
+    {
+     "title": "What to download",
+     "text": "Save your destination city, the area around your accommodation and any remote places you plan to visit."
+    },
+    {
+     "title": "Test it",
+     "text": "Before you leave, switch to airplane mode and confirm you can search for places and get directions."
+    }
+   ],
+   "tags": [
+    "maps",
+    "offline",
+    "navigation",
+    "phone"
+   ],
+   "related": [
+    "phone-charging-options",
+    "download-safety-apps",
+    "research-public-transport",
+    "pay-attention-to-your-stop"
+   ]
+  },
+  {
+   "id": "phone-charging-options",
+   "number": 14,
+   "title": "Bring Multiple Phone Charging Options",
+   "category": "packing-preparation",
+   "summary": "Your phone is map, messenger and lifeline, so carry more than one way to charge it.",
+   "intro": "A dead phone removes your map, your messages and your fastest way to call for help. Make sure you can always charge it.",
+   "actions": [
+    {
+     "title": "Portable power bank",
+     "text": "Carry a fully charged power bank of at least 10,000 mAh, enough for roughly two charges of most phones."
+    },
+    {
+     "title": "Universal adapter",
+     "text": "Check the plug type at your destination and bring a good-quality travel adapter."
+    },
+    {
+     "title": "Extra cables",
+     "text": "Cables get lost and break. Pack at least one spare."
+    }
+   ],
+   "tags": [
+    "phone",
+    "power bank",
+    "packing",
+    "electronics"
+   ],
+   "related": [
+    "keep-phone-charged-in-transit",
+    "keep-your-phone-charged",
+    "download-offline-maps",
+    "save-important-numbers"
+   ],
+   "resources": [
+    {
+     "label": "FAA: lithium batteries and power banks",
+     "url": "https://www.faa.gov/hazmat/packsafe/lithium-batteries"
+    }
+   ],
+   "warning": "Power banks must travel in carry-on baggage, not checked luggage. Airlines set their own limits on size and on use during the flight, so check before you fly."
+  },
+  {
+   "id": "whistle-or-personal-alarm",
+   "number": 15,
+   "title": "Pack a Whistle or Personal Alarm",
+   "category": "packing-preparation",
+   "summary": "A small, loud device can startle an attacker and bring attention fast.",
+   "intro": "These simple, lightweight devices can deter an attacker and attract help when you need it most.",
+   "actions": [
+    {
+     "title": "Loudness is key",
+     "text": "A loud whistle, or an alarm rated at 120 decibels or more, can startle someone and draw immediate attention."
+    },
+    {
+     "title": "Keep it accessible",
+     "text": "Attach it to your keys or keep it in a pocket you can reach instantly, not at the bottom of your bag."
+    },
+    {
+     "title": "Practice using it",
+     "text": "Learn to trigger it quickly so you do not fumble under stress. Set up your phone's built-in emergency SOS feature as well."
+    }
+   ],
+   "tags": [
+    "personal safety",
+    "alarm",
+    "packing",
+    "sos"
+   ],
+   "related": [
+    "make-noise",
+    "download-safety-apps",
+    "set-up-ice-contacts",
+    "go-to-busy-places"
+   ],
+   "note": "Alarms and whistles are widely accepted, but pepper spray and similar items are illegal in many countries. Check local law before packing anything else for self-defense."
+  },
+  {
+   "id": "leave-jewelry-at-home",
+   "number": 16,
+   "title": "Don't Pack Expensive Jewelry",
+   "category": "packing-preparation",
+   "summary": "If losing it would hurt, leave it at home.",
+   "intro": "Valuable jewelry, including expensive watches and engagement rings, can make you an obvious target for theft.",
+   "actions": [
+    {
+     "title": "Leave it at home",
+     "text": "The safest place for anything with high monetary or sentimental value is securely at home."
+    },
+    {
+     "title": "Choose a stand-in",
+     "text": "If you would feel odd without a ring, wear a simple, inexpensive band or good costume jewelry instead."
+    },
+    {
+     "title": "Avoid unwanted attention",
+     "text": "Showing expensive items attracts thieves and can lead to being overcharged by dishonest vendors."
+    }
+   ],
+   "tags": [
+    "valuables",
+    "theft",
+    "packing"
+   ],
+   "related": [
+    "walk-with-confidence",
+    "use-hotel-safes",
+    "photograph-your-belongings",
+    "money-belt-or-hidden-pouch"
+   ]
+  },
+  {
+   "id": "copy-important-documents",
+   "number": 17,
+   "title": "Make Multiple Copies of Important Documents",
+   "category": "packing-preparation",
+   "summary": "Build a backup system with both digital and paper copies, stored apart.",
+   "intro": "Create a document backup system with physical and digital copies. Having more than one route back to your papers is the whole point.",
+   "actions": [
+    {
+     "title": "Digital copies",
+     "text": "Scan or photograph your passport, visas, driver's license and cards. Store them in more than one secure cloud service, and send a copy to yourself and a trusted contact."
+    },
+    {
+     "title": "Physical copies",
+     "text": "Make at least two sets of photocopies. Keep one in your carry-on and one in checked luggage, both apart from the originals."
+    },
+    {
+     "title": "Laminate for durability",
+     "text": "Consider laminating one set to protect it from moisture and wear."
+    }
+   ],
+   "tags": [
+    "documents",
+    "copies",
+    "backup",
+    "passport"
+   ],
+   "related": [
+    "document-everything",
+    "check-passport-expiry",
+    "photograph-your-belongings",
+    "use-hotel-safes"
+   ],
+   "note": "This pairs with the guide on documenting everything: that one covers what to capture, this one covers how to keep the copies. Never photograph the security code on a card."
+  },
+  {
+   "id": "tell-your-bank",
+   "number": 18,
+   "title": "Tell Your Bank You're Traveling",
+   "category": "packing-preparation",
+   "summary": "A quick notice before you leave helps prevent frozen cards.",
+   "intro": "Contact your financial institutions before you leave so that a legitimate purchase abroad is not blocked as suspicious.",
+   "actions": [
+    {
+     "title": "Provide travel details",
+     "text": "Give your bank and card companies your travel dates and the countries you will visit."
+    },
+    {
+     "title": "Ask about fees",
+     "text": "Find out about foreign transaction charges and international ATM fees so they do not surprise you."
+    },
+    {
+     "title": "Get emergency numbers",
+     "text": "Save the international 24/7 numbers for lost or stolen cards. They are often different from the domestic number on the back of the card."
+    }
+   ],
+   "tags": [
+    "bank",
+    "cards",
+    "money",
+    "planning"
+   ],
+   "related": [
+    "hide-a-backup-card",
+    "use-indoor-atms",
+    "divide-your-money",
+    "save-important-numbers"
+   ],
+   "note": "Some banks no longer need a travel notice and rely on their app instead. Check what yours does, and make sure you can approve transactions without your home SIM."
+  },
+  {
+   "id": "check-weather-and-climate",
+   "number": 19,
+   "title": "Check the Weather Forecast and Research Local Climate",
+   "category": "packing-preparation",
+   "summary": "Pack for the season you will actually meet, and you will also blend in better.",
+   "intro": "Understanding the weather helps you pack well, stay comfortable and look less out of place.",
+   "actions": [
+    {
+     "title": "Pack for the climate",
+     "text": "Research average temperatures, rainfall and humidity for the season you are visiting."
+    },
+    {
+     "title": "Blend in",
+     "text": "Clothes that suit the local climate help you look less like a tourist. If locals are wearing jackets, wear one too, even if you feel warm."
+    },
+    {
+     "title": "Layering is key",
+     "text": "Pack versatile pieces that layer, so you can adapt through the day without a huge wardrobe."
+    }
+   ],
+   "tags": [
+    "weather",
+    "climate",
+    "clothing",
+    "packing"
+   ],
+   "related": [
+    "pack-light-and-smart",
+    "walk-with-confidence",
+    "research-your-destination",
+    "stay-hydrated"
+   ]
+  },
+  {
+   "id": "pack-light-and-smart",
+   "number": 20,
+   "title": "Pack Light and Smart",
+   "category": "packing-preparation",
+   "summary": "A bag you can carry easily is a bag you can move with, quickly.",
+   "intro": "Heavy luggage marks you as a tourist, is harder to look after and slows you down when you need to move.",
+   "actions": [
+    {
+     "title": "The carry-on challenge",
+     "text": "Try to fit everything into one carry-on. It forces you to bring only what matters and keeps your luggage with you."
+    },
+    {
+     "title": "Versatile wardrobe",
+     "text": "Choose clothes in similar colors that mix and match. Quick-drying fabrics can be washed in a sink and dried overnight."
+    },
+    {
+     "title": "Maintain agility",
+     "text": "Moving easily through a crowded station or up stairs without struggling is a real safety advantage."
+    }
+   ],
+   "tags": [
+    "packing",
+    "luggage",
+    "clothing"
+   ],
+   "related": [
+    "valuables-in-carry-on",
+    "keep-belongings-with-you",
+    "check-weather-and-climate",
+    "use-travel-locks"
+   ]
+  },
+  {
+   "id": "arrive-at-airport-early",
+   "number": 21,
+   "title": "Arrive at the Airport Early",
+   "category": "transportation-safety",
+   "summary": "Extra time removes the rush that causes mistakes.",
+   "intro": "Rushing through an airport increases stress and makes it more likely you will forget something or make a poor decision.",
+   "actions": [
+    {
+     "title": "Plan for delays",
+     "text": "Allow about three hours for international flights and two for domestic, unless your airline advises otherwise."
+    },
+    {
+     "title": "Reduce stress",
+     "text": "Use the extra time to eat, charge your devices and recheck your documents. A calm traveler is an aware traveler."
+    },
+    {
+     "title": "Avoid vulnerability",
+     "text": "Scammers and thieves often look for people who seem stressed, rushed and distracted."
+    }
+   ],
+   "tags": [
+    "airport",
+    "flights",
+    "planning"
+   ],
+   "related": [
+    "valuables-in-carry-on",
+    "keep-phone-charged-in-transit",
+    "stay-alert-during-layovers",
+    "keep-belongings-with-you"
+   ]
+  },
+  {
+   "id": "valuables-in-carry-on",
+   "number": 22,
+   "title": "Keep Valuables in Carry-On Luggage",
+   "category": "transportation-safety",
+   "summary": "Anything you cannot lose should never leave your side.",
+   "intro": "Do not put important or valuable items in checked baggage, where they can be lost, stolen or damaged.",
+   "actions": [
+    {
+     "title": "Essential carry-on items",
+     "text": "Passport, money and cards, prescription medicines, phone, laptop, camera and copies of your documents."
+    },
+    {
+     "title": "Assume the worst",
+     "text": "Pack as if your checked bag will not arrive. Include a change of clothes and basic toiletries."
+    },
+    {
+     "title": "Secure your carry-on",
+     "text": "Keep it with you at all times in the airport and on the plane. Never leave it unattended."
+    }
+   ],
+   "tags": [
+    "luggage",
+    "airport",
+    "valuables"
+   ],
+   "related": [
+    "keep-belongings-with-you",
+    "pack-light-and-smart",
+    "pack-first-aid-kit",
+    "sleep-carefully-in-transit"
+   ]
+  },
+  {
+   "id": "use-official-taxis",
+   "number": 23,
+   "title": "Use Official Taxi Services Only",
+   "category": "transportation-safety",
+   "featured": true,
+   "summary": "Find the official stand, check the car, and share the plate before you get in.",
+   "intro": "Avoid unmarked taxis, people who approach you offering rides and vehicles that do not look like legitimate taxis.",
+   "actions": [
+    {
+     "title": "Find the official stand",
+     "text": "At airports and stations, look for the marked taxi stand and ignore anyone who approaches you directly."
+    },
+    {
+     "title": "Identify a real taxi",
+     "text": "Look for proper licensing, a working meter, and a company name and number on the vehicle."
+    },
+    {
+     "title": "Share your ride details",
+     "text": "Before getting in, photograph the license plate and driver ID and send them to a trusted contact."
+    }
+   ],
+   "tags": [
+    "taxi",
+    "transport",
+    "scams"
+   ],
+   "related": [
+    "plan-airport-to-hotel",
+    "book-airport-transfers",
+    "have-your-own-transportation",
+    "share-your-plans"
+   ],
+   "note": "With a ride-hailing app, match the plate, car and driver to the app before you get in, and ask the driver to say your name rather than offering it."
+  },
+  {
+   "id": "book-airport-transfers",
+   "number": 24,
+   "title": "Book Airport Transfers in Advance",
+   "category": "transportation-safety",
+   "summary": "A pre-arranged ride means one less decision when you are tired.",
+   "intro": "Pre-arranged transport is usually safer than working out options when you arrive tired and disoriented.",
+   "actions": [
+    {
+     "title": "Reputable companies",
+     "text": "Book through your hotel or a well-reviewed official shuttle or car service before your trip."
+    },
+    {
+     "title": "Confirm details",
+     "text": "Get a confirmation number, the driver's contact and the exact pickup point. Legitimate services often ask for your flight number so they can track delays."
+    },
+    {
+     "title": "Avoid scams",
+     "text": "A booked ride lets you walk confidently past the crowd of offers in the arrivals hall."
+    }
+   ],
+   "tags": [
+    "airport",
+    "transport",
+    "booking",
+    "arrival"
+   ],
+   "related": [
+    "plan-airport-to-hotel",
+    "use-official-taxis",
+    "book-first-night",
+    "arrive-at-airport-early"
+   ]
+  },
+  {
+   "id": "keep-phone-charged-in-transit",
+   "number": 25,
+   "title": "Keep Your Phone Charged During Travel",
+   "category": "transportation-safety",
+   "summary": "Treat every stop as a chance to top up.",
+   "intro": "On travel days a charged phone handles navigation, tickets, communication and emergencies.",
+   "actions": [
+    {
+     "title": "Charge at every opportunity",
+     "text": "Leave home fully charged, use charging points during layovers and keep your power bank topped up."
+    },
+    {
+     "title": "Manage battery life",
+     "text": "Use power-saving mode, dim the screen and close apps you do not need."
+    },
+    {
+     "title": "Have non-tech backups",
+     "text": "Phones can still fail. Keep your hotel address and key numbers on paper."
+    }
+   ],
+   "tags": [
+    "phone",
+    "battery",
+    "transit"
+   ],
+   "related": [
+    "phone-charging-options",
+    "keep-your-phone-charged",
+    "save-important-numbers",
+    "download-offline-maps"
+   ],
+   "note": "Prefer your own plug and cable over unknown USB ports. If you must use a public port, choose \"charge only\" when your phone asks."
+  },
+  {
+   "id": "dont-tell-strangers-youre-alone",
+   "number": 26,
+   "title": "Don't Tell Strangers You're Traveling Alone",
+   "category": "transportation-safety",
+   "summary": "Keep your solo status private with a simple, believable answer.",
+   "intro": "Keeping your solo status private lowers your exposure to scams, theft and unwanted attention.",
+   "actions": [
+    {
+     "title": "Prepare a vague story",
+     "text": "Have a short answer ready, such as \"I'm meeting friends,\" \"I'm visiting family\" or \"my partner arrives tomorrow.\""
+    },
+    {
+     "title": "Deflect personal questions",
+     "text": "Be wary of anyone, including a very friendly driver, who asks a lot about your plans, where you are staying or for how long."
+    },
+    {
+     "title": "Project confidence",
+     "text": "It is a small white lie for your safety. Say it calmly and change the subject."
+    }
+   ],
+   "tags": [
+    "privacy",
+    "personal safety",
+    "strangers"
+   ],
+   "related": [
+    "dont-post-youre-alone",
+    "protect-personal-information",
+    "keep-room-number-private",
+    "walk-with-confidence"
+   ]
+  },
+  {
+   "id": "keep-belongings-with-you",
+   "number": 27,
+   "title": "Keep Belongings With You at All Times",
+   "category": "transportation-safety",
+   "summary": "Unattended for a moment is long enough.",
+   "intro": "Never leave bags, electronics or valuables unattended, even briefly.",
+   "actions": [
+    {
+     "title": "The restroom rule",
+     "text": "Take everything into the stall with you. Do not ask a stranger to watch your things."
+    },
+    {
+     "title": "Physical contact",
+     "text": "In cafes and waiting areas, keep your bag on your lap or loop a strap around your leg rather than leaving it on the floor or a chair."
+    },
+    {
+     "title": "Distraction theft",
+     "text": "Be extra alert if someone causes a commotion or spills something on you. It is a common way to separate you from your bag."
+    }
+   ],
+   "tags": [
+    "theft",
+    "luggage",
+    "airport"
+   ],
+   "related": [
+    "bags-closed-in-crowds",
+    "valuables-in-carry-on",
+    "sleep-carefully-in-transit",
+    "bag-in-front-on-transport"
+   ]
+  },
+  {
+   "id": "stay-alert-during-layovers",
+   "number": 28,
+   "title": "Stay Alert During Layovers",
+   "category": "transportation-safety",
+   "summary": "Confirm your gate, set alarms and rest on the secure side.",
+   "intro": "Airports can be confusing, and tiredness during a long layover can leave you vulnerable.",
+   "actions": [
+    {
+     "title": "Confirm your next gate",
+     "text": "As soon as you land, find a departure board and check the gate and time. Gates change."
+    },
+    {
+     "title": "Set multiple alarms",
+     "text": "If you plan to rest, set several alarms so you do not miss the flight."
+    },
+    {
+     "title": "Stay in secure areas",
+     "text": "Remain past security where you can. The airside area is generally more controlled than the public landside area."
+    }
+   ],
+   "tags": [
+    "airport",
+    "layover",
+    "flights"
+   ],
+   "related": [
+    "arrive-at-airport-early",
+    "sleep-carefully-in-transit",
+    "keep-phone-charged-in-transit",
+    "keep-belongings-with-you"
+   ]
+  },
+  {
+   "id": "eat-and-drink-well-in-transit",
+   "number": 29,
+   "title": "Drink Water and Eat Healthy During Travel",
+   "category": "transportation-safety",
+   "summary": "Tired, thirsty and hungry is a bad state for making decisions.",
+   "intro": "Dehydration and poor food can affect your judgment, your energy and how well you handle stress.",
+   "actions": [
+    {
+     "title": "Hydration is key",
+     "text": "Cabin air is very dry. Drink water before, during and after a flight, and go easy on caffeine and alcohol."
+    },
+    {
+     "title": "Maintain energy levels",
+     "text": "Eat proper meals and pack snacks such as nuts or protein bars for long days."
+    },
+    {
+     "title": "Look after your health",
+     "text": "Being run-down makes it easier to get sick. Good hydration, food and rest help you cope."
+    }
+   ],
+   "tags": [
+    "health",
+    "hydration",
+    "flights"
+   ],
+   "related": [
+    "stay-hydrated",
+    "limit-alcohol",
+    "sleep-carefully-in-transit",
+    "pack-first-aid-kit"
+   ]
+  },
+  {
+   "id": "sleep-carefully-in-transit",
+   "number": 30,
+   "title": "Sleep Carefully on Long Flights and Trains",
+   "category": "transportation-safety",
+   "summary": "Rest, but secure the essentials before you close your eyes.",
+   "intro": "You need rest, but balance it with security when you are surrounded by strangers.",
+   "actions": [
+    {
+     "title": "Secure your valuables",
+     "text": "Put your passport, wallet and phone in a money belt or zipped inside pocket, never in the seat-back pocket."
+    },
+    {
+     "title": "Use your bag as a pillow",
+     "text": "Use your carry-on as a pillow or footrest. Contact makes it more likely you will wake if someone moves it."
+    },
+    {
+     "title": "Choose your seat wisely",
+     "text": "A window seat lets you lean against the wall and keeps you away from aisle traffic."
+    }
+   ],
+   "tags": [
+    "flights",
+    "trains",
+    "sleep",
+    "theft"
+   ],
+   "related": [
+    "valuables-in-carry-on",
+    "keep-belongings-with-you",
+    "stay-alert-during-layovers",
+    "money-belt-or-hidden-pouch"
+   ]
+  },
+  {
+   "id": "read-solo-traveler-reviews",
+   "number": 31,
+   "title": "Read Reviews from Other Solo Travelers",
+   "category": "accommodation-safety",
+   "summary": "Filter for people traveling the way you do, and look for patterns.",
+   "intro": "Solo travelers face different concerns from couples or groups, so look for reviews from people in a similar position.",
+   "actions": [
+    {
+     "title": "Filter for solo travelers",
+     "text": "Use review filters to find comments from solo travelers, and from solo female travelers if that is relevant to you."
+    },
+    {
+     "title": "Look for safety keywords",
+     "text": "Search for \"safe neighborhood,\" \"security,\" \"locks,\" \"staff\" and \"front desk.\""
+    },
+    {
+     "title": "Heed the warnings",
+     "text": "One bad review may be an anomaly. Several people reporting the same problem is a red flag."
+    }
+   ],
+   "tags": [
+    "reviews",
+    "accommodation",
+    "research"
+   ],
+   "related": [
+    "choose-safe-neighborhoods",
+    "choose-24-hour-front-desk",
+    "look-for-security-features",
+    "research-your-destination"
+   ]
+  },
+  {
+   "id": "choose-24-hour-front-desk",
+   "number": 32,
+   "title": "Choose Places with 24-Hour Front Desk Service",
+   "category": "accommodation-safety",
+   "summary": "A person at the desk at 3 a.m. is worth paying for.",
+   "intro": "Staff who are available at all hours provide security and help when you need it.",
+   "actions": [
+    {
+     "title": "A human deterrent",
+     "text": "Staff at the entrance discourage people who are not guests."
+    },
+    {
+     "title": "Emergency resource",
+     "text": "From a medical problem to feeling unsafe, immediate access to a staff member matters."
+    },
+    {
+     "title": "Verify the service",
+     "text": "Before booking, confirm that \"24-hour service\" means someone is physically at the desk, not only reachable by phone."
+    }
+   ],
+   "tags": [
+    "accommodation",
+    "security",
+    "staff"
+   ],
+   "related": [
+    "look-for-security-features",
+    "book-first-night",
+    "dont-open-door-to-strangers",
+    "read-solo-traveler-reviews"
+   ]
+  },
+  {
+   "id": "look-for-security-features",
+   "number": 33,
+   "title": "Look for Good Security Features",
+   "category": "accommodation-safety",
+   "summary": "Assess a property before you book, then verify it when you arrive.",
+   "intro": "Check a property's security measures before you book and confirm them in person.",
+   "actions": [
+    {
+     "title": "Key features",
+     "text": "Look for key card access, cameras in common areas, well-lit hallways and entrances, and in-room safes."
+    },
+    {
+     "title": "Arrival inspection",
+     "text": "As soon as you reach your room, check that door and window locks work. Locate the nearest fire exit."
+    },
+    {
+     "title": "Don't hesitate to leave",
+     "text": "If security seems inadequate or you feel unsafe for any reason, it is fine to leave and stay elsewhere."
+    }
+   ],
+   "tags": [
+    "accommodation",
+    "security",
+    "locks"
+   ],
+   "related": [
+    "test-locks",
+    "know-emergency-exits",
+    "choose-24-hour-front-desk",
+    "use-hotel-safes"
+   ]
+  },
+  {
+   "id": "avoid-ground-floor-rooms",
+   "number": 34,
+   "title": "Avoid Ground Floor Rooms",
+   "category": "accommodation-safety",
+   "summary": "Ask for the second or third floor: harder to reach, still quick to leave.",
+   "intro": "Ground floor rooms are easier to reach from outside, which makes them easier targets for break-ins.",
+   "actions": [
+    {
+     "title": "Request a higher floor",
+     "text": "Ask for the second or third floor when booking or checking in. That is high enough to be more secure and low enough to exit quickly."
+    },
+    {
+     "title": "Assess accessibility",
+     "text": "Avoid windows or sliding doors that open onto parking lots, dark alleys or secluded courtyards."
+    },
+    {
+     "title": "Ground floor precautions",
+     "text": "If you have no choice, keep curtains closed, double-check every lock and consider a portable door wedge or alarm."
+    }
+   ],
+   "tags": [
+    "accommodation",
+    "room",
+    "security"
+   ],
+   "related": [
+    "test-locks",
+    "use-chains-and-latches",
+    "know-emergency-exits",
+    "look-for-security-features"
+   ],
+   "note": "If you have mobility needs, a ground floor room may be the safer choice for evacuation. Use the extra precautions above."
+  },
+  {
+   "id": "test-locks",
+   "number": 35,
+   "title": "Test Locks on Windows and Doors",
+   "category": "accommodation-safety",
+   "featured": true,
+   "summary": "Check every lock before you unpack a single thing.",
+   "intro": "Check the security of your room as soon as you arrive, before you unpack.",
+   "actions": [
+    {
+     "title": "Full lock check",
+     "text": "Test the main lock, deadbolt, chain and latches. Make sure the door closes firmly, the frame is solid and the peephole is clear."
+    },
+    {
+     "title": "Window security",
+     "text": "Test every window lock, including those on balconies, and confirm they cannot be opened easily from outside."
+    },
+    {
+     "title": "Ask for a secure room",
+     "text": "If a lock is broken, do not accept the room. Insist on a change or find another hotel."
+    }
+   ],
+   "tags": [
+    "locks",
+    "room",
+    "accommodation"
+   ],
+   "related": [
+    "use-chains-and-latches",
+    "look-for-security-features",
+    "avoid-ground-floor-rooms",
+    "dont-open-door-to-strangers"
+   ]
+  },
+  {
+   "id": "use-chains-and-latches",
+   "number": 36,
+   "title": "Use Door Chains and Security Latches",
+   "category": "accommodation-safety",
+   "summary": "Use every lock you have, every time you walk in.",
+   "intro": "Even with modern key cards, use every locking mechanism available to you.",
+   "actions": [
+    {
+     "title": "Always engage",
+     "text": "Make it a habit to set the deadbolt and chain or latch the moment you enter."
+    },
+    {
+     "title": "Responding to knocks",
+     "text": "Use the peephole first. If someone says they are staff, call the front desk to verify before you unlatch the chain."
+    },
+    {
+     "title": "Bring your own",
+     "text": "For extra peace of mind, consider a lightweight portable door lock or a rubber wedge."
+    }
+   ],
+   "tags": [
+    "locks",
+    "room",
+    "accommodation"
+   ],
+   "related": [
+    "test-locks",
+    "dont-open-door-to-strangers",
+    "avoid-ground-floor-rooms",
+    "know-emergency-exits"
+   ],
+   "warning": "Make sure you can remove any extra lock or wedge quickly in the dark. It must never slow your own escape in a fire."
+  },
+  {
+   "id": "keep-room-number-private",
+   "number": 37,
+   "title": "Keep Your Room Number Private",
+   "category": "accommodation-safety",
+   "summary": "Your room number is for hotel staff and trusted contacts only.",
+   "intro": "Treat your room number as sensitive information to be shared only with hotel staff and trusted contacts.",
+   "actions": [
+    {
+     "title": "Discreet check-in",
+     "text": "If a clerk says your room number aloud, politely ask them to write it down, or ask for another room."
+    },
+    {
+     "title": "Deflect questions",
+     "text": "Do not tell strangers, new acquaintances or drivers your room number. They can reach you through the front desk."
+    },
+    {
+     "title": "Memorize and discard",
+     "text": "Memorize the number and hide or discard the key card sleeve that has it written on it."
+    }
+   ],
+   "tags": [
+    "privacy",
+    "accommodation",
+    "check-in"
+   ],
+   "related": [
+    "dont-open-door-to-strangers",
+    "protect-personal-information",
+    "dont-tell-strangers-youre-alone",
+    "dont-share-exact-location"
+   ]
+  },
+  {
+   "id": "use-hotel-safes",
+   "number": 38,
+   "title": "Use Hotel Safes for Valuables",
+   "category": "accommodation-safety",
+   "summary": "Lock away what you do not need today, with a code nobody can guess.",
+   "intro": "A safe is a useful place for items you do not need while exploring.",
+   "actions": [
+    {
+     "title": "What to store",
+     "text": "Your passport (carry a photocopy), extra cash, backup cards and expensive electronics you leave behind."
+    },
+    {
+     "title": "Set a unique code",
+     "text": "Avoid obvious codes such as 1234 or your birthday. Test that the safe locks and opens before you put anything inside."
+    },
+    {
+     "title": "Front desk safes",
+     "text": "If your room has no safe, ask about safe deposit boxes at the front desk. These are often more secure."
+    }
+   ],
+   "tags": [
+    "valuables",
+    "accommodation",
+    "passport"
+   ],
+   "related": [
+    "divide-your-money",
+    "hide-a-backup-card",
+    "leave-jewelry-at-home",
+    "look-for-security-features"
+   ],
+   "note": "Some countries require you to carry your original passport, so check local law. Hotel staff can usually override an in-room safe, so treat it as a deterrent rather than a guarantee."
+  },
+  {
+   "id": "know-emergency-exits",
+   "number": 39,
+   "title": "Know Where Emergency Exits Are",
+   "category": "accommodation-safety",
+   "featured": true,
+   "summary": "Walk the route to two exits and count the doors on the way.",
+   "intro": "Learn the emergency procedures and exit routes as soon as you settle into your room.",
+   "actions": [
+    {
+     "title": "Study the map",
+     "text": "Look at the fire plan on the back of your door, then walk the route to the nearest two exits."
+    },
+    {
+     "title": "Count the doors",
+     "text": "Count the doors between your room and the exit. Smoke can make it impossible to see, and you may need to find your way by touch."
+    },
+    {
+     "title": "Plan your escape",
+     "text": "In a fire, use the stairs and never the elevator. Know where your passport, phone and wallet are so you can take them if they are within reach."
+    }
+   ],
+   "tags": [
+    "fire",
+    "emergency",
+    "accommodation",
+    "exits"
+   ],
+   "related": [
+    "look-for-security-features",
+    "stay-calm",
+    "avoid-ground-floor-rooms",
+    "know-local-emergency-numbers"
+   ],
+   "warning": "Never delay leaving a fire to collect belongings. If the corridor is full of smoke, keep the door closed, seal gaps if you can and call the emergency services."
+  },
+  {
+   "id": "dont-open-door-to-strangers",
+   "number": 40,
+   "title": "Don't Open Your Door for Strangers",
+   "category": "accommodation-safety",
+   "summary": "Look first, call the desk second, and open only when you are sure.",
+   "intro": "Do not open your room door to anyone you do not know or were not expecting. Treat this as an absolute rule.",
+   "actions": [
+    {
+     "title": "Use the peephole",
+     "text": "Always look to see who is there before you consider anything else."
+    },
+    {
+     "title": "Verify all staff",
+     "text": "If someone says they are maintenance, housekeeping or room service you did not order, call the front desk from your room phone and wait for confirmation."
+    },
+    {
+     "title": "Trust your gut",
+     "text": "If someone at your door seems suspicious or pushy, do not engage. Call hotel security or the front desk straight away."
+    }
+   ],
+   "tags": [
+    "accommodation",
+    "strangers",
+    "room"
+   ],
+   "related": [
+    "use-chains-and-latches",
+    "keep-room-number-private",
+    "choose-24-hour-front-desk",
+    "trust-your-gut"
+   ]
+  },
+  {
+   "id": "stay-in-busy-areas",
+   "number": 41,
+   "title": "Stay in Well-Lit, Busy Areas",
+   "category": "daily-exploration",
+   "summary": "Your best protection is often other people and good lighting.",
+   "intro": "Criminals tend to prefer isolated places where they will not be seen or interrupted. Staying where people are is a strong defense.",
+   "actions": [
+    {
+     "title": "Plan your routes",
+     "text": "At night especially, stick to main roads with streetlights, shops and foot traffic."
+    },
+    {
+     "title": "Avoid shortcuts",
+     "text": "Skip dark alleys, empty parks and unlit side streets, no matter how much time they would save."
+    },
+    {
+     "title": "Have an escape plan",
+     "text": "If you wander somewhere deserted or uncomfortable, turn around and walk briskly back to a busy public place."
+    }
+   ],
+   "tags": [
+    "street safety",
+    "night",
+    "routes"
+   ],
+   "related": [
+    "go-to-busy-places",
+    "walk-with-confidence",
+    "research-public-transport",
+    "trust-your-gut"
+   ]
+  },
+  {
+   "id": "walk-with-confidence",
+   "number": 42,
+   "title": "Walk with Confidence",
+   "category": "daily-exploration",
+   "summary": "Head up, steady pace, and check the map indoors.",
+   "intro": "Confident body language can make you a less likely target. People looking for an easy victim notice those who seem lost or distracted.",
+   "actions": [
+    {
+     "title": "Posture and pace",
+     "text": "Walk with your head up, shoulders back and a steady, purposeful pace. Make brief eye contact with people you pass where that is culturally normal."
+    },
+    {
+     "title": "Look like you belong",
+     "text": "Try to blend in. Avoid flashy tourist clothing and expensive items."
+    },
+    {
+     "title": "Consult maps discreetly",
+     "text": "If you are lost, step into a shop or cafe to check your phone rather than stopping on a street corner."
+    }
+   ],
+   "tags": [
+    "street safety",
+    "body language",
+    "awareness"
+   ],
+   "related": [
+    "phone-visible-but-secure",
+    "stay-in-busy-areas",
+    "leave-jewelry-at-home",
+    "check-weather-and-climate"
+   ]
+  },
+  {
+   "id": "phone-visible-but-secure",
+   "number": 43,
+   "title": "Keep Your Phone Visible but Secure",
+   "category": "daily-exploration",
+   "summary": "Grip it firmly, step back from the curb, put a wall behind you.",
+   "intro": "Your phone is essential for safety and attractive to thieves, so handle it with care.",
+   "actions": [
+    {
+     "title": "Secure your grip",
+     "text": "Hold it firmly with both hands on the street. A case with a wrist strap or grip helps."
+    },
+    {
+     "title": "Watch for snatchers",
+     "text": "Be careful near roads, where thieves on scooters can grab a phone and speed away. Step back from the curb."
+    },
+    {
+     "title": "Position yourself",
+     "text": "When you stop to use it, stand with your back to a wall so nobody can approach from behind."
+    }
+   ],
+   "tags": [
+    "phone",
+    "theft",
+    "street safety"
+   ],
+   "related": [
+    "walk-with-confidence",
+    "keep-your-phone-charged",
+    "no-valuables-in-back-pockets",
+    "photograph-your-belongings"
+   ]
+  },
+  {
+   "id": "trust-your-gut",
+   "number": 44,
+   "title": "Trust Your Gut Feelings",
+   "category": "daily-exploration",
+   "featured": true,
+   "summary": "You do not need a reason to leave. Unease is enough.",
+   "intro": "Your intuition often registers danger before your conscious mind does. It is one of your most powerful safety tools.",
+   "actions": [
+    {
+     "title": "Listen to unease",
+     "text": "If a person, place or situation makes you uncomfortable, pay attention. You do not need to justify it."
+    },
+    {
+     "title": "Safety over politeness",
+     "text": "Do not worry about being rude or hurting feelings. If your gut says leave, leave."
+    },
+    {
+     "title": "Act decisively",
+     "text": "Cross the street, enter a store or call a taxi. Remove yourself first and think about it later."
+    }
+   ],
+   "tags": [
+    "intuition",
+    "awareness",
+    "personal safety"
+   ],
+   "related": [
+    "trust-yourself-stay-alert",
+    "remove-yourself-from-danger",
+    "trust-instincts-about-people",
+    "go-to-busy-places"
+   ]
+  },
+  {
+   "id": "skip-headphones",
+   "number": 45,
+   "title": "Don't Wear Headphones in Unfamiliar Places",
+   "category": "daily-exploration",
+   "summary": "Your ears are part of your safety system.",
+   "intro": "Headphones block important sounds and signal that you are not paying attention.",
+   "actions": [
+    {
+     "title": "Maintain awareness",
+     "text": "You need to hear footsteps, vehicles and shouts for help."
+    },
+    {
+     "title": "One earbud rule",
+     "text": "If you must listen to something, use one earbud at low volume."
+    },
+    {
+     "title": "Situational ban",
+     "text": "Do not wear headphones when walking alone at night, in crowded markets or on public transport."
+    }
+   ],
+   "tags": [
+    "awareness",
+    "street safety",
+    "transport"
+   ],
+   "related": [
+    "stay-in-busy-areas",
+    "walk-with-confidence",
+    "sit-near-driver",
+    "pay-attention-to-your-stop"
+   ]
+  },
+  {
+   "id": "research-public-transport",
+   "number": 46,
+   "title": "Research Public Transportation Routes",
+   "category": "daily-exploration",
+   "summary": "Learn the network before you need it, including how to get home late.",
+   "intro": "Understanding local transport before you need it keeps you from getting lost or stranded.",
+   "actions": [
+    {
+     "title": "Study the map",
+     "text": "Download transit apps and study metro or bus maps. Know the stops near your accommodation and key sights."
+    },
+    {
+     "title": "Identify safer routes",
+     "text": "Research which lines are considered safe, especially after dark, and avoid routes through areas with known problems."
+    },
+    {
+     "title": "Have a backup plan",
+     "text": "Know your alternatives, such as a taxi or ride-hailing app, if transit closes for the night or is disrupted."
+    }
+   ],
+   "tags": [
+    "transport",
+    "routes",
+    "planning"
+   ],
+   "related": [
+    "sit-near-driver",
+    "pay-attention-to-your-stop",
+    "download-offline-maps",
+    "have-your-own-transportation"
+   ]
+  },
+  {
+   "id": "bag-in-front-on-transport",
+   "number": 47,
+   "title": "Keep Your Bag in Front on Crowded Transport",
+   "category": "daily-exploration",
+   "summary": "If you cannot see your zippers, someone else can.",
+   "intro": "Pickpockets work in crowded buses and trains, where physical contact is expected.",
+   "actions": [
+    {
+     "title": "Backpack on front",
+     "text": "Swing your backpack to your chest so that every zipper is in sight."
+    },
+    {
+     "title": "Secure your handbag",
+     "text": "Keep shoulder and crossbody bags zipped and in front of you, with a hand or arm resting over the top."
+    },
+    {
+     "title": "Be wary of distractions",
+     "text": "Pickpockets often work in teams. One bumps into you while another takes your wallet."
+    }
+   ],
+   "tags": [
+    "transport",
+    "theft",
+    "pickpockets",
+    "bag"
+   ],
+   "related": [
+    "bags-closed-in-crowds",
+    "use-crossbody-bags",
+    "keep-belongings-with-you",
+    "no-valuables-in-back-pockets"
+   ]
+  },
+  {
+   "id": "sit-near-driver",
+   "number": 48,
+   "title": "Sit Near the Driver or Conductor",
+   "category": "daily-exploration",
+   "summary": "Choose a lit seat close to staff and clear of the empty carriage.",
+   "intro": "On buses and trains, staff can help you, and their presence discourages crime.",
+   "actions": [
+    {
+     "title": "Choose strategic seating",
+     "text": "Sit as close to the driver as you can, in a well-lit spot with a clear view of the exits."
+    },
+    {
+     "title": "Avoid isolated areas",
+     "text": "Avoid empty train cars and the back of the bus, especially late at night."
+    },
+    {
+     "title": "Stay alert",
+     "text": "Keep your bag on your lap or between your feet and notice who gets on and off."
+    }
+   ],
+   "tags": [
+    "transport",
+    "night",
+    "seating"
+   ],
+   "related": [
+    "research-public-transport",
+    "pay-attention-to-your-stop",
+    "skip-headphones",
+    "bag-in-front-on-transport"
+   ]
+  },
+  {
+   "id": "have-tickets-ready",
+   "number": 49,
+   "title": "Have Transportation Tickets Ready",
+   "category": "daily-exploration",
+   "summary": "Sort your fare before you reach the gate.",
+   "intro": "Searching for tickets at a turnstile makes you look unsure and puts your wallet on show.",
+   "actions": [
+    {
+     "title": "Prepare in advance",
+     "text": "Have your ticket, pass or exact change in hand before you reach the payment point."
+    },
+    {
+     "title": "Separate transit money",
+     "text": "Keep fare money in its own pocket so your main wallet stays hidden."
+    },
+    {
+     "title": "Observe locals",
+     "text": "Watch how people pay and board before your turn."
+    }
+   ],
+   "tags": [
+    "transport",
+    "money",
+    "tickets"
+   ],
+   "related": [
+    "carry-small-bills",
+    "pay-attention-to-your-stop",
+    "research-public-transport",
+    "no-valuables-in-back-pockets"
+   ]
+  },
+  {
+   "id": "pay-attention-to-your-stop",
+   "number": 50,
+   "title": "Pay Attention to Your Stop",
+   "category": "daily-exploration",
+   "summary": "Follow the route on a map and know the stop before yours.",
+   "intro": "Missing your stop can leave you somewhere unfamiliar, which is harder to deal with at night.",
+   "actions": [
+    {
+     "title": "Follow along on a map",
+     "text": "Track your journey with GPS so you know when your stop is approaching."
+    },
+    {
+     "title": "Know the stop before yours",
+     "text": "Learn its name so you have time to get ready."
+    },
+    {
+     "title": "Don't be afraid to ask",
+     "text": "If you are unsure, ask the driver or a fellow passenger to tell you. Most people are happy to help."
+    }
+   ],
+   "tags": [
+    "transport",
+    "navigation",
+    "maps"
+   ],
+   "related": [
+    "download-offline-maps",
+    "research-public-transport",
+    "sit-near-driver",
+    "skip-headphones"
+   ]
+  },
+  {
+   "id": "use-indoor-atms",
+   "number": 51,
+   "title": "Use ATMs Inside Banks or Hotels",
+   "category": "money-valuables",
+   "summary": "Choose a machine inside a bank, check it for tampering and cover your PIN.",
+   "intro": "Indoor ATMs are generally safer than standalone street machines, which are easier to tamper with or watch.",
+   "actions": [
+    {
+     "title": "Preferred locations",
+     "text": "An ATM inside a bank branch during business hours is the safest choice. Hotel lobbies, large malls and airports are also good options."
+    },
+    {
+     "title": "Physical inspection",
+     "text": "Look for suspicious devices. Wiggle the card reader and keypad, and if anything feels loose or out of place, do not use it."
+    },
+    {
+     "title": "Shield your PIN",
+     "text": "Cover the keypad with your other hand every time. It blocks watching eyes and hidden cameras."
+    }
+   ],
+   "tags": [
+    "atm",
+    "money",
+    "cards",
+    "skimming"
+   ],
+   "related": [
+    "dont-count-money-in-public",
+    "hide-a-backup-card",
+    "tell-your-bank",
+    "divide-your-money"
+   ]
+  },
+  {
+   "id": "dont-count-money-in-public",
+   "number": 52,
+   "title": "Don't Count Money in Public",
+   "category": "money-valuables",
+   "summary": "Count it in private and carry only what today needs.",
+   "intro": "Handling a lot of cash in public attracts attention and marks you as a target.",
+   "actions": [
+    {
+     "title": "Count in private",
+     "text": "After a withdrawal, step into a private space such as a bathroom stall, or wait until you are in your locked room."
+    },
+    {
+     "title": "Organize for the day",
+     "text": "Carry only the day's cash in your wallet. Keep the rest in your money belt or the hotel safe."
+    },
+    {
+     "title": "Avoid flashing bills",
+     "text": "Have small notes ready so you never have to pull out a thick wad of cash."
+    }
+   ],
+   "tags": [
+    "cash",
+    "money",
+    "theft"
+   ],
+   "related": [
+    "carry-small-bills",
+    "divide-your-money",
+    "use-indoor-atms",
+    "use-hotel-safes"
+   ]
+  },
+  {
+   "id": "carry-small-bills",
+   "number": 53,
+   "title": "Carry Small Bills",
+   "category": "money-valuables",
+   "summary": "Small notes are easier to spend and less tempting to steal.",
+   "intro": "Small denominations keep large bills out of sight and make it easier to pay small vendors.",
+   "actions": [
+    {
+     "title": "Easier transactions",
+     "text": "Small bills suit tips, street food, markets and public transport, where vendors may not have change."
+    },
+    {
+     "title": "Less attractive to thieves",
+     "text": "A wallet with small change is less interesting than one full of large notes."
+    },
+    {
+     "title": "Getting small bills",
+     "text": "When you exchange money at a bank, ask for a mix with plenty of small notes."
+    }
+   ],
+   "tags": [
+    "cash",
+    "money",
+    "markets"
+   ],
+   "related": [
+    "dont-count-money-in-public",
+    "have-tickets-ready",
+    "divide-your-money",
+    "use-indoor-atms"
+   ]
+  },
+  {
+   "id": "hide-a-backup-card",
+   "number": 54,
+   "title": "Have a Backup Card Hidden Separately",
+   "category": "money-valuables",
+   "summary": "Two cards, two banks, two places.",
+   "intro": "If your main cards are lost, stolen or blocked, a backup keeps you from being stranded.",
+   "actions": [
+    {
+     "title": "Diversify your cards",
+     "text": "Carry at least one credit and one debit card from different banks, ideally on different networks such as Visa and Mastercard."
+    },
+    {
+     "title": "Store separately",
+     "text": "Never keep every card in one wallet. Keep the backup in your money belt or the hotel safe."
+    },
+    {
+     "title": "Inform your banks",
+     "text": "Tell the bank behind every card you carry about your travel plans."
+    }
+   ],
+   "tags": [
+    "cards",
+    "bank",
+    "money",
+    "backup"
+   ],
+   "related": [
+    "tell-your-bank",
+    "divide-your-money",
+    "keep-emergency-cash-hidden",
+    "money-belt-or-hidden-pouch"
+   ]
+  },
+  {
+   "id": "divide-your-money",
+   "number": 55,
+   "title": "Divide Your Money Between Multiple Places",
+   "category": "money-valuables",
+   "featured": true,
+   "summary": "The three-stash rule: wallet, money belt, emergency reserve.",
+   "intro": "Never carry all your money in one place. If that place is lost, you are left with nothing.",
+   "actions": [
+    {
+     "title": "The three-stash rule",
+     "text": "Keep (1) daily money in your wallet, (2) most of your cash in a hidden money belt and (3) an emergency stash deep in your luggage or in the hotel safe."
+    },
+    {
+     "title": "Creative hiding spots",
+     "text": "Consider an empty lip balm tube, the inside of a shoe or the lining of a bag."
+    },
+    {
+     "title": "Currency mix",
+     "text": "Ideally the emergency stash includes your home currency or a widely accepted one such as US dollars or euros, as well as local money."
+    }
+   ],
+   "tags": [
+    "cash",
+    "money",
+    "emergency fund"
+   ],
+   "related": [
+    "keep-emergency-cash-hidden",
+    "hide-a-backup-card",
+    "money-belt-or-hidden-pouch",
+    "dont-count-money-in-public"
+   ]
+  },
+  {
+   "id": "use-crossbody-bags",
+   "number": 56,
+   "title": "Use Crossbody Bags with Zippers",
+   "category": "money-valuables",
+   "summary": "A zipped strap across your body is harder to snatch.",
+   "intro": "Bag design makes a real difference. A crossbody bag is significantly harder to steal than a shoulder bag or backpack.",
+   "actions": [
+    {
+     "title": "Secure by design",
+     "text": "A crossbody strap makes snatching difficult. Wear it over your head, not just on one shoulder."
+    },
+    {
+     "title": "Zippers matter",
+     "text": "Choose sturdy zippers. Open totes and simple magnetic clasps are easy for pickpockets."
+    },
+    {
+     "title": "Keep it in front",
+     "text": "In markets and on subways, swing the bag to the front and rest your hand on it."
+    }
+   ],
+   "tags": [
+    "bag",
+    "theft",
+    "street safety"
+   ],
+   "related": [
+    "bags-closed-in-crowds",
+    "bag-in-front-on-transport",
+    "no-valuables-in-back-pockets",
+    "phone-visible-but-secure"
+   ],
+   "note": "In places where bag-snatching from scooters is common, keep the bag on the side away from the road. If someone pulls it, let go. Your safety is worth more than the contents."
+  },
+  {
+   "id": "bags-closed-in-crowds",
+   "number": 57,
+   "title": "Keep Bags Closed and in Front in Crowds",
+   "category": "money-valuables",
+   "summary": "Crowds are cover, so close the zip and hold it in front.",
+   "intro": "Crowded places give pickpockets and bag-snatchers cover to work unnoticed.",
+   "actions": [
+    {
+     "title": "Body-blocking",
+     "text": "Wear your backpack on your front in crowds. Keep a crossbody bag tight against your body with your arm over it."
+    },
+    {
+     "title": "Be wary of distractions",
+     "text": "A common tactic is for one person to bump into you or ask directions while another opens your bag. Protect your personal space."
+    },
+    {
+     "title": "Zipper checks",
+     "text": "Get into the habit of checking your zippers, especially after moving through a dense crowd."
+    }
+   ],
+   "tags": [
+    "crowds",
+    "pickpockets",
+    "bag",
+    "theft"
+   ],
+   "related": [
+    "bag-in-front-on-transport",
+    "use-crossbody-bags",
+    "keep-belongings-with-you",
+    "no-valuables-in-back-pockets"
+   ],
+   "note": "This builds on the guide to crowded transport and applies to markets, festivals, queues and sights."
+  },
+  {
+   "id": "no-valuables-in-back-pockets",
+   "number": 58,
+   "title": "Don't Put Valuables in Back Pockets",
+   "category": "money-valuables",
+   "summary": "Front or inside pockets only, at home and abroad.",
+   "intro": "Back pockets are the easiest targets for pickpockets, and things fall out of them unnoticed.",
+   "actions": [
+    {
+     "title": "Front pockets only",
+     "text": "Keep your phone and wallet in your front pockets, which are much harder to reach without you noticing."
+    },
+    {
+     "title": "Inside pockets are better",
+     "text": "An inside jacket pocket is one of the most secure places for a phone or thin wallet."
+    },
+    {
+     "title": "Develop the habit",
+     "text": "Stop using back pockets for anything valuable, at home as well as abroad."
+    }
+   ],
+   "tags": [
+    "pickpockets",
+    "theft",
+    "phone",
+    "wallet"
+   ],
+   "related": [
+    "bags-closed-in-crowds",
+    "bag-in-front-on-transport",
+    "phone-visible-but-secure",
+    "money-belt-or-hidden-pouch"
+   ]
+  },
+  {
+   "id": "use-travel-locks",
+   "number": 59,
+   "title": "Use Travel Locks on Luggage",
+   "category": "money-valuables",
+   "summary": "A lock will not stop everyone, but it stops the opportunist.",
+   "intro": "A determined thief can get through any lock, but a simple one is a strong deterrent to opportunistic theft.",
+   "actions": [
+    {
+     "title": "Deter casual theft",
+     "text": "Locks stop someone quickly opening your bag in a luggage hold, on a train or in a hostel."
+    },
+    {
+     "title": "TSA-recognized locks",
+     "text": "For flights that touch the United States, use a TSA-recognized lock on checked bags so security staff can open it with a master key instead of cutting it."
+    },
+    {
+     "title": "Secure to fixtures",
+     "text": "A cable lock lets you attach your bag to a luggage rack or bed frame."
+    }
+   ],
+   "tags": [
+    "luggage",
+    "locks",
+    "theft",
+    "hostel"
+   ],
+   "related": [
+    "keep-belongings-with-you",
+    "pack-light-and-smart",
+    "sleep-carefully-in-transit",
+    "photograph-your-belongings"
+   ],
+   "resources": [
+    {
+     "label": "TSA: what you can bring",
+     "url": "https://www.tsa.gov/travel/security-screening/whatcanibring/all"
+    }
+   ]
+  },
+  {
+   "id": "photograph-your-belongings",
+   "number": 60,
+   "title": "Take Photos of Your Belongings",
+   "category": "money-valuables",
+   "summary": "Photos, serial numbers and receipts make a claim far easier.",
+   "intro": "Photos of your valuables are extremely useful for police reports and insurance claims.",
+   "actions": [
+    {
+     "title": "Photograph everything",
+     "text": "Before your trip, take clear photos of electronics (including serial numbers), jewelry and your luggage."
+    },
+    {
+     "title": "Cloud storage",
+     "text": "Upload them to a secure cloud service so you can reach them even if your phone is stolen."
+    },
+    {
+     "title": "Keep receipts",
+     "text": "For expensive items, keep digital copies of the receipts to prove their value."
+    }
+   ],
+   "tags": [
+    "insurance",
+    "documents",
+    "valuables",
+    "cloud"
+   ],
+   "related": [
+    "get-the-right-travel-insurance",
+    "document-everything",
+    "copy-important-documents",
+    "leave-jewelry-at-home"
+   ]
+  },
+  {
+   "id": "download-safety-apps",
+   "number": 61,
+   "title": "Download Safety Apps Before Travel",
+   "category": "digital-safety",
+   "summary": "Install, set up and test everything while you are still at home.",
+   "intro": "Technology can give crucial help in an emergency. Set up these apps before you leave.",
+   "actions": [
+    {
+     "title": "Essential apps",
+     "text": "Ride-hailing (Uber, Lyft or a local equivalent), offline maps, translation, and a personal safety app that can alert your emergency contacts."
+    },
+    {
+     "title": "Personal safety features",
+     "text": "Look for a panic button that sends your location, automatic check-in reminders or a loud alarm."
+    },
+    {
+     "title": "Test everything",
+     "text": "Confirm the apps work, learn every feature and load your emergency contacts in advance."
+    }
+   ],
+   "tags": [
+    "apps",
+    "phone",
+    "sos",
+    "planning"
+   ],
+   "related": [
+    "set-up-ice-contacts",
+    "download-offline-maps",
+    "whistle-or-personal-alarm",
+    "save-important-numbers"
+   ],
+   "note": "Your phone may already have this built in. Both iPhone and Android have emergency SOS and emergency contact features, though some functions vary by country."
+  },
+  {
+   "id": "use-a-vpn",
+   "number": 62,
+   "title": "Use a VPN on Public Wi-Fi",
+   "category": "digital-safety",
+   "summary": "Encrypt your connection on shared networks and save banking for later.",
+   "intro": "Public Wi-Fi in cafes, airports and hotels may be poorly secured and can expose your information. A VPN adds a layer of protection.",
+   "actions": [
+    {
+     "title": "How it works",
+     "text": "A VPN (virtual private network) encrypts your internet traffic between your device and the VPN provider, which hides your activity from others on the network."
+    },
+    {
+     "title": "Choose reputable services",
+     "text": "Be careful with free VPNs, some of which may sell your data. Choose a well-known provider with a strong privacy policy and servers in several countries."
+    },
+    {
+     "title": "Best practices",
+     "text": "Connect the VPN as soon as you join the network and before you browse. Even so, avoid signing in to highly sensitive accounts such as your bank on public Wi-Fi."
+    }
+   ],
+   "tags": [
+    "vpn",
+    "wifi",
+    "privacy",
+    "security"
+   ],
+   "related": [
+    "use-private-messaging",
+    "keep-your-phone-charged",
+    "tell-your-bank",
+    "turn-off-location-services"
+   ],
+   "warning": "VPN use is restricted or illegal in some countries. Check the law at your destination and install the app before you travel.",
+   "note": "Most websites and apps already use encryption (HTTPS), so a VPN is an extra layer. Mobile data is usually a safer choice for anything sensitive."
+  },
+  {
+   "id": "dont-share-exact-location",
+   "number": 63,
+   "title": "Don't Share Exact Locations on Social Media",
+   "category": "digital-safety",
+   "featured": true,
+   "summary": "Post after you have left, and keep the tag general.",
+   "intro": "Broadcasting your location in real time exposes you to theft, stalking and other crimes, abroad and at home.",
+   "actions": [
+    {
+     "title": "Post with a delay",
+     "text": "Share a place after you have left it. Post that cafe photo from your hotel, not from the table."
+    },
+    {
+     "title": "Be vague",
+     "text": "Use general tags such as \"Paris, France\" rather than specific hotels or restaurants. Never post a room key or any document showing your name and address."
+    },
+    {
+     "title": "Protect your home",
+     "text": "Real-time posts also tell people that your home is empty. Save the full album for your return."
+    }
+   ],
+   "tags": [
+    "social media",
+    "privacy",
+    "location"
+   ],
+   "related": [
+    "turn-off-location-services",
+    "dont-share-travel-plans-online",
+    "dont-post-youre-alone",
+    "use-private-messaging"
+   ]
+  },
+  {
+   "id": "keep-your-phone-charged",
+   "number": 64,
+   "title": "Keep Your Phone Charged",
+   "category": "digital-safety",
+   "summary": "Never leave for the day without a full power bank and a paper backup.",
+   "intro": "A dead phone leaves you unable to call for help, navigate or look things up. It is a critical piece of safety equipment.",
+   "actions": [
+    {
+     "title": "Carry a power bank",
+     "text": "Keep a fully charged pack that can charge your phone at least twice."
+    },
+    {
+     "title": "Conserve battery life",
+     "text": "Use power-saving mode, lower the brightness and close apps you are not using."
+    },
+    {
+     "title": "Have a backup plan",
+     "text": "Write down emergency services, your hotel and your embassy in case your phone dies."
+    }
+   ],
+   "tags": [
+    "phone",
+    "battery",
+    "power bank"
+   ],
+   "related": [
+    "phone-charging-options",
+    "keep-phone-charged-in-transit",
+    "save-important-numbers",
+    "phone-visible-but-secure"
+   ],
+   "note": "The companion guide in Transportation covers travel days. This one is about everyday exploring."
+  },
+  {
+   "id": "save-important-numbers",
+   "number": 65,
+   "title": "Save Important Phone Numbers",
+   "category": "digital-safety",
+   "featured": true,
+   "summary": "On your phone, on paper, and not only in the cloud.",
+   "intro": "Do not rely on internet access or cloud storage for critical contacts. Save them on your phone and on paper.",
+   "actions": [
+    {
+     "title": "Essential numbers",
+     "text": "Local emergency services, your embassy's 24/7 line, your accommodation, your bank's fraud department and your main emergency contact at home."
+    },
+    {
+     "title": "ICE contacts",
+     "text": "Create an \"In Case of Emergency\" contact so that responders can see who to call if you cannot speak."
+    },
+    {
+     "title": "Physical backup",
+     "text": "Write your most critical numbers on a small card kept in your wallet or money belt, apart from your phone."
+    }
+   ],
+   "tags": [
+    "contacts",
+    "phone",
+    "emergency"
+   ],
+   "related": [
+    "know-local-emergency-numbers",
+    "set-up-ice-contacts",
+    "register-with-embassy",
+    "tell-your-bank"
+   ]
+  },
+  {
+   "id": "dont-post-youre-alone",
+   "number": 66,
+   "title": "Don't Post That You're Traveling Alone",
+   "category": "digital-safety",
+   "summary": "Let your captions stay plural and your profile private.",
+   "intro": "Revealing that you are traveling solo on a public platform can attract people with bad intentions.",
+   "actions": [
+    {
+     "title": "Imply companionship",
+     "text": "Use plural wording in captions, such as \"We are having a great time!\""
+    },
+    {
+     "title": "Privacy settings",
+     "text": "Make your profiles private before your trip so only trusted people see your posts."
+    },
+    {
+     "title": "Be wary of new \"friends\"",
+     "text": "Be cautious about requests from people you meet while traveling until you know them well. Some may be gathering information about you."
+    }
+   ],
+   "tags": [
+    "social media",
+    "privacy",
+    "personal safety"
+   ],
+   "related": [
+    "dont-tell-strangers-youre-alone",
+    "dont-share-exact-location",
+    "careful-with-friend-requests",
+    "dont-share-travel-plans-online"
+   ]
+  },
+  {
+   "id": "turn-off-location-services",
+   "number": 67,
+   "title": "Turn Off Location Services for Social Apps",
+   "category": "digital-safety",
+   "summary": "Review app permissions and strip location from the photos you share.",
+   "intro": "Many apps track or share your location without you noticing, and photos can carry precise GPS coordinates.",
+   "actions": [
+    {
+     "title": "Check your permissions",
+     "text": "Review which apps can see your location. Turn it off for social apps such as Instagram, Facebook and X (formerly Twitter)."
+    },
+    {
+     "title": "Scrub photo data",
+     "text": "Photos can contain EXIF data, including where and when they were taken. Remove it before posting if you are concerned."
+    },
+    {
+     "title": "Essential apps only",
+     "text": "Keep location on for maps and device finding, and off for everything else."
+    }
+   ],
+   "tags": [
+    "location",
+    "privacy",
+    "apps",
+    "photos"
+   ],
+   "related": [
+    "dont-share-exact-location",
+    "dont-share-travel-plans-online",
+    "download-safety-apps",
+    "use-a-vpn"
+   ]
+  },
+  {
+   "id": "careful-with-friend-requests",
+   "number": 68,
+   "title": "Be Careful About New Friend Requests",
+   "category": "digital-safety",
+   "summary": "Get to know people in person before they get to know your profile.",
+   "intro": "Criminals may use social media to learn about potential victims before making a move.",
+   "actions": [
+    {
+     "title": "Vet new requests",
+     "text": "Do not accept requests from people you have just met. Get to know them in person first."
+    },
+    {
+     "title": "Look for red flags",
+     "text": "Be suspicious of profiles with few friends, no photos or a very recent creation date."
+    },
+    {
+     "title": "Protect your information",
+     "text": "Even after accepting, be careful what you share. Avoid details that could compromise your safety."
+    }
+   ],
+   "tags": [
+    "social media",
+    "scams",
+    "privacy"
+   ],
+   "related": [
+    "dont-post-youre-alone",
+    "protect-personal-information",
+    "video-chat-first",
+    "trust-instincts-about-people"
+   ]
+  },
+  {
+   "id": "dont-share-travel-plans-online",
+   "number": 69,
+   "title": "Don't Share Travel Plans Online",
+   "category": "digital-safety",
+   "summary": "Keep the itinerary for the people who need it.",
+   "intro": "Public posts with detailed travel information give criminals a roadmap to you or your home.",
+   "actions": [
+    {
+     "title": "Avoid specifics",
+     "text": "Never post your boarding pass, full itinerary or the exact dates you will be away."
+    },
+    {
+     "title": "Mind your audience",
+     "text": "Even on a private profile, friends of friends may see your posts. Keep sensitive details out of view."
+    },
+    {
+     "title": "Share privately",
+     "text": "Use private messages, email or a small trusted group to update close family and friends."
+    }
+   ],
+   "tags": [
+    "social media",
+    "itinerary",
+    "privacy"
+   ],
+   "related": [
+    "dont-share-exact-location",
+    "use-private-messaging",
+    "share-your-plans",
+    "dont-post-youre-alone"
+   ],
+   "note": "A boarding pass barcode can reveal booking details, so a photo of it can be misused even if your name is hidden."
+  },
+  {
+   "id": "use-private-messaging",
+   "number": 70,
+   "title": "Use Private Messaging Instead of Public Posts",
+   "category": "digital-safety",
+   "summary": "Choose who sees what, and use end-to-end encryption.",
+   "intro": "Keep your travel communication private so that you control who has your information.",
+   "actions": [
+    {
+     "title": "Control your information",
+     "text": "Public posts can be captured and shared beyond your control. Private messages keep conversations more contained."
+    },
+    {
+     "title": "Share more safely",
+     "text": "A trusted family member can receive your hotel or flight details in a secure private message."
+    },
+    {
+     "title": "Use encrypted apps",
+     "text": "For sensitive conversations, use an end-to-end encrypted app such as Signal or WhatsApp."
+    }
+   ],
+   "tags": [
+    "messaging",
+    "privacy",
+    "encryption"
+   ],
+   "related": [
+    "dont-share-travel-plans-online",
+    "use-a-vpn",
+    "share-your-plans",
+    "dont-share-exact-location"
+   ]
+  },
+  {
+   "id": "eat-at-busy-restaurants",
+   "number": 71,
+   "title": "Eat at Busy Restaurants",
+   "category": "food-drink-safety",
+   "summary": "A full dining room usually means fresh ingredients.",
+   "intro": "High turnover usually means fresher food and a lower risk of foodborne illness.",
+   "actions": [
+    {
+     "title": "Follow the locals",
+     "text": "A place that is regularly busy with local people, not only tourists, is a good sign of quality."
+    },
+    {
+     "title": "Signs of freshness",
+     "text": "Fast turnover means ingredients are not sitting around for long, which helps avoid food poisoning."
+    },
+    {
+     "title": "Observe cleanliness",
+     "text": "Clean tables, floors and staff are positive signs. If a place looks dirty, leave."
+    }
+   ],
+   "tags": [
+    "food",
+    "restaurants",
+    "hygiene"
+   ],
+   "related": [
+    "watch-food-preparation",
+    "be-cautious-with-street-food",
+    "drink-bottled-water",
+    "eat-fruit-you-can-peel"
+   ],
+   "resources": [
+    {
+     "label": "CDC: food and water safety",
+     "url": "https://wwwnc.cdc.gov/travel/page/food-water-safety"
+    }
+   ]
+  },
+  {
+   "id": "be-cautious-with-street-food",
+   "number": 72,
+   "title": "Be Cautious with Street Food",
+   "category": "food-drink-safety",
+   "summary": "Cooked in front of you and served piping hot.",
+   "intro": "Street food can be delicious and safe, but choose carefully.",
+   "actions": [
+    {
+     "title": "Made to order",
+     "text": "Choose vendors who cook fresh in front of you and serve the food piping hot, since high heat kills most harmful bacteria."
+    },
+    {
+     "title": "Avoid risky items",
+     "text": "Be wary of food that has been sitting out, raw items, pre-cut fruit and anything with unrefrigerated dairy or mayonnaise."
+    },
+    {
+     "title": "Hygiene check",
+     "text": "Watch how the vendor works. Do they handle money and food with the same hands? Is the area clean? Choose those with high standards."
+    }
+   ],
+   "tags": [
+    "street food",
+    "hygiene",
+    "food"
+   ],
+   "related": [
+    "watch-food-preparation",
+    "eat-at-busy-restaurants",
+    "eat-fruit-you-can-peel",
+    "drink-bottled-water"
+   ],
+   "resources": [
+    {
+     "label": "CDC: food and water safety",
+     "url": "https://wwwnc.cdc.gov/travel/page/food-water-safety"
+    }
+   ]
+  },
+  {
+   "id": "drink-bottled-water",
+   "number": 73,
+   "title": "Drink Bottled Water When Necessary",
+   "category": "food-drink-safety",
+   "featured": true,
+   "summary": "Sealed bottles for drinking, for brushing your teeth, and no ice.",
+   "intro": "Where tap water quality is uncertain, factory-sealed bottled water is a reliable defense against illness.",
+   "actions": [
+    {
+     "title": "Check the seal",
+     "text": "Make sure the cap is factory-sealed. Some sellers have been known to refill old bottles with tap water."
+    },
+    {
+     "title": "Avoid ice and raw vegetables",
+     "text": "Skip ice and be cautious with raw salads, since both are often prepared with tap water."
+    },
+    {
+     "title": "Brushing teeth",
+     "text": "If tap water is not safe to drink, use bottled water to brush your teeth as well."
+    }
+   ],
+   "tags": [
+    "water",
+    "health",
+    "hygiene"
+   ],
+   "related": [
+    "stay-hydrated",
+    "eat-fruit-you-can-peel",
+    "be-cautious-with-street-food",
+    "pack-first-aid-kit"
+   ],
+   "resources": [
+    {
+     "label": "CDC: food and water safety",
+     "url": "https://wwwnc.cdc.gov/travel/page/food-water-safety"
+    },
+    {
+     "label": "WHO: drinking-water facts",
+     "url": "https://www.who.int/news-room/fact-sheets/detail/drinking-water"
+    }
+   ],
+   "note": "Boiling, filtering or treating water are alternatives where bottles are not available. Check the advice for your destination."
+  },
+  {
+   "id": "watch-food-preparation",
+   "number": 74,
+   "title": "Watch How Food is Prepared",
+   "category": "food-drink-safety",
+   "summary": "A minute of watching tells you most of what you need.",
+   "intro": "Observing how food is prepared helps you spot health risks before you eat.",
+   "actions": [
+    {
+     "title": "Look for good practices",
+     "text": "Clean cooking surfaces, separate utensils for raw and cooked food, and staff who wash their hands often."
+    },
+    {
+     "title": "Red flags",
+     "text": "One knife used for raw meat and then vegetables, food kept at room temperature, or flies around the preparation area."
+    },
+    {
+     "title": "Open kitchens are a good sign",
+     "text": "Places that show their preparation openly are often a safer bet."
+    }
+   ],
+   "tags": [
+    "food",
+    "hygiene",
+    "restaurants"
+   ],
+   "related": [
+    "eat-at-busy-restaurants",
+    "be-cautious-with-street-food",
+    "eat-fruit-you-can-peel",
+    "drink-bottled-water"
+   ]
+  },
+  {
+   "id": "eat-fruit-you-can-peel",
+   "number": 75,
+   "title": "Eat Fruits You Can Peel Yourself",
+   "category": "food-drink-safety",
+   "summary": "If you peel it, you know what touched it.",
+   "intro": "Fruit with a thick, removable peel lowers the risk of contact with contaminated water or bacteria.",
+   "actions": [
+    {
+     "title": "Safer choices",
+     "text": "Bananas, oranges, mangoes, pineapples and avocados all come with an outer layer you remove yourself."
+    },
+    {
+     "title": "Fruits to be careful with",
+     "text": "Berries, grapes and apples eaten whole, unless you can wash them thoroughly in purified water."
+    },
+    {
+     "title": "Avoid pre-cut fruit",
+     "text": "Decline fruit salads from street vendors or buffets, because you do not know when they were cut or how they were washed."
+    }
+   ],
+   "tags": [
+    "food",
+    "fruit",
+    "hygiene"
+   ],
+   "related": [
+    "drink-bottled-water",
+    "be-cautious-with-street-food",
+    "watch-food-preparation",
+    "eat-at-busy-restaurants"
+   ],
+   "note": "Wash your hands before peeling, so that nothing transfers from the skin to the fruit."
+  },
+  {
+   "id": "limit-alcohol",
+   "number": 76,
+   "title": "Limit Alcohol Consumption",
+   "category": "food-drink-safety",
+   "summary": "Your judgment is your best safety tool, so protect it.",
+   "intro": "Heavy drinking impairs your judgment and makes crime, accidents and scams more likely.",
+   "actions": [
+    {
+     "title": "Know your travel limits",
+     "text": "Jet lag, dehydration and altitude can lower your usual tolerance. Drink less than you would at home."
+    },
+    {
+     "title": "Stay in control",
+     "text": "Never drink to the point where you lose awareness of your surroundings or your ability to decide well."
+    },
+    {
+     "title": "Alternate with water",
+     "text": "Have a full glass of water for every alcoholic drink. It keeps you hydrated and slows you down."
+    }
+   ],
+   "tags": [
+    "alcohol",
+    "nightlife",
+    "health"
+   ],
+   "related": [
+    "know-your-alcohol-limits",
+    "keep-your-drink-with-you",
+    "never-accept-drinks-from-strangers",
+    "stay-hydrated"
+   ],
+   "warning": "In some countries, alcohol is restricted or illegal. Unregulated spirits can also contain methanol, which is poisonous, so stick to sealed, branded drinks from reputable venues."
+  },
+  {
+   "id": "never-accept-drinks-from-strangers",
+   "number": 77,
+   "title": "Never Accept Drinks from Strangers",
+   "category": "food-drink-safety",
+   "summary": "Buy your own and watch it being poured.",
+   "intro": "Accepting a drink from a stranger, however friendly, exposes you to the risk of drink spiking.",
+   "actions": [
+    {
+     "title": "Buy your own drinks",
+     "text": "Make it a rule to buy your own and watch the bartender prepare them."
+    },
+    {
+     "title": "Be wary of insistent offers",
+     "text": "Many people are genuinely friendly, but be cautious with anyone who keeps insisting, especially if you have just met."
+    },
+    {
+     "title": "Recognize the danger",
+     "text": "Drink spiking is a real crime used to enable robbery or sexual assault. Treat this rule as non-negotiable."
+    }
+   ],
+   "tags": [
+    "alcohol",
+    "drink spiking",
+    "nightlife"
+   ],
+   "related": [
+    "keep-your-drink-with-you",
+    "limit-alcohol",
+    "know-your-alcohol-limits",
+    "trust-instincts-about-people"
+   ]
+  },
+  {
+   "id": "keep-your-drink-with-you",
+   "number": 78,
+   "title": "Keep Your Drink With You Always",
+   "category": "food-drink-safety",
+   "featured": true,
+   "summary": "If it has been out of your sight, get a new one.",
+   "intro": "Leaving a drink unattended, even for a moment, gives someone the chance to add something to it.",
+   "actions": [
+    {
+     "title": "The bathroom rule",
+     "text": "Finish your drink before you go, or leave it and buy a new one when you return."
+    },
+    {
+     "title": "On the dance floor",
+     "text": "Take your drink with you or go without. Do not leave it on a table."
+    },
+    {
+     "title": "Trust no one with your drink",
+     "text": "Do not ask a new acquaintance to watch it. It is not worth the risk."
+    }
+   ],
+   "tags": [
+    "drink spiking",
+    "nightlife",
+    "alcohol"
+   ],
+   "related": [
+    "never-accept-drinks-from-strangers",
+    "know-your-alcohol-limits",
+    "ask-authorities-for-help",
+    "limit-alcohol"
+   ],
+   "warning": "If you suddenly feel unusually drunk, confused or sick, tell venue staff or someone you trust and get medical help. Do not leave with a person you do not know."
+  },
+  {
+   "id": "know-your-alcohol-limits",
+   "number": 79,
+   "title": "Know Your Alcohol Limits",
+   "category": "food-drink-safety",
+   "summary": "Decide your number and your ride home before the first drink.",
+   "intro": "Drinking too much makes you an easier target and puts you in situations that are hard to handle.",
+   "actions": [
+    {
+     "title": "Understand the factors",
+     "text": "Fatigue, dehydration and altitude can dramatically lower tolerance. One drink may feel like two."
+    },
+    {
+     "title": "Set a hard limit",
+     "text": "Before you start, choose a maximum number of drinks for the evening and stick to it."
+    },
+    {
+     "title": "Emergency planning",
+     "text": "Before the first drink, have a solid plan for getting home, including cash for a taxi."
+    }
+   ],
+   "tags": [
+    "alcohol",
+    "nightlife",
+    "planning"
+   ],
+   "related": [
+    "limit-alcohol",
+    "have-your-own-transportation",
+    "keep-your-drink-with-you",
+    "stay-hydrated"
+   ]
+  },
+  {
+   "id": "stay-hydrated",
+   "number": 80,
+   "title": "Stay Hydrated with Water",
+   "category": "food-drink-safety",
+   "summary": "Sip through the day, earlier than you think you need to.",
+   "intro": "Hydration matters more when you travel. Dehydration affects judgment, energy and physical ability.",
+   "actions": [
+    {
+     "title": "Drink proactively",
+     "text": "Sip water through the day rather than waiting for thirst, especially in heat or at altitude."
+    },
+    {
+     "title": "Monitor yourself",
+     "text": "Pale yellow urine is a good sign. If it is dark, drink more water."
+    },
+    {
+     "title": "Carry your own bottle",
+     "text": "Refill a reusable bottle with purified or bottled water so you always have safe water."
+    }
+   ],
+   "tags": [
+    "water",
+    "health",
+    "hydration"
+   ],
+   "related": [
+    "drink-bottled-water",
+    "eat-and-drink-well-in-transit",
+    "limit-alcohol",
+    "check-weather-and-climate"
+   ]
+  },
+  {
+   "id": "meet-in-public-places",
+   "number": 81,
+   "title": "Meet New People in Public Places",
+   "category": "social-safety",
+   "featured": true,
+   "summary": "First meetings belong somewhere busy, neutral and easy to leave.",
+   "intro": "Your safety comes first when you meet someone new. Choose a public, populated and neutral place.",
+   "actions": [
+    {
+     "title": "Safe meeting spots",
+     "text": "Busy coffee shops, popular restaurants, hotel lobbies and public parks in daytime, where staff and other people are around."
+    },
+    {
+     "title": "Locations to avoid",
+     "text": "Do not meet for the first time at their home, your accommodation or anywhere secluded. Decline suggestions to move somewhere \"quieter.\""
+    },
+    {
+     "title": "Maintain independence",
+     "text": "Arrive and leave using your own transport. Relying on a new acquaintance for a ride gives them control over your movements."
+    }
+   ],
+   "tags": [
+    "meeting people",
+    "social",
+    "public places"
+   ],
+   "related": [
+    "tell-someone-when-meeting",
+    "have-your-own-transportation",
+    "meet-during-daytime",
+    "protect-personal-information"
+   ]
+  },
+  {
+   "id": "tell-someone-when-meeting",
+   "number": 82,
+   "title": "Tell Someone When Meeting New People",
+   "category": "social-safety",
+   "summary": "One message before, one message after, and a plan if the second never comes.",
+   "intro": "Before you meet someone new, tell a trusted contact. They are your safety check-in.",
+   "actions": [
+    {
+     "title": "Share key details",
+     "text": "Give the person's name, where you are going and when you will be back. If you can, share a profile photo."
+    },
+    {
+     "title": "Establish a check-in time",
+     "text": "Agree a time to text or call afterwards to say you are safe."
+    },
+    {
+     "title": "Have a backup plan",
+     "text": "Agree what happens if you do not check in, for example waiting 30 minutes, calling your hotel, then contacting local authorities."
+    }
+   ],
+   "tags": [
+    "check-in",
+    "meeting people",
+    "contacts"
+   ],
+   "related": [
+    "share-your-dating-plans",
+    "share-your-plans",
+    "meet-in-public-places",
+    "call-someone-you-trust"
+   ]
+  },
+  {
+   "id": "trust-instincts-about-people",
+   "number": 83,
+   "title": "Trust Your Instincts About People",
+   "category": "social-safety",
+   "summary": "Discomfort is a complete reason to leave.",
+   "intro": "If someone makes you uncomfortable, that is reason enough to leave. You do not need to second-guess it.",
+   "actions": [
+    {
+     "title": "Red flags",
+     "text": "Be wary of people who ask personal questions too quickly (about money or where you are staying), ignore your boundaries or try to isolate you."
+    },
+    {
+     "title": "Don't worry about being \"nice\"",
+     "text": "Many people, especially women, are taught to be polite. Your safety matters more than someone else's feelings."
+    },
+    {
+     "title": "Create an exit",
+     "text": "You do not need a dramatic excuse. Say \"It was nice meeting you, but I have to go now,\" and leave confidently."
+    }
+   ],
+   "tags": [
+    "intuition",
+    "boundaries",
+    "meeting people"
+   ],
+   "related": [
+    "trust-your-gut",
+    "remove-yourself-from-danger",
+    "meet-in-public-places",
+    "protect-personal-information"
+   ]
+  },
+  {
+   "id": "protect-personal-information",
+   "number": 84,
+   "title": "Don't Give Personal Information Too Quickly",
+   "category": "social-safety",
+   "summary": "Let people earn the details over time.",
+   "intro": "Keep some details private until you know someone better and trust has grown.",
+   "actions": [
+    {
+     "title": "Protected information",
+     "text": "Your accommodation address, room number, full itinerary and financial situation are private. Do not share them freely."
+    },
+    {
+     "title": "Be vague",
+     "text": "Name the neighborhood rather than the hotel, and talk about your plans in general terms."
+    },
+    {
+     "title": "Build trust gradually",
+     "text": "After several meetings in public places, decide whether you feel comfortable sharing more."
+    }
+   ],
+   "tags": [
+    "privacy",
+    "meeting people",
+    "boundaries"
+   ],
+   "related": [
+    "keep-room-number-private",
+    "dont-tell-strangers-youre-alone",
+    "careful-with-friend-requests",
+    "trust-instincts-about-people"
+   ]
+  },
+  {
+   "id": "join-group-tours",
+   "number": 85,
+   "title": "Join Group Tours or Activities",
+   "category": "social-safety",
+   "summary": "Company, a guide and a chance to meet people on neutral ground.",
+   "intro": "Group activities are a great way to meet travelers and locals, and generally safer than one-on-one meetings.",
+   "actions": [
+    {
+     "title": "Safety in numbers",
+     "text": "A group is a natural safety net, usually led by a professional local guide."
+    },
+    {
+     "title": "Structured environment",
+     "text": "Walking tours, cooking classes and day trips are organized, which lowers the chance of an unsafe situation."
+    },
+    {
+     "title": "Observe social dynamics",
+     "text": "A group lets you see how people behave before you spend time with them alone."
+    }
+   ],
+   "tags": [
+    "tours",
+    "groups",
+    "meeting people"
+   ],
+   "related": [
+    "meet-in-public-places",
+    "meet-during-daytime",
+    "research-your-destination",
+    "read-solo-traveler-reviews"
+   ],
+   "note": "Choose operators with clear contact details and recent, independent reviews."
+  },
+  {
+   "id": "meet-dates-in-public",
+   "number": 86,
+   "title": "Meet Dates in Public Places",
+   "category": "social-safety",
+   "summary": "Busy, public, daytime, and your own way home.",
+   "intro": "Do not go to someone's home on a first meeting, however well you feel you know them online.",
+   "actions": [
+    {
+     "title": "First date rule",
+     "text": "Meet in a busy public place, ideally in daytime. Coffee is a good, low-pressure option."
+    },
+    {
+     "title": "No private locations",
+     "text": "Do not be persuaded to go to an apartment, a secluded park or any private place. Pushing this is a major red flag."
+    },
+    {
+     "title": "Arrange your own transport",
+     "text": "Always have your own way there and back."
+    }
+   ],
+   "tags": [
+    "dating",
+    "public places",
+    "meeting people"
+   ],
+   "related": [
+    "share-your-dating-plans",
+    "video-chat-first",
+    "have-your-own-transportation",
+    "meet-in-public-places"
+   ]
+  },
+  {
+   "id": "share-your-dating-plans",
+   "number": 87,
+   "title": "Let Someone Know Your Dating Plans",
+   "category": "social-safety",
+   "summary": "Name, profile, place, time, and a message when you are back.",
+   "intro": "Tell a friend or family member where you are going when you meet someone romantically. Treat it as non-negotiable.",
+   "actions": [
+    {
+     "title": "Share all details",
+     "text": "Give your contact the person's name, a screenshot of their profile, the exact location and the time."
+    },
+    {
+     "title": "Live location sharing",
+     "text": "Consider sharing your live location with that contact for the length of the date."
+    },
+    {
+     "title": "Post-date check-in",
+     "text": "Always text your contact when you are safely back."
+    }
+   ],
+   "tags": [
+    "dating",
+    "check-in",
+    "location sharing"
+   ],
+   "related": [
+    "tell-someone-when-meeting",
+    "meet-dates-in-public",
+    "share-your-plans",
+    "video-chat-first"
+   ]
+  },
+  {
+   "id": "have-your-own-transportation",
+   "number": 88,
+   "title": "Have Your Own Transportation",
+   "category": "social-safety",
+   "summary": "Never depend on someone new to get you home.",
+   "intro": "Do not rely on dates or new friends to get you home. Controlling your own transport is essential.",
+   "actions": [
+    {
+     "title": "Transport independence",
+     "text": "Research public transport to and from the meeting place and have trusted taxi or ride-hailing apps ready."
+    },
+    {
+     "title": "Decline rides",
+     "text": "Politely decline a lift from someone you have just met. It keeps you independent."
+    },
+    {
+     "title": "Emergency cash",
+     "text": "Keep enough cash set aside for a taxi in case your phone dies or apps fail."
+    }
+   ],
+   "tags": [
+    "transport",
+    "dating",
+    "independence"
+   ],
+   "related": [
+    "use-official-taxis",
+    "keep-emergency-cash-hidden",
+    "know-your-alcohol-limits",
+    "research-public-transport"
+   ]
+  },
+  {
+   "id": "video-chat-first",
+   "number": 89,
+   "title": "Video Chat Before Meeting in Person",
+   "category": "social-safety",
+   "summary": "Five minutes on video can confirm who you are meeting.",
+   "intro": "A quick video call helps you verify someone's identity and get a feel for them before you meet.",
+   "actions": [
+    {
+     "title": "Verify identity",
+     "text": "It helps confirm that the person matches their photos."
+    },
+    {
+     "title": "Gauge comfort level",
+     "text": "You learn a lot about communication style, and about your own comfort, in five minutes."
+    },
+    {
+     "title": "Red flag alert",
+     "text": "Be very cautious if someone hesitates or keeps making excuses to avoid a call."
+    }
+   ],
+   "tags": [
+    "dating",
+    "verification",
+    "meeting people"
+   ],
+   "related": [
+    "meet-dates-in-public",
+    "careful-with-friend-requests",
+    "meet-in-public-places",
+    "trust-instincts-about-people"
+   ],
+   "note": "Video can be faked, so treat a call as one useful check and still follow every public-place rule."
+  },
+  {
+   "id": "meet-during-daytime",
+   "number": 90,
+   "title": "Meet During Daytime First",
+   "category": "social-safety",
+   "summary": "Save evenings for people who have earned your trust.",
+   "intro": "Evening meetings can wait until you know someone better.",
+   "actions": [
+    {
+     "title": "Daylight advantage",
+     "text": "Daytime meetings have better visibility and more people around, and tend to be more casual."
+    },
+    {
+     "title": "Build trust",
+     "text": "Have one or two comfortable daytime meetings before you consider an evening one."
+    },
+    {
+     "title": "Public and well-lit",
+     "text": "If you do meet in the evening, choose a public, well-lit, reputable place you know."
+    }
+   ],
+   "tags": [
+    "meeting people",
+    "dating",
+    "daytime"
+   ],
+   "related": [
+    "meet-in-public-places",
+    "meet-dates-in-public",
+    "join-group-tours",
+    "stay-in-busy-areas"
+   ]
+  },
+  {
+   "id": "stay-calm",
+   "number": 91,
+   "title": "Stay Calm in Emergencies",
+   "category": "emergency-response",
+   "featured": true,
+   "summary": "Breathe, assess, then do the next small thing.",
+   "intro": "Panic makes it harder to think clearly and decide well. Your mind is your primary tool.",
+   "actions": [
+    {
+     "title": "Breathe first",
+     "text": "Before anything else, take a few slow, deep breaths. It slows your heart rate and helps you think."
+    },
+    {
+     "title": "Assess, don't assume",
+     "text": "What is the immediate threat? What is the first logical step that makes you safer?"
+    },
+    {
+     "title": "Focus on what you can control",
+     "text": "You cannot control a disaster or a canceled flight, but you can control your next step. Keep it small."
+    }
+   ],
+   "tags": [
+    "emergency",
+    "calm",
+    "decision making"
+   ],
+   "related": [
+    "know-local-emergency-numbers",
+    "go-to-busy-places",
+    "ask-authorities-for-help",
+    "call-someone-you-trust"
+   ],
+   "warning": "If you are in immediate danger, such as a fire or an attack, move to safety first."
+  },
+  {
+   "id": "know-local-emergency-numbers",
+   "number": 92,
+   "title": "Know Local Emergency Numbers",
+   "category": "emergency-response",
+   "featured": true,
+   "summary": "Look them up before you travel and store them in several places.",
+   "intro": "Research emergency numbers before you travel and keep them within reach. Do not assume they match your home country.",
+   "actions": [
+    {
+     "title": "Save them everywhere",
+     "text": "Store police, ambulance and fire numbers in your phone, and write them on paper in your wallet and money belt."
+    },
+    {
+     "title": "No universal number",
+     "text": "112 works in many countries, especially in Europe, and 911 in North America, but neither is universal. Confirm the numbers for your destination."
+    },
+    {
+     "title": "Include embassy info",
+     "text": "Save the 24/7 emergency line of your nearest embassy or consulate."
+    }
+   ],
+   "tags": [
+    "emergency numbers",
+    "contacts",
+    "planning"
+   ],
+   "related": [
+    "save-important-numbers",
+    "set-up-ice-contacts",
+    "find-your-embassy",
+    "ask-authorities-for-help"
+   ],
+   "resources": [
+    {
+     "label": "European Commission: 112",
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/112"
+    }
+   ],
+   "warning": "Numbers change. Always confirm them with an official source for your destination shortly before you travel."
+  },
+  {
+   "id": "find-your-embassy",
+   "number": 93,
+   "title": "Find Your Nearest Embassy or Consulate",
+   "category": "emergency-response",
+   "summary": "Know where they are and what they can and cannot do.",
+   "intro": "An embassy or consulate is your government's presence abroad and can help in serious situations such as a lost passport or an arrest.",
+   "actions": [
+    {
+     "title": "Know before you go",
+     "text": "Look up the address, phone number and opening hours of your embassy or consulate at your destination."
+    },
+    {
+     "title": "What they can do",
+     "text": "They can help replace a lost or stolen passport, provide lists of local doctors and lawyers, and assist during major emergencies."
+    },
+    {
+     "title": "Register your trip",
+     "text": "Use your government's registration program, such as the US STEP program, so they can find you in a large-scale emergency."
+    }
+   ],
+   "tags": [
+    "embassy",
+    "passport",
+    "emergency"
+   ],
+   "related": [
+    "register-with-embassy",
+    "check-passport-expiry",
+    "know-local-emergency-numbers",
+    "document-everything"
+   ],
+   "resources": [
+    {
+     "label": "UK embassies worldwide",
+     "url": "https://www.gov.uk/world/embassies"
+    },
+    {
+     "label": "India: missions and posts abroad",
+     "url": "https://www.mea.gov.in/indian-mission-abroad"
+    },
+    {
+     "label": "US embassies and consulates",
+     "url": "https://www.usembassy.gov/"
+    }
+   ],
+   "note": "Embassies generally cannot pay your bills, give legal advice or get you out of prison. If your country has no embassy there, ask your foreign ministry who assists its citizens."
+  },
+  {
+   "id": "set-up-ice-contacts",
+   "number": 94,
+   "title": "Have Emergency Contacts in Your Phone (ICE)",
+   "category": "emergency-response",
+   "summary": "Let your locked phone speak for you if you cannot.",
+   "intro": "Responders may look for \"ICE\" (In Case of Emergency) contacts when a person is unable to communicate.",
+   "actions": [
+    {
+     "title": "Set up ICE contacts",
+     "text": "Most smartphones have a Medical ID or emergency contact feature that is accessible when locked. Set it up with your main contacts."
+    },
+    {
+     "title": "Include key info",
+     "text": "Add your blood type, allergies and current medications."
+    },
+    {
+     "title": "Have a physical backup",
+     "text": "Keep a card with the same information in your wallet in case something happens to your phone."
+    }
+   ],
+   "tags": [
+    "contacts",
+    "medical",
+    "phone",
+    "emergency"
+   ],
+   "related": [
+    "save-important-numbers",
+    "download-safety-apps",
+    "pack-first-aid-kit",
+    "know-local-emergency-numbers"
+   ],
+   "note": "Anyone holding your phone can see this screen, so include only what a responder would need."
+  },
+  {
+   "id": "keep-emergency-cash-hidden",
+   "number": 95,
+   "title": "Keep Emergency Cash Hidden",
+   "category": "emergency-response",
+   "summary": "A separate reserve that is never for souvenirs.",
+   "intro": "If your wallet and cards are gone, a hidden reserve can get you to safety.",
+   "actions": [
+    {
+     "title": "The stash",
+     "text": "Hide at least US$100, or the equivalent in a major currency, away from your wallet and money belt, such as deep in your luggage."
+    },
+    {
+     "title": "Purpose",
+     "text": "It is strictly for a true emergency, such as a taxi to your embassy or a last-minute hotel room."
+    },
+    {
+     "title": "Multiple locations",
+     "text": "On longer trips, consider splitting it between two hidden places."
+    }
+   ],
+   "tags": [
+    "cash",
+    "emergency fund",
+    "money"
+   ],
+   "related": [
+    "divide-your-money",
+    "hide-a-backup-card",
+    "have-your-own-transportation",
+    "money-belt-or-hidden-pouch"
+   ]
+  },
+  {
+   "id": "go-to-busy-places",
+   "number": 96,
+   "title": "Go to Busy Public Places if You Feel Unsafe",
+   "category": "emergency-response",
+   "summary": "Walk toward people and staff, not toward your room.",
+   "intro": "If you feel you are being followed or something seems wrong, a public place with other people is your immediate safe haven.",
+   "actions": [
+    {
+     "title": "Seek out staff",
+     "text": "Walk into a hotel lobby, busy restaurant or large shop. Tell a staff member calmly that you feel unsafe and need help."
+    },
+    {
+     "title": "Witnesses are a deterrent",
+     "text": "People are less likely to act when others are watching."
+    },
+    {
+     "title": "Don't lead them to your room",
+     "text": "Go to a neutral public place, not your own hotel, so a potential threat does not learn where you are staying."
+    }
+   ],
+   "tags": [
+    "followed",
+    "street safety",
+    "emergency"
+   ],
+   "related": [
+    "stay-in-busy-areas",
+    "ask-authorities-for-help",
+    "trust-your-gut",
+    "make-noise"
+   ]
+  },
+  {
+   "id": "ask-authorities-for-help",
+   "number": 97,
+   "title": "Ask for Help from Authorities",
+   "category": "emergency-response",
+   "summary": "Find a uniform, a desk or a manager and say plainly what you need.",
+   "intro": "Police, hotel staff and shop owners can help when you are in trouble or feel unsafe. Do not be afraid to ask.",
+   "actions": [
+    {
+     "title": "Identify helpers",
+     "text": "Look for uniformed police or security, front desk staff, or the manager of a store or restaurant."
+    },
+    {
+     "title": "Be clear and calm",
+     "text": "State your situation, for example: \"I am being followed. Can you please call the police for me?\""
+    },
+    {
+     "title": "Use gestures if needed",
+     "text": "If there is a language barrier, use gestures and a firm, serious tone to show that you need assistance."
+    }
+   ],
+   "tags": [
+    "police",
+    "help",
+    "emergency"
+   ],
+   "related": [
+    "learn-key-local-phrases",
+    "know-local-emergency-numbers",
+    "go-to-busy-places",
+    "find-your-embassy"
+   ],
+   "note": "If someone who claims to be an officer asks for money or your passport on the street, you can ask to see identification and to go to the nearest police station."
+  },
+  {
+   "id": "call-someone-you-trust",
+   "number": 98,
+   "title": "Call Someone You Trust",
+   "category": "emergency-response",
+   "summary": "A familiar voice can steady you and think with you.",
+   "intro": "In a scary or confusing situation, call a trusted friend or family member at home.",
+   "actions": [
+    {
+     "title": "A calming voice",
+     "text": "Hearing someone familiar can help you calm down and think."
+    },
+    {
+     "title": "A second brain",
+     "text": "They are outside the situation and may find a solution or look something up for you."
+    },
+    {
+     "title": "Inform and document",
+     "text": "At minimum, someone knows where you are and what is happening."
+    }
+   ],
+   "tags": [
+    "contacts",
+    "support",
+    "emergency"
+   ],
+   "related": [
+    "share-your-plans",
+    "stay-calm",
+    "tell-someone-when-meeting",
+    "ask-authorities-for-help"
+   ],
+   "warning": "If your life or safety is at immediate risk, call the local emergency number first."
+  },
+  {
+   "id": "make-noise",
+   "number": 99,
+   "title": "Don't Be Afraid to Make Noise",
+   "category": "emergency-response",
+   "summary": "Attention is on your side, so use your voice.",
+   "intro": "Yell for help if you need it. Drawing attention can deter an attacker and bring assistance.",
+   "actions": [
+    {
+     "title": "Be loud and specific",
+     "text": "Many safety instructors suggest a specific shout such as \"Fire!\" because it may get a faster response than \"Help!\" Use a whistle or alarm if you have one."
+    },
+    {
+     "title": "Overcome politeness",
+     "text": "Do not worry about causing a scene. Your safety matters far more than a moment of awkwardness."
+    },
+    {
+     "title": "Draw attention to the attacker",
+     "text": "If possible, point at the person and shout, \"This person is trying to rob me! Call the police!\""
+    }
+   ],
+   "tags": [
+    "self-defense",
+    "alarm",
+    "emergency"
+   ],
+   "related": [
+    "whistle-or-personal-alarm",
+    "learn-key-local-phrases",
+    "remove-yourself-from-danger",
+    "go-to-busy-places"
+   ],
+   "note": "Shout only when you genuinely need help. Learning these words in the local language makes them more effective."
+  },
+  {
+   "id": "remove-yourself-from-danger",
+   "number": 100,
+   "title": "Remove Yourself from Dangerous Situations",
+   "category": "emergency-response",
+   "summary": "You owe no one an explanation. Leave first.",
+   "intro": "Your safety is more important than being polite. If a situation feels wrong, get out.",
+   "actions": [
+    {
+     "title": "Immediate action",
+     "text": "The moment you feel your safety is compromised, your only goal is to leave. You owe no explanation or apology."
+    },
+    {
+     "title": "Have an excuse ready",
+     "text": "If you want a polite way out, try \"I'm sorry, I just got a message and I have to leave immediately.\""
+    },
+    {
+     "title": "Trust your gut, always",
+     "text": "If your intuition is warning you, listen. It is better to be rude and safe."
+    }
+   ],
+   "tags": [
+    "personal safety",
+    "exit",
+    "emergency"
+   ],
+   "related": [
+    "trust-your-gut",
+    "go-to-busy-places",
+    "trust-instincts-about-people",
+    "trust-yourself-stay-alert"
+   ],
+   "warning": "If someone wants your belongings, hand them over. Possessions can be replaced."
+  },
+  {
+   "id": "trust-yourself-stay-alert",
+   "number": 101,
+   "title": "The Ultimate Solo Travel Safety Principle: Trust Yourself and Stay Alert",
+   "category": "emergency-response",
+   "featured": true,
+   "summary": "The principle behind all the others: notice, trust and act.",
+   "intro": "You know when something does not feel right. Your intuition is your most powerful safety tool. When in doubt, trust it and put your safety first.",
+   "actions": [
+    {
+     "title": "Listen to your body",
+     "text": "Notice physical reactions such as hairs rising on your neck or a knot in your stomach. They can be early signals of danger."
+    },
+    {
+     "title": "Vigilance is not fear",
+     "text": "Staying alert is not about being paranoid. Being present and prepared is what allows you to relax."
+    },
+    {
+     "title": "Your safety comes first",
+     "text": "No photo, adventure or social obligation is worth your well-being. The goal is to come home safely with wonderful memories."
+    }
+   ],
+   "tags": [
+    "intuition",
+    "awareness",
+    "mindset"
+   ],
+   "related": [
+    "trust-your-gut",
+    "remove-yourself-from-danger",
+    "stay-calm",
+    "go-to-busy-places"
+   ],
+   "note": "Being careful lowers risk but does not make anyone responsible for harm done to them. If something happens, it is not your fault, and help is available."
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+/* Design tokens that do not change between themes */
+@font-face {
+  font-family: "Fraunces";
+  src: url("../assets/fonts/fraunces-latin.woff2") format("woff2");
+  font-weight: 400 650;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Geist";
+  src: url("../assets/fonts/geist-latin.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+/* Metric-matched fallbacks keep layout shift low while fonts load */
+@font-face {
+  font-family: "Fraunces Fallback";
+  src: local("Georgia");
+  size-adjust: 98%;
+}
+@font-face {
+  font-family: "Geist Fallback";
+  src: local("Arial");
+  size-adjust: 103%;
+}
+
+:root {
+  --font-display: "Fraunces", "Fraunces Fallback", Georgia, "Times New Roman", serif;
+  --font-body: "Geist", "Geist Fallback", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --text-xs: 0.8125rem;
+  --text-sm: 0.9375rem;
+  --text-md: 1.0625rem;
+  --text-lg: 1.1875rem;
+  --text-xl: clamp(1.25rem, 1.15rem + 0.5vw, 1.5rem);
+  --text-2xl: clamp(1.6rem, 1.4rem + 1vw, 2.1rem);
+  --text-3xl: clamp(2rem, 1.6rem + 2vw, 3rem);
+  --text-4xl: clamp(2.5rem, 1.8rem + 3.4vw, 4.25rem);
+  --text-hero: clamp(2.75rem, 1.7rem + 4.9vw, 5.5rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: clamp(4rem, 3rem + 5vw, 7rem);
+
+  --radius-sm: 6px;
+  --radius: 10px;
+  --radius-lg: 16px;
+  --radius-full: 999px;
+
+  --container: 76rem;
+  --measure: 42rem;
+  --gutter: clamp(1.125rem, 0.6rem + 2.4vw, 2.5rem);
+  --header-h: 4.25rem;
+  --tabbar-h: 0px;
+
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --fast: 140ms;
+  --base: 260ms;
+
+  --navy-950: #06101b;
+  --navy-900: #0a1826;
+  --navy-800: #102437;
+  --ivory: #f8f3e8;
+  --amber: #f2995a;
+}
+
+@media (max-width: 47.99rem) {
+  :root {
+    --header-h: 3.75rem;
+    --tabbar-h: 4rem;
+  }
+}

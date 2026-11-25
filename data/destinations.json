@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "reviewed": "2026-11-26",
+  "advisories": [
+    { "government": "India", "name": "Ministry of External Affairs", "url": "https://www.mea.gov.in/", "covers": "Guidance and consular services for Indian citizens", "links": [{ "label": "Missions and posts abroad", "url": "https://www.mea.gov.in/indian-mission-abroad" }, { "label": "Emergency numbers of missions", "url": "https://www.mea.gov.in/emergency-no-missionspost" }] },
+    { "government": "United Kingdom", "name": "Foreign travel advice", "url": "https://www.gov.uk/foreign-travel-advice", "covers": "Safety, entry requirements and health, country by country", "links": [{ "label": "British embassies", "url": "https://www.gov.uk/world/embassies" }] },
+    { "government": "United States", "name": "Travel.State.Gov", "url": "https://travel.state.gov/", "covers": "Travel advisories and country information", "links": [{ "label": "STEP registration", "url": "https://mytravel.state.gov/s/step" }, { "label": "US embassies", "url": "https://www.usembassy.gov/" }] },
+    { "government": "Canada", "name": "Travel advice and advisories", "url": "https://travel.gc.ca/travelling/advisories", "covers": "Risk levels, entry rules and health, country by country", "links": [{ "label": "Emergency assistance", "url": "https://travel.gc.ca/assistance/emergency-assistance" }] },
+    { "government": "Australia", "name": "Smartraveller", "url": "https://www.smartraveller.gov.au/", "covers": "Destination advice for Australian travelers", "links": [] },
+    { "government": "New Zealand", "name": "SafeTravel", "url": "https://www.safetravel.govt.nz/", "covers": "Destination advice and traveler registration", "links": [] },
+    { "government": "Germany", "name": "Federal Foreign Office", "url": "https://www.auswaertiges-amt.de/en", "covers": "Travel and security advice (mainly in German)", "links": [] },
+    { "government": "France", "name": "France Diplomacy", "url": "https://www.diplomatie.gouv.fr/en/", "covers": "Foreign ministry. Detailed advice to travelers is in French", "links": [] },
+    { "government": "International", "name": "WHO travel advice", "url": "https://www.who.int/travel-advice", "covers": "Health guidance for international travel", "links": [] },
+    { "government": "International", "name": "CDC destination health", "url": "https://wwwnc.cdc.gov/travel/destinations/list", "covers": "Vaccines and health notices by country, written for US travelers", "links": [{ "label": "Find a travel clinic", "url": "https://wwwnc.cdc.gov/travel/page/find-clinic" }] }
+  ],
+  "topics": [
+    { "id": "transport", "icon": "train-front", "title": "Local transport", "ask": ["Which taxi stands and apps are official?", "When does public transport stop for the night?", "What is the normal fare from the airport?"], "guides": ["research-public-transport", "use-official-taxis"] },
+    { "id": "culture", "icon": "landmark", "title": "Culture and law", "ask": ["Are there dress or photography rules?", "Is alcohol, medication or a VPN restricted?", "Must you carry your original passport?"], "guides": ["research-your-destination", "use-a-vpn"] },
+    { "id": "health", "icon": "heart-pulse", "title": "Health", "ask": ["Are vaccines required or recommended?", "Is tap water safe to drink?", "Are your medicines legal there?"], "guides": ["pack-first-aid-kit", "drink-bottled-water"] },
+    { "id": "entry", "icon": "stamp", "title": "Entry rules", "ask": ["How long must your passport be valid?", "Do you need a visa, including for transit?", "How many blank pages are required?"], "guides": ["check-passport-expiry", "document-everything"] },
+    { "id": "embassy", "icon": "flag", "title": "Embassy support", "ask": ["Where is your nearest embassy or consulate?", "What is its 24/7 number?", "Can you register your trip?"], "guides": ["register-with-embassy", "find-your-embassy"] },
+    { "id": "emergency", "icon": "siren", "title": "Emergency numbers", "ask": ["Which numbers reach police, fire and ambulance?", "Do they work without a local SIM?", "Where is the nearest hospital?"], "guides": ["know-local-emergency-numbers", "save-important-numbers"] }
+  ]
+}
