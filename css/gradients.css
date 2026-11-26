@@ -1,0 +1,239 @@
+/*
+ * Multicolour gradient layer: sunset to aurora.
+ * "deep" stops carry white text; "bright" stops sit on dark surfaces.
+ * Loaded after pages.css, so removing this one file returns the single-accent design.
+ */
+:root {
+  --grad-deep: linear-gradient(100deg, #b93c0a 0%, #be185d 48%, #6d28d9 100%);
+  --grad-bright: linear-gradient(100deg, #ffc46b 0%, #ff8fa3 36%, #c4a5ff 68%, #7dd3fc 100%);
+  --grad-line: linear-gradient(90deg, #f97316, #ec4899, #8b5cf6, #3b82f6, #14b8a6);
+  --grad-text: linear-gradient(100deg, #b43c0b, #be185d 45%, #6d28d9);
+  /* Colour glows laid over the navy bands */
+  --mesh-dark: radial-gradient(60% 90% at 8% 0%, rgb(234 88 12 / 30%), transparent 70%),
+    radial-gradient(55% 95% at 55% 110%, rgb(219 39 119 / 26%), transparent 72%),
+    radial-gradient(60% 100% at 100% 0%, rgb(124 58 237 / 38%), transparent 70%),
+    radial-gradient(40% 70% at 82% 100%, rgb(13 148 136 / 26%), transparent 70%);
+}
+[data-theme="dark"] {
+  --grad-text: var(--grad-bright);
+}
+
+/* Page wash */
+body {
+  background-image: radial-gradient(50rem 32rem at 0% 18%, rgb(249 115 22 / 7%), transparent 70%),
+    radial-gradient(46rem 34rem at 100% 46%, rgb(139 92 246 / 8%), transparent 70%),
+    radial-gradient(44rem 30rem at 20% 88%, rgb(20 184 166 / 7%), transparent 70%);
+}
+.section--tint {
+  background: linear-gradient(120deg, rgb(249 115 22 / 8%), rgb(236 72 153 / 6%) 40%, rgb(99 102 241 / 8%) 72%, rgb(20 184 166 / 7%)),
+    var(--bg-2);
+}
+
+/* Gradient headings. The element keeps a solid colour for fallback and forced-colour modes. */
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+  .section-head h2,
+  .intro h2,
+  .preview h2,
+  .faq > h2,
+  .emergency-promo h2,
+  .dash__welcome {
+    color: var(--accent-text);
+    background: var(--grad-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+    max-width: 100%;
+    padding-bottom: 0.08em;
+  }
+  .hero h1 span {
+    background: var(--grad-bright);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+    width: fit-content;
+    max-width: 100%;
+  }
+}
+
+/* Primary actions */
+.btn--primary,
+.btn--primary:hover,
+.hero .btn--primary,
+.hero .btn--primary:hover,
+.cta-final .btn--primary,
+.number-card__dial {
+  background-color: #be185d;
+  background-image: var(--grad-deep);
+  background-size: 160% 100%;
+  color: #fff;
+}
+.btn--primary,
+.hero .btn--primary,
+.cta-final .btn--primary {
+  border: 0;
+  box-shadow: 0 10px 26px -12px rgb(190 24 93 / 70%);
+  transition: background-position 400ms var(--ease), box-shadow var(--base), transform var(--fast);
+}
+.btn--primary:hover,
+.hero .btn--primary:hover,
+.cta-final .btn--primary:hover {
+  background-position: 100% 0;
+  box-shadow: 0 14px 32px -12px rgb(109 40 217 / 75%);
+}
+
+/* Thin multicolour rules */
+.header {
+  position: relative;
+}
+.header::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 -1px;
+  height: 2px;
+  background: var(--grad-line);
+}
+.page-home .header:not(.is-stuck)::after {
+  opacity: 0;
+}
+site-footer {
+  position: relative;
+}
+site-footer::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 3px;
+  background: var(--grad-line);
+}
+.nav a::after,
+.tabs [role="tab"][aria-selected="true"]::after,
+.tabbar a[aria-current]::before {
+  background: var(--grad-line);
+}
+.announce {
+  background-color: #6d28d9;
+  background-image: var(--grad-deep);
+  color: #fff;
+}
+.announce a,
+.announce a::before {
+  color: #fff;
+}
+
+/* Dark bands with colour glows */
+.page-head,
+.em-head,
+.band,
+.now-strip,
+site-footer,
+.next-band,
+.cat-tile--11 a {
+  background-color: var(--band);
+  background-image: var(--mesh-dark);
+}
+.page-head::before {
+  opacity: 0.7;
+}
+.trip-card {
+  background: url("../assets/images/contours.svg") right center / auto 180% no-repeat, var(--mesh-dark), var(--band);
+}
+.page-head .eyebrow {
+  color: #ffc46b;
+}
+/* Light colour tint over the photograph */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(115deg, rgb(234 88 12 / 20%), transparent 34%, transparent 58%, rgb(124 58 237 / 30%) 84%, rgb(13 148 136 / 24%));
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+
+/* Progress */
+.progress > span {
+  background: var(--grad-line);
+}
+.progress.is-complete > span {
+  background: linear-gradient(90deg, #15803d, #0d9488);
+}
+.ring:not(.is-complete) .ring__bar {
+  stroke: url(#sv-ring);
+}
+
+/* One hue per category, used for the icon chip and the tile edge */
+.cat-tile--1 { --a: #c2410c; --b: #b45309; }
+.cat-tile--2 { --a: #db2777; --b: #e11d48; }
+.cat-tile--3 { --a: #7c3aed; --b: #4f46e5; }
+.cat-tile--4 { --a: #2563eb; --b: #0e7490; }
+.cat-tile--5 { --a: #0f766e; --b: #15803d; }
+.cat-tile--6 { --a: #a16207; --b: #c2410c; }
+.cat-tile--7 { --a: #4f46e5; --b: #9333ea; }
+.cat-tile--8 { --a: #e11d48; --b: #c2410c; }
+.cat-tile--9 { --a: #c026d3; --b: #7c3aed; }
+.cat-tile--10 { --a: #dc2626; --b: #db2777; }
+.cat-tile:not(.cat-tile--11) a {
+  border-color: transparent;
+  background: linear-gradient(var(--surface), var(--surface)) padding-box,
+    linear-gradient(135deg, var(--a), color-mix(in srgb, var(--b) 30%, var(--border)) 55%, var(--border)) border-box;
+}
+.cat-tile:not(.cat-tile--11) a:hover {
+  border-color: transparent;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--a) 10%, var(--surface)), color-mix(in srgb, var(--b) 8%, var(--surface))) padding-box,
+    linear-gradient(135deg, var(--a), var(--b)) border-box;
+  box-shadow: 0 16px 34px -18px var(--a);
+}
+.cat-tile:not(.cat-tile--11) .icon {
+  box-sizing: content-box;
+  padding: 0.55rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--a), var(--b));
+  color: #fff;
+}
+
+/* Cards pick up a gradient edge on hover and focus */
+.guide-card:hover,
+.guide-card:focus-within,
+.quick a:hover,
+.sit-tile:hover,
+.cat-links a:hover {
+  border-color: transparent;
+  background: linear-gradient(var(--surface), var(--surface)) padding-box,
+    linear-gradient(135deg, #f97316, #ec4899, #8b5cf6, #3b82f6) border-box;
+}
+.points > li {
+  border-left: 0;
+  background: linear-gradient(180deg, #f97316, #ec4899, #8b5cf6) left / 3px 100% no-repeat;
+}
+.stage__icon {
+  background: linear-gradient(135deg, rgb(249 115 22 / 18%), rgb(139 92 246 / 20%));
+}
+
+@media (forced-colors: active) {
+  .section-head h2,
+  .intro h2,
+  .preview h2,
+  .faq > h2,
+  .emergency-promo h2,
+  .dash__welcome,
+  .hero h1 span {
+    background: none;
+    -webkit-text-fill-color: currentColor;
+  }
+}
+@media print {
+  body,
+  .page-head,
+  .em-head,
+  .trip-card {
+    background-image: none !important;
+  }
+  .section-head h2,
+  .dash__welcome {
+    background: none;
+    -webkit-text-fill-color: #000;
+  }
+}

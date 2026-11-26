@@ -110,18 +110,19 @@ function registerServiceWorker() {
   if (!("serviceWorker" in navigator) || !window.isSecureContext) return;
   window.addEventListener("load", async () => {
     try {
-      const hadController = Boolean(navigator.serviceWorker.controller);
+      // Reload only when this tab asked for the update, so a page never changes underneath anyone.
+      let requested = false;
       const registration = await navigator.serviceWorker.register(new URL("../sw.js", import.meta.url), { updateViaCache: "none" });
       const offer = (worker) =>
-        toast("A new version of SoloVoyage is ready.", { iconName: "sparkle", duration: 0, actionLabel: "Refresh", action: () => worker.postMessage("skip-waiting") });
-      if (registration.waiting && hadController) offer(registration.waiting);
+        toast("A new version of SoloVoyage is ready.", { iconName: "sparkle", duration: 0, actionLabel: "Refresh", action: () => ((requested = true), worker.postMessage("skip-waiting")) });
+      if (registration.waiting && navigator.serviceWorker.controller) offer(registration.waiting);
       registration.addEventListener("updatefound", () => {
         const worker = registration.installing;
         worker?.addEventListener("statechange", () => worker.state === "installed" && navigator.serviceWorker.controller && offer(worker));
       });
       let reloading = false;
       navigator.serviceWorker.addEventListener("controllerchange", () => {
-        if (!hadController || reloading) return;
+        if (!requested || reloading) return;
         reloading = true;
         location.reload();
       });

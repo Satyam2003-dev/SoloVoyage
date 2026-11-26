@@ -1650,3 +1650,21 @@ div.doc {
 .planner-layout > * {
   min-width: 0;
 }
+
+/* Long unbroken user text must wrap instead of widening the page. */
+.planner-side {
+  grid-template-columns: minmax(0, 1fr);
+}
+.next-list li > span:first-child,
+.mini-guides li > a:first-child,
+.trip-card h2,
+.trip-card .facts li,
+.dash__welcome,
+.dash .display,
+.toast > span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.trip-card__main {
+  min-width: 0;
+}

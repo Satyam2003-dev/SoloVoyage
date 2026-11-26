@@ -3,7 +3,7 @@
  * Personal data lives in localStorage and is never handled or cached here.
  * VERSION and PRECACHE are maintained by tools/build_pages.py. Bump VERSION by hand if you skip it.
  */
-const VERSION = "7d7640faf6";
+const VERSION = "08fff09c4a";
 const PREFIX = "solovoyage-";
 const CACHE = `${PREFIX}${VERSION}`;
 const PRECACHE = [
@@ -33,6 +33,7 @@ const PRECACHE = [
   "transportation-safety.html",
   "css/base.css",
   "css/components.css",
+  "css/gradients.css",
   "css/layout.css",
   "css/pages.css",
   "css/responsive.css",

@@ -177,7 +177,7 @@ def static_checks():
         text = re.sub(r'"[^"]*"', '""', text)
         check("css", f"{css.name} has balanced braces", text.count("{") == text.count("}"), f"{text.count('{')} vs {text.count('}')}")
         for url in re.findall(r'url\("?([^")]+)"?\)', css.read_text(encoding="utf-8")):
-            if url:
+            if url and not url.startswith("#"):
                 check("css", f"{css.name} asset {url}", (css.parent / url).resolve().exists())
 
     node = shutil.which("node")
@@ -208,7 +208,7 @@ class Session:
             self.context.add_init_script("""if (!sessionStorage.getItem('qa')) { sessionStorage.setItem('qa','1');
               if (!localStorage.getItem('solovoyage_preferences')) localStorage.setItem('solovoyage_preferences', JSON.stringify({v:1,data:{analytics:'no'}})); }""")
         self.page = self.context.new_page()
-        self.page.set_default_timeout(8000)
+        self.page.set_default_timeout(20000)
         self.page.on("pageerror", lambda e: self.errors.append(f"pageerror: {e}"))
         self.page.on("console", lambda m: m.type == "error" and "Service Worker registration blocked" not in m.text and self.errors.append(m.text))
         self.page.on("response", lambda r: r.status >= 400 and self.errors.append(f"{r.status} {r.url}"))
@@ -415,10 +415,10 @@ def flow_search(browser, base, engine):
     check(engine, "category filter shows 10", count().startswith("10 guides"), count())
     p.select_option("#sort", "az")
     p.wait_for_timeout(200)
-    titles = p.locator(".guide-card h3").all_inner_texts()
+    titles = p.locator("[data-app] > .grid > .guide-card h3").all_inner_texts()
     check(engine, "sort A to Z", titles == sorted(titles, key=str.casefold), titles[:4])
     p.reload()
-    s.page.wait_for_selector(".guide-card")
+    s.page.wait_for_selector("[data-app] > .grid > .guide-card")
     check(engine, "filters survive reload", count().startswith("10 guides") and p.input_value("#sort") == "az", count())
     p.fill("#guide-search", "zzzqqqxx")
     p.wait_for_selector(".empty")

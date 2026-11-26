@@ -72,6 +72,7 @@ def page(file, *, title, desc, body, nav="", name="", cls="", attrs="", robots="
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/components.css">
   <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/gradients.css">
   <link rel="stylesheet" href="css/responsive.css">{extra_head}
   <script type="module" src="js/app.js"></script>{modules}{f'''
   <link rel="modulepreload" href="js/pages/{name}.js">''' if name else ""}

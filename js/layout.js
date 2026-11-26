@@ -239,6 +239,23 @@ class SiteFooter extends HTMLElement {
   }
 }
 
+/* The progress rings share one SVG gradient, which has to live in the document. */
+function mountRingGradient() {
+  const ns = "http://www.w3.org/2000/svg";
+  const make = (tag, attrs) => {
+    const el = document.createElementNS(ns, tag);
+    for (const [k, v] of Object.entries(attrs)) el.setAttribute(k, v);
+    return el;
+  };
+  const svg = make("svg", { width: 0, height: 0, "aria-hidden": "true", style: "position:absolute" });
+  const gradient = make("linearGradient", { id: "sv-ring", x1: 0, y1: 0, x2: 1, y2: 1 });
+  gradient.append(...["#f97316", "#ec4899", "#8b5cf6", "#3b82f6"].map((color, i) => make("stop", { offset: `${i * 33.3}%`, "stop-color": color })));
+  const defs = make("defs", {});
+  defs.append(gradient);
+  svg.append(defs);
+  document.body.append(svg);
+}
+
 function mountTabbar() {
   const items = TABS.map((id) => NAV.find((n) => n.id === id));
   document.body.append(h("nav", { class: "tabbar", "aria-label": "Quick" }, h("ul", {}, items.map((n) => h("li", {}, h("a", { href: n.href, ...currentAttr(n.id) }, icon(n.icon), n.short || n.label))))));
@@ -248,6 +265,7 @@ export function mountLayout() {
   customElements.define("site-header", SiteHeader);
   customElements.define("site-footer", SiteFooter);
   mountTabbar();
+  mountRingGradient();
   document.addEventListener("keydown", (e) => {
     if (e.key !== "/" || e.ctrlKey || e.metaKey || e.altKey) return;
     if (e.target.closest("input, textarea, select, [contenteditable], dialog")) return;
